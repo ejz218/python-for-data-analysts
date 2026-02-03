@@ -1,0 +1,601 @@
+Student_ID,College,Major,Class_Year,GPA,Credits_Attempted,Credits_Earned
+LU100001,College of Business,Accounting,Senior,3.41,105,99
+LU100002,College of Education,Elementary Education,Junior,3.55,73,62
+LU100003,P.C. Rossin College of Engineering,Electrical Engineering,Junior,3.6,89,81
+LU100004,College of Health,Nursing,Senior,3.44,102,98
+LU100005,P.C. Rossin College of Engineering,Computer Engineering,Sophomore,3.9,52,44
+LU100006,College of Health,Health Science,Sophomore,4.0,53,49
+LU100007,College of Business,Management,Junior,4.0,74,69
+LU100008,College of Education,Secondary Education,Junior,4.0,74,63
+LU100009,P.C. Rossin College of Engineering,Chemical Engineering,Graduate,3.97,21,18
+LU100010,College of Arts and Sciences,Psychology,Sophomore,2.41,48,45
+LU100011,College of Business,Business Analytics,Senior,3.11,116,105
+LU100012,College of Education,Elementary Education,Senior,3.34,128,123
+LU100013,College of Business,Finance,Senior,3.54,104,91
+LU100014,College of Education,Special Education,Sophomore,2.72,57,51
+LU100015,College of Health,Public Health,Sophomore,3.21,50,48
+LU100016,College of Health,Community Health,Sophomore,3.84,46,42
+LU100017,College of Business,Economics,First Year,3.75,25,23
+LU100018,College of Health,Community Health,Junior,3.7,86,79
+LU100019,College of Education,Elementary Education,Senior,4.0,126,112
+LU100020,College of Arts and Sciences,Chemistry,Sophomore,3.89,47,43
+LU100021,College of Arts and Sciences,History,Senior,3.21,122,109
+LU100022,College of Education,Special Education,First Year,3.09,23,22
+LU100023,College of Education,Special Education,Graduate,3.32,12,11
+LU100024,College of Arts and Sciences,English,First Year,2.7,30,29
+LU100025,College of Business,Management,Junior,3.99,76,66
+LU100026,College of Health,Public Health,Sophomore,3.56,55,54
+LU100027,College of Education,Special Education,Senior,3.31,123,116
+LU100028,College of Health,Community Health,First Year,2.51,19,16
+LU100029,College of Business,Business Analytics,Junior,3.25,73,64
+LU100030,College of Business,Economics,Sophomore,3.17,58,51
+LU100031,College of Health,Public Health,Junior,3.14,90,82
+LU100032,College of Health,Community Health,First Year,1.88,15,14
+LU100033,College of Arts and Sciences,Political Science,Sophomore,3.31,45,38
+LU100034,College of Arts and Sciences,Chemistry,Sophomore,3.07,48,44
+LU100035,P.C. Rossin College of Engineering,Computer Engineering,First Year,1.91,14,12
+LU100036,College of Education,Elementary Education,First Year,3.38,29,28
+LU100037,College of Business,Economics,Senior,3.63,108,105
+LU100038,College of Business,Finance,Sophomore,3.7,54,48
+LU100039,College of Health,Nursing,Junior,4.0,89,84
+LU100040,College of Health,Public Health,First Year,2.58,18,17
+LU100041,College of Education,Special Education,Junior,3.3,90,82
+LU100042,College of Education,Elementary Education,First Year,2.89,28,24
+LU100043,P.C. Rossin College of Engineering,Mechanical Engineering,Junior,3.15,75,74
+LU100044,College of Education,Elementary Education,Junior,3.01,73,68
+LU100045,College of Health,Nursing,Graduate,3.73,16,14
+LU100046,P.C. Rossin College of Engineering,Chemical Engineering,Junior,3.98,74,63
+LU100047,College of Education,Special Education,Graduate,3.79,17,14
+LU100048,College of Arts and Sciences,Chemistry,Graduate,3.69,20,17
+LU100049,College of Health,Nursing,Junior,3.95,72,68
+LU100050,College of Education,Secondary Education,Graduate,3.56,12,11
+LU100051,P.C. Rossin College of Engineering,Chemical Engineering,First Year,3.7,20,17
+LU100052,P.C. Rossin College of Engineering,Industrial Engineering,First Year,3.57,20,18
+LU100053,College of Arts and Sciences,Biology,First Year,2.67,12,10
+LU100054,P.C. Rossin College of Engineering,Chemical Engineering,First Year,3.32,26,24
+LU100055,College of Health,Health Science,First Year,3.97,16,14
+LU100056,College of Arts and Sciences,Philosophy,Junior,3.07,85,73
+LU100057,College of Arts and Sciences,Physics,Graduate,3.77,20,17
+LU100058,P.C. Rossin College of Engineering,Mechanical Engineering,Sophomore,2.25,59,57
+LU100059,College of Health,Public Health,Graduate,3.61,34,33
+LU100060,College of Health,Health Science,First Year,3.46,22,21
+LU100061,College of Health,Public Health,Sophomore,3.26,43,42
+LU100062,P.C. Rossin College of Engineering,Electrical Engineering,Senior,3.21,116,104
+LU100063,P.C. Rossin College of Engineering,Electrical Engineering,First Year,3.29,14,13
+LU100064,College of Arts and Sciences,Physics,Senior,3.73,114,108
+LU100065,College of Education,Secondary Education,Graduate,4.0,14,13
+LU100066,College of Arts and Sciences,Biology,First Year,4.0,25,22
+LU100067,College of Arts and Sciences,Political Science,Junior,2.86,90,79
+LU100068,College of Business,Management,Junior,3.27,88,87
+LU100069,College of Education,Special Education,Senior,3.37,113,103
+LU100070,College of Arts and Sciences,Philosophy,Sophomore,2.46,45,43
+LU100071,College of Arts and Sciences,History,Sophomore,2.77,51,47
+LU100072,P.C. Rossin College of Engineering,Computer Engineering,Senior,3.62,114,108
+LU100073,P.C. Rossin College of Engineering,Chemical Engineering,Sophomore,3.41,48,43
+LU100074,College of Education,Special Education,Senior,3.11,116,106
+LU100075,P.C. Rossin College of Engineering,Bioengineering,Senior,4.0,123,106
+LU100076,College of Education,Special Education,Senior,3.24,112,96
+LU100077,P.C. Rossin College of Engineering,Chemical Engineering,Sophomore,3.23,49,48
+LU100078,College of Education,Elementary Education,Junior,3.4,90,79
+LU100079,College of Health,Community Health,Sophomore,3.66,45,43
+LU100080,P.C. Rossin College of Engineering,Civil Engineering,Senior,3.89,124,115
+LU100081,College of Business,Business Analytics,Sophomore,3.52,56,53
+LU100082,College of Education,Special Education,Sophomore,2.75,56,52
+LU100083,College of Education,Secondary Education,Senior,2.59,125,122
+LU100084,College of Health,Nursing,Senior,3.15,128,121
+LU100085,College of Education,Secondary Education,Senior,3.38,111,98
+LU100086,College of Arts and Sciences,Physics,Graduate,3.72,11,9
+LU100087,P.C. Rossin College of Engineering,Computer Engineering,Senior,3.36,115,103
+LU100088,College of Health,Community Health,First Year,2.89,25,22
+LU100089,College of Education,Special Education,First Year,3.67,27,22
+LU100090,College of Arts and Sciences,Mathematics,Senior,3.04,129,126
+LU100091,College of Health,Public Health,Junior,3.23,84,75
+LU100092,College of Health,Public Health,Senior,3.86,106,105
+LU100093,College of Education,Elementary Education,Graduate,3.23,11,10
+LU100094,P.C. Rossin College of Engineering,Bioengineering,First Year,2.62,20,18
+LU100095,P.C. Rossin College of Engineering,Bioengineering,Sophomore,3.23,55,48
+LU100096,College of Business,Supply Chain Management,First Year,2.52,29,24
+LU100097,College of Arts and Sciences,English,Senior,3.51,126,107
+LU100098,P.C. Rossin College of Engineering,Electrical Engineering,Senior,2.83,121,105
+LU100099,P.C. Rossin College of Engineering,Bioengineering,Senior,3.14,124,110
+LU100100,College of Arts and Sciences,Psychology,Junior,3.18,75,72
+LU100101,P.C. Rossin College of Engineering,Chemical Engineering,First Year,3.61,24,21
+LU100102,P.C. Rossin College of Engineering,Mechanical Engineering,Junior,3.36,79,68
+LU100103,College of Arts and Sciences,Philosophy,Senior,3.55,103,92
+LU100104,College of Health,Nursing,First Year,2.36,22,18
+LU100105,College of Health,Community Health,First Year,3.93,26,24
+LU100106,College of Health,Public Health,Senior,3.26,122,108
+LU100107,College of Education,Secondary Education,Junior,3.58,82,80
+LU100108,College of Business,Marketing,Graduate,3.24,16,15
+LU100109,College of Education,Special Education,Senior,3.16,112,98
+LU100110,P.C. Rossin College of Engineering,Industrial Engineering,Senior,3.8,112,99
+LU100111,College of Education,Special Education,Graduate,3.26,15,12
+LU100112,College of Health,Community Health,Junior,3.11,79,75
+LU100113,College of Health,Community Health,Senior,3.64,124,109
+LU100114,College of Education,Secondary Education,Junior,3.48,88,79
+LU100115,College of Education,Secondary Education,Sophomore,2.79,49,42
+LU100116,P.C. Rossin College of Engineering,Industrial Engineering,First Year,3.25,29,28
+LU100117,P.C. Rossin College of Engineering,Electrical Engineering,First Year,2.14,28,26
+LU100118,College of Business,Economics,First Year,3.2,19,17
+LU100119,College of Arts and Sciences,Biology,Senior,3.49,103,96
+LU100120,P.C. Rossin College of Engineering,Bioengineering,First Year,3.23,12,11
+LU100121,College of Health,Community Health,Junior,3.36,87,75
+LU100122,College of Business,Supply Chain Management,Junior,3.43,90,84
+LU100123,College of Business,Finance,First Year,2.63,19,16
+LU100124,College of Health,Public Health,Senior,3.27,114,104
+LU100125,College of Health,Nursing,Graduate,3.86,28,24
+LU100126,College of Business,Economics,First Year,3.07,18,16
+LU100127,College of Business,Finance,Sophomore,2.92,55,50
+LU100128,College of Education,Secondary Education,Sophomore,3.11,49,43
+LU100129,College of Arts and Sciences,Sociology,First Year,3.15,30,28
+LU100130,P.C. Rossin College of Engineering,Computer Engineering,First Year,3.57,19,17
+LU100131,College of Arts and Sciences,Psychology,First Year,3.36,30,29
+LU100132,College of Health,Health Science,Junior,3.63,81,77
+LU100133,College of Arts and Sciences,History,Junior,2.74,85,81
+LU100134,College of Education,Secondary Education,First Year,3.41,19,18
+LU100135,College of Education,Special Education,Graduate,4.0,17,15
+LU100136,P.C. Rossin College of Engineering,Bioengineering,Junior,3.3,86,84
+LU100137,P.C. Rossin College of Engineering,Computer Engineering,Senior,3.23,113,102
+LU100138,College of Arts and Sciences,Chemistry,Graduate,3.61,19,17
+LU100139,College of Health,Nursing,Senior,2.85,103,94
+LU100140,College of Arts and Sciences,Mathematics,Sophomore,3.69,54,52
+LU100141,College of Business,Management,Graduate,3.5,25,22
+LU100142,College of Health,Community Health,Senior,3.43,108,96
+LU100143,P.C. Rossin College of Engineering,Chemical Engineering,Junior,3.23,79,75
+LU100144,College of Arts and Sciences,History,First Year,2.81,25,21
+LU100145,College of Business,Supply Chain Management,Graduate,3.5,31,27
+LU100146,College of Arts and Sciences,Political Science,Senior,3.21,117,103
+LU100147,College of Education,Elementary Education,Sophomore,3.73,46,45
+LU100148,College of Arts and Sciences,Political Science,Sophomore,2.92,58,51
+LU100149,College of Business,Marketing,Senior,3.68,123,113
+LU100150,P.C. Rossin College of Engineering,Bioengineering,Junior,2.79,83,74
+LU100151,College of Education,Secondary Education,Junior,3.17,79,73
+LU100152,P.C. Rossin College of Engineering,Computer Engineering,First Year,3.45,27,25
+LU100153,College of Health,Community Health,Graduate,3.71,13,12
+LU100154,College of Business,Finance,Junior,2.67,90,80
+LU100155,College of Business,Economics,Senior,4.0,102,97
+LU100156,College of Health,Public Health,First Year,3.87,20,18
+LU100157,College of Health,Health Science,Graduate,3.96,21,20
+LU100158,College of Health,Health Science,Junior,2.59,79,74
+LU100159,College of Arts and Sciences,English,Senior,3.23,122,116
+LU100160,College of Business,Supply Chain Management,First Year,3.21,21,20
+LU100161,College of Business,Marketing,Senior,3.3,106,93
+LU100162,College of Health,Public Health,First Year,3.66,14,13
+LU100163,College of Health,Public Health,Junior,3.02,80,73
+LU100164,College of Business,Economics,Junior,3.14,81,77
+LU100165,P.C. Rossin College of Engineering,Mechanical Engineering,Junior,2.96,85,81
+LU100166,College of Health,Nursing,First Year,3.76,24,23
+LU100167,College of Business,Finance,Sophomore,2.94,51,43
+LU100168,College of Health,Nursing,First Year,3.49,13,12
+LU100169,College of Health,Nursing,Senior,3.49,109,103
+LU100170,College of Education,Secondary Education,Senior,4.0,125,120
+LU100171,P.C. Rossin College of Engineering,Mechanical Engineering,Graduate,3.44,23,19
+LU100172,College of Arts and Sciences,Psychology,First Year,2.69,21,18
+LU100173,College of Health,Public Health,First Year,3.38,23,21
+LU100174,College of Arts and Sciences,Psychology,Sophomore,2.2,57,56
+LU100175,College of Arts and Sciences,Physics,Senior,3.24,126,125
+LU100176,College of Health,Nursing,First Year,3.15,24,20
+LU100177,College of Education,Elementary Education,Junior,2.99,90,81
+LU100178,College of Arts and Sciences,Chemistry,Senior,2.87,117,99
+LU100179,College of Education,Secondary Education,Graduate,3.62,35,32
+LU100180,College of Arts and Sciences,Political Science,First Year,3.31,13,12
+LU100181,College of Arts and Sciences,Sociology,First Year,3.17,24,22
+LU100182,College of Education,Secondary Education,Junior,3.86,76,74
+LU100183,College of Business,Economics,Junior,2.37,73,69
+LU100184,P.C. Rossin College of Engineering,Bioengineering,Junior,3.9,79,77
+LU100185,College of Business,Management,Sophomore,3.79,43,39
+LU100186,P.C. Rossin College of Engineering,Mechanical Engineering,Graduate,3.35,35,32
+LU100187,P.C. Rossin College of Engineering,Computer Science,First Year,2.2,30,26
+LU100188,College of Education,Elementary Education,Junior,4.0,79,71
+LU100189,P.C. Rossin College of Engineering,Computer Science,Sophomore,4.0,59,52
+LU100190,P.C. Rossin College of Engineering,Mechanical Engineering,Senior,3.28,102,88
+LU100191,College of Arts and Sciences,English,Junior,3.65,76,73
+LU100192,College of Education,Elementary Education,Senior,3.43,117,107
+LU100193,College of Arts and Sciences,History,Junior,3.0,73,70
+LU100194,College of Education,Secondary Education,Junior,3.39,72,61
+LU100195,College of Health,Community Health,Junior,3.85,86,74
+LU100196,College of Business,Marketing,Junior,3.75,74,64
+LU100197,College of Education,Special Education,Junior,3.2,88,78
+LU100198,College of Education,Special Education,Junior,2.87,75,73
+LU100199,College of Education,Special Education,Graduate,3.03,22,19
+LU100200,College of Health,Community Health,Sophomore,3.65,45,40
+LU100201,College of Arts and Sciences,Mathematics,Sophomore,3.85,44,38
+LU100202,College of Business,Accounting,Junior,4.0,83,80
+LU100203,College of Education,Elementary Education,Junior,2.93,75,68
+LU100204,College of Health,Health Science,Graduate,3.5,28,25
+LU100205,College of Business,Business Analytics,Junior,3.59,75,67
+LU100206,College of Education,Secondary Education,First Year,3.67,20,18
+LU100207,College of Health,Health Science,Junior,2.92,72,63
+LU100208,College of Arts and Sciences,Physics,Sophomore,2.56,47,46
+LU100209,College of Education,Special Education,Sophomore,3.64,42,36
+LU100210,College of Education,Elementary Education,Sophomore,3.75,56,50
+LU100211,College of Arts and Sciences,Mathematics,Senior,3.49,104,102
+LU100212,P.C. Rossin College of Engineering,Civil Engineering,Senior,2.89,103,97
+LU100213,College of Arts and Sciences,Sociology,Senior,2.97,110,97
+LU100214,College of Education,Elementary Education,Sophomore,3.25,45,40
+LU100215,College of Education,Secondary Education,Junior,3.19,73,62
+LU100216,College of Arts and Sciences,English,Senior,3.66,126,111
+LU100217,College of Arts and Sciences,Chemistry,First Year,3.09,24,22
+LU100218,P.C. Rossin College of Engineering,Industrial Engineering,First Year,2.73,13,11
+LU100219,College of Health,Health Science,Graduate,3.25,31,29
+LU100220,College of Arts and Sciences,Chemistry,Sophomore,2.9,52,45
+LU100221,College of Education,Secondary Education,Senior,3.55,129,111
+LU100222,College of Health,Community Health,Junior,3.21,84,82
+LU100223,College of Arts and Sciences,English,Sophomore,3.49,45,41
+LU100224,P.C. Rossin College of Engineering,Industrial Engineering,Sophomore,3.72,46,40
+LU100225,P.C. Rossin College of Engineering,Chemical Engineering,First Year,2.29,14,12
+LU100226,College of Health,Community Health,Senior,2.99,126,118
+LU100227,College of Education,Special Education,Senior,2.83,122,109
+LU100228,College of Health,Health Science,Junior,2.67,81,78
+LU100229,College of Education,Elementary Education,Sophomore,3.7,43,36
+LU100230,College of Arts and Sciences,Chemistry,Senior,3.6,129,111
+LU100231,College of Education,Special Education,Sophomore,2.11,43,39
+LU100232,College of Education,Special Education,First Year,2.38,27,24
+LU100233,College of Business,Supply Chain Management,First Year,3.54,14,12
+LU100234,P.C. Rossin College of Engineering,Computer Science,Sophomore,2.93,56,55
+LU100235,College of Education,Special Education,Junior,2.64,84,76
+LU100236,College of Arts and Sciences,Philosophy,First Year,4.0,22,18
+LU100237,College of Business,Business Analytics,Senior,3.26,123,122
+LU100238,College of Education,Elementary Education,Sophomore,3.98,60,56
+LU100239,College of Arts and Sciences,Mathematics,Graduate,3.5,28,26
+LU100240,College of Business,Marketing,Junior,2.87,82,79
+LU100241,College of Education,Elementary Education,Senior,3.06,113,101
+LU100242,P.C. Rossin College of Engineering,Industrial Engineering,Graduate,3.73,24,21
+LU100243,P.C. Rossin College of Engineering,Civil Engineering,First Year,3.25,29,28
+LU100244,College of Education,Elementary Education,Senior,3.25,130,125
+LU100245,P.C. Rossin College of Engineering,Computer Engineering,First Year,3.49,17,16
+LU100246,College of Business,Supply Chain Management,Sophomore,3.9,49,48
+LU100247,College of Education,Secondary Education,Senior,3.46,109,97
+LU100248,College of Health,Public Health,Sophomore,2.84,60,59
+LU100249,College of Health,Nursing,Senior,2.98,107,104
+LU100250,College of Education,Elementary Education,Graduate,3.59,10,9
+LU100251,College of Arts and Sciences,History,Graduate,3.51,12,10
+LU100252,P.C. Rossin College of Engineering,Chemical Engineering,Junior,2.77,88,76
+LU100253,College of Health,Health Science,Graduate,3.66,20,19
+LU100254,College of Health,Health Science,Sophomore,3.74,53,46
+LU100255,College of Business,Marketing,Sophomore,3.1,52,50
+LU100256,P.C. Rossin College of Engineering,Computer Science,Sophomore,3.41,57,54
+LU100257,P.C. Rossin College of Engineering,Bioengineering,Junior,3.48,80,70
+LU100258,P.C. Rossin College of Engineering,Computer Engineering,First Year,3.11,21,18
+LU100259,College of Business,Accounting,Sophomore,2.75,44,38
+LU100260,College of Health,Health Science,Senior,2.97,120,106
+LU100261,P.C. Rossin College of Engineering,Chemical Engineering,Junior,3.05,85,74
+LU100262,College of Business,Business Analytics,Graduate,3.45,11,10
+LU100263,College of Education,Special Education,Senior,3.32,129,118
+LU100264,College of Health,Nursing,Sophomore,3.2,42,37
+LU100265,College of Business,Marketing,Sophomore,3.07,60,57
+LU100266,College of Arts and Sciences,Psychology,First Year,2.87,29,26
+LU100267,P.C. Rossin College of Engineering,Bioengineering,Graduate,3.41,13,11
+LU100268,College of Health,Health Science,Sophomore,3.24,43,41
+LU100269,College of Business,Marketing,Graduate,2.7,26,23
+LU100270,College of Business,Economics,Senior,3.28,111,100
+LU100271,College of Business,Economics,Senior,3.3,115,113
+LU100272,College of Health,Community Health,Sophomore,4.0,47,43
+LU100273,College of Health,Nursing,Graduate,3.06,32,29
+LU100274,College of Health,Public Health,Junior,3.2,82,70
+LU100275,College of Arts and Sciences,Mathematics,Sophomore,2.78,56,50
+LU100276,College of Business,Management,Graduate,3.41,20,18
+LU100277,College of Health,Nursing,Senior,3.44,123,116
+LU100278,College of Arts and Sciences,History,Senior,3.27,123,107
+LU100279,College of Business,Finance,Senior,3.21,106,91
+LU100280,College of Arts and Sciences,Physics,Sophomore,2.72,60,51
+LU100281,P.C. Rossin College of Engineering,Bioengineering,Graduate,3.25,27,23
+LU100282,College of Arts and Sciences,Political Science,Sophomore,3.81,50,44
+LU100283,College of Business,Accounting,Senior,3.0,119,103
+LU100284,College of Arts and Sciences,Sociology,First Year,3.1,21,20
+LU100285,College of Health,Public Health,First Year,3.5,26,25
+LU100286,College of Arts and Sciences,Physics,Senior,3.05,119,110
+LU100287,College of Arts and Sciences,Psychology,Senior,3.91,127,114
+LU100288,P.C. Rossin College of Engineering,Mechanical Engineering,Graduate,3.41,34,29
+LU100289,College of Health,Health Science,Sophomore,2.7,59,51
+LU100290,College of Business,Accounting,Sophomore,2.95,57,52
+LU100291,College of Health,Health Science,First Year,3.0,26,24
+LU100292,College of Arts and Sciences,Psychology,Graduate,3.71,33,30
+LU100293,College of Education,Elementary Education,Senior,3.73,129,110
+LU100294,College of Business,Business Analytics,First Year,3.61,17,14
+LU100295,P.C. Rossin College of Engineering,Industrial Engineering,Graduate,3.36,11,9
+LU100296,College of Education,Secondary Education,First Year,3.04,21,19
+LU100297,College of Business,Business Analytics,Senior,2.96,107,101
+LU100298,College of Education,Secondary Education,Senior,3.11,120,102
+LU100299,College of Business,Accounting,First Year,2.6,18,17
+LU100300,College of Health,Health Science,Junior,2.84,89,79
+LU100301,College of Arts and Sciences,Sociology,Sophomore,3.38,56,48
+LU100302,College of Business,Finance,Junior,2.87,87,80
+LU100303,College of Arts and Sciences,Philosophy,First Year,3.44,23,22
+LU100304,P.C. Rossin College of Engineering,Industrial Engineering,Junior,3.0,75,67
+LU100305,College of Health,Health Science,Sophomore,3.2,51,50
+LU100306,College of Education,Secondary Education,Sophomore,3.43,47,45
+LU100307,College of Education,Special Education,Sophomore,3.25,58,53
+LU100308,College of Arts and Sciences,Sociology,First Year,2.4,24,22
+LU100309,P.C. Rossin College of Engineering,Electrical Engineering,Junior,3.65,87,77
+LU100310,College of Business,Economics,First Year,3.25,16,15
+LU100311,College of Arts and Sciences,Political Science,Sophomore,2.67,48,43
+LU100312,College of Arts and Sciences,Chemistry,Sophomore,3.58,56,54
+LU100313,College of Arts and Sciences,Philosophy,Senior,4.0,114,103
+LU100314,College of Arts and Sciences,History,Graduate,4.0,33,28
+LU100315,College of Education,Special Education,Sophomore,3.34,52,50
+LU100316,College of Education,Secondary Education,First Year,3.14,28,24
+LU100317,College of Education,Secondary Education,First Year,4.0,21,19
+LU100318,College of Education,Special Education,Junior,3.26,90,80
+LU100319,College of Business,Marketing,Sophomore,3.6,51,49
+LU100320,College of Business,Business Analytics,Junior,3.6,90,84
+LU100321,College of Business,Business Analytics,Junior,2.59,84,73
+LU100322,P.C. Rossin College of Engineering,Computer Science,Junior,3.19,75,65
+LU100323,College of Health,Nursing,Sophomore,2.91,58,56
+LU100324,College of Health,Health Science,Senior,3.54,118,103
+LU100325,College of Arts and Sciences,Sociology,Junior,3.19,89,80
+LU100326,College of Arts and Sciences,Mathematics,Junior,3.56,78,77
+LU100327,College of Arts and Sciences,History,Sophomore,4.0,51,48
+LU100328,College of Health,Nursing,Junior,2.84,89,88
+LU100329,College of Arts and Sciences,Mathematics,First Year,2.84,24,23
+LU100330,P.C. Rossin College of Engineering,Chemical Engineering,First Year,2.57,14,12
+LU100331,College of Health,Nursing,Senior,3.57,110,108
+LU100332,College of Arts and Sciences,Psychology,First Year,4.0,30,26
+LU100333,College of Business,Management,Graduate,3.63,12,10
+LU100334,College of Health,Health Science,Senior,3.69,106,90
+LU100335,College of Education,Elementary Education,Sophomore,4.0,57,54
+LU100336,College of Arts and Sciences,Physics,Sophomore,2.79,43,42
+LU100337,College of Business,Management,Junior,2.6,73,72
+LU100338,P.C. Rossin College of Engineering,Computer Engineering,Graduate,3.49,14,13
+LU100339,College of Business,Economics,Sophomore,2.03,51,50
+LU100340,College of Business,Marketing,Junior,3.33,75,74
+LU100341,College of Arts and Sciences,Mathematics,Junior,2.95,76,74
+LU100342,College of Health,Nursing,First Year,2.53,15,13
+LU100343,College of Health,Nursing,Senior,3.76,111,103
+LU100344,P.C. Rossin College of Engineering,Civil Engineering,Junior,3.34,84,81
+LU100345,College of Education,Secondary Education,First Year,2.91,16,14
+LU100346,P.C. Rossin College of Engineering,Computer Science,Sophomore,2.92,49,44
+LU100347,College of Arts and Sciences,Physics,Sophomore,3.19,53,50
+LU100348,College of Business,Management,First Year,3.01,21,18
+LU100349,College of Education,Special Education,Senior,3.19,111,100
+LU100350,P.C. Rossin College of Engineering,Electrical Engineering,Graduate,3.2,24,20
+LU100351,College of Education,Secondary Education,Sophomore,2.66,59,57
+LU100352,P.C. Rossin College of Engineering,Electrical Engineering,Senior,3.26,121,118
+LU100353,College of Business,Business Analytics,Junior,3.25,90,78
+LU100354,College of Education,Special Education,First Year,2.87,29,25
+LU100355,College of Arts and Sciences,History,Junior,3.0,87,75
+LU100356,College of Education,Secondary Education,Senior,2.82,116,100
+LU100357,College of Health,Community Health,Junior,2.67,81,77
+LU100358,College of Health,Nursing,Senior,3.18,125,110
+LU100359,College of Business,Accounting,Junior,3.13,73,72
+LU100360,College of Business,Supply Chain Management,First Year,2.39,25,21
+LU100361,P.C. Rossin College of Engineering,Computer Engineering,Sophomore,3.62,54,48
+LU100362,College of Education,Elementary Education,Senior,3.12,113,98
+LU100363,College of Education,Secondary Education,Junior,3.26,72,69
+LU100364,College of Arts and Sciences,Sociology,Senior,3.12,119,108
+LU100365,College of Health,Public Health,Sophomore,2.97,45,38
+LU100366,College of Health,Health Science,Sophomore,3.53,44,38
+LU100367,College of Business,Supply Chain Management,Junior,3.26,73,66
+LU100368,P.C. Rossin College of Engineering,Electrical Engineering,Senior,3.28,126,108
+LU100369,College of Education,Secondary Education,Sophomore,3.77,60,56
+LU100370,College of Arts and Sciences,English,Sophomore,2.87,46,45
+LU100371,College of Education,Elementary Education,Sophomore,3.1,60,58
+LU100372,P.C. Rossin College of Engineering,Computer Engineering,Junior,3.87,73,72
+LU100373,College of Health,Nursing,Senior,3.12,107,103
+LU100374,College of Health,Public Health,Senior,3.58,111,108
+LU100375,P.C. Rossin College of Engineering,Bioengineering,Graduate,2.87,26,24
+LU100376,College of Health,Public Health,Sophomore,2.7,52,49
+LU100377,College of Health,Nursing,First Year,3.04,20,18
+LU100378,College of Education,Special Education,First Year,2.71,14,12
+LU100379,College of Education,Special Education,Senior,3.46,112,100
+LU100380,College of Business,Finance,Graduate,3.8,32,27
+LU100381,College of Health,Public Health,Senior,3.28,109,101
+LU100382,College of Arts and Sciences,Political Science,Junior,2.87,83,74
+LU100383,College of Arts and Sciences,History,Graduate,3.07,32,29
+LU100384,College of Arts and Sciences,English,Sophomore,3.39,55,47
+LU100385,P.C. Rossin College of Engineering,Civil Engineering,First Year,2.35,25,22
+LU100386,P.C. Rossin College of Engineering,Industrial Engineering,Sophomore,2.98,60,58
+LU100387,College of Health,Nursing,Sophomore,3.77,57,52
+LU100388,College of Arts and Sciences,Psychology,First Year,1.69,29,26
+LU100389,College of Education,Special Education,Graduate,3.03,11,10
+LU100390,College of Business,Economics,First Year,2.93,16,15
+LU100391,P.C. Rossin College of Engineering,Mechanical Engineering,Senior,3.87,113,97
+LU100392,College of Education,Secondary Education,Senior,3.43,102,86
+LU100393,College of Education,Secondary Education,First Year,2.63,21,17
+LU100394,College of Health,Public Health,First Year,3.01,15,13
+LU100395,P.C. Rossin College of Engineering,Electrical Engineering,Junior,3.29,84,72
+LU100396,College of Health,Community Health,Junior,3.72,79,70
+LU100397,College of Business,Management,Graduate,3.56,21,19
+LU100398,College of Education,Secondary Education,First Year,2.98,12,11
+LU100399,College of Business,Supply Chain Management,Senior,3.18,129,128
+LU100400,College of Education,Elementary Education,Sophomore,2.85,60,55
+LU100401,College of Business,Accounting,Senior,3.31,123,105
+LU100402,College of Arts and Sciences,Biology,Graduate,3.97,27,23
+LU100403,College of Health,Health Science,Sophomore,2.6,54,51
+LU100404,College of Education,Secondary Education,Sophomore,2.95,46,44
+LU100405,College of Business,Business Analytics,Senior,3.3,109,106
+LU100406,College of Arts and Sciences,Philosophy,Senior,3.55,121,110
+LU100407,College of Arts and Sciences,Biology,Senior,3.49,109,98
+LU100408,College of Health,Community Health,First Year,2.46,30,28
+LU100409,College of Business,Economics,Junior,3.51,74,65
+LU100410,College of Health,Public Health,Senior,2.8,112,101
+LU100411,College of Business,Accounting,Graduate,3.12,12,10
+LU100412,P.C. Rossin College of Engineering,Computer Engineering,Junior,3.56,89,82
+LU100413,College of Business,Accounting,First Year,2.34,22,21
+LU100414,College of Business,Marketing,Sophomore,2.97,44,42
+LU100415,College of Education,Elementary Education,Junior,3.51,76,67
+LU100416,College of Arts and Sciences,Sociology,First Year,3.61,17,15
+LU100417,College of Health,Nursing,Junior,3.6,79,75
+LU100418,College of Health,Public Health,Junior,3.46,76,68
+LU100419,College of Health,Nursing,Senior,2.82,116,104
+LU100420,College of Education,Elementary Education,Sophomore,3.88,48,44
+LU100421,P.C. Rossin College of Engineering,Computer Engineering,Graduate,3.48,24,23
+LU100422,P.C. Rossin College of Engineering,Industrial Engineering,Sophomore,3.94,54,48
+LU100423,College of Education,Elementary Education,Junior,2.65,89,76
+LU100424,College of Health,Public Health,Junior,3.11,81,78
+LU100425,College of Business,Economics,Senior,3.57,106,100
+LU100426,P.C. Rossin College of Engineering,Chemical Engineering,Senior,2.83,124,113
+LU100427,College of Health,Health Science,Junior,2.81,89,82
+LU100428,College of Health,Health Science,Senior,3.09,113,107
+LU100429,College of Education,Special Education,Senior,3.99,123,116
+LU100430,P.C. Rossin College of Engineering,Computer Science,Junior,3.69,84,83
+LU100431,College of Arts and Sciences,Political Science,First Year,3.45,28,26
+LU100432,College of Education,Elementary Education,Junior,3.49,84,77
+LU100433,College of Education,Special Education,Junior,3.24,75,67
+LU100434,College of Business,Accounting,Senior,3.47,125,108
+LU100435,College of Arts and Sciences,Physics,Junior,3.44,87,75
+LU100436,College of Health,Nursing,First Year,3.76,13,12
+LU100437,College of Business,Accounting,Senior,3.04,107,105
+LU100438,P.C. Rossin College of Engineering,Civil Engineering,Junior,2.76,82,76
+LU100439,College of Health,Public Health,Senior,3.22,123,112
+LU100440,College of Business,Management,Junior,3.09,78,71
+LU100441,College of Health,Community Health,First Year,3.21,14,13
+LU100442,College of Education,Elementary Education,Sophomore,3.59,48,44
+LU100443,College of Arts and Sciences,Sociology,Junior,2.91,84,78
+LU100444,College of Arts and Sciences,Physics,Senior,2.99,121,105
+LU100445,College of Arts and Sciences,Philosophy,Junior,3.12,79,70
+LU100446,P.C. Rossin College of Engineering,Industrial Engineering,Senior,3.09,118,107
+LU100447,College of Education,Elementary Education,Junior,2.84,89,84
+LU100448,P.C. Rossin College of Engineering,Civil Engineering,Junior,3.54,76,66
+LU100449,College of Health,Health Science,Graduate,3.93,15,14
+LU100450,College of Education,Special Education,Senior,3.26,115,109
+LU100451,College of Health,Community Health,Junior,3.4,79,70
+LU100452,College of Arts and Sciences,English,Junior,3.36,77,74
+LU100453,College of Education,Special Education,Senior,2.92,120,104
+LU100454,College of Education,Secondary Education,Junior,3.32,73,70
+LU100455,College of Health,Public Health,Graduate,4.0,33,29
+LU100456,College of Business,Supply Chain Management,Sophomore,3.76,44,40
+LU100457,College of Business,Economics,Senior,3.56,124,111
+LU100458,College of Education,Special Education,Junior,4.0,76,73
+LU100459,P.C. Rossin College of Engineering,Computer Science,Junior,2.71,77,69
+LU100460,College of Arts and Sciences,Mathematics,Junior,3.18,88,87
+LU100461,College of Business,Finance,Graduate,3.75,17,16
+LU100462,P.C. Rossin College of Engineering,Civil Engineering,Sophomore,2.11,52,50
+LU100463,College of Health,Community Health,First Year,2.53,24,22
+LU100464,College of Business,Supply Chain Management,Junior,2.83,80,76
+LU100465,College of Arts and Sciences,Sociology,Graduate,3.59,33,32
+LU100466,College of Business,Management,Graduate,3.62,29,27
+LU100467,College of Arts and Sciences,Chemistry,Senior,2.56,128,112
+LU100468,College of Arts and Sciences,Physics,Senior,4.0,112,104
+LU100469,P.C. Rossin College of Engineering,Bioengineering,Senior,3.93,103,89
+LU100470,College of Health,Health Science,First Year,2.47,17,15
+LU100471,College of Business,Supply Chain Management,First Year,2.98,21,18
+LU100472,College of Arts and Sciences,Chemistry,Senior,3.2,110,94
+LU100473,P.C. Rossin College of Engineering,Computer Science,Sophomore,2.94,49,44
+LU100474,College of Business,Management,First Year,3.97,18,16
+LU100475,P.C. Rossin College of Engineering,Electrical Engineering,Junior,3.25,82,79
+LU100476,College of Health,Public Health,Junior,3.32,79,71
+LU100477,College of Business,Accounting,Sophomore,3.4,46,43
+LU100478,P.C. Rossin College of Engineering,Mechanical Engineering,Junior,3.13,72,67
+LU100479,P.C. Rossin College of Engineering,Bioengineering,Sophomore,3.39,55,51
+LU100480,College of Health,Public Health,First Year,4.0,15,13
+LU100481,College of Business,Business Analytics,Senior,3.15,127,110
+LU100482,College of Arts and Sciences,Chemistry,Sophomore,3.63,51,49
+LU100483,College of Business,Economics,Senior,3.59,121,112
+LU100484,College of Health,Nursing,Senior,3.21,127,125
+LU100485,P.C. Rossin College of Engineering,Bioengineering,Sophomore,3.24,44,40
+LU100486,College of Business,Marketing,Graduate,4.0,13,11
+LU100487,College of Education,Secondary Education,Sophomore,2.85,44,37
+LU100488,College of Business,Accounting,Sophomore,2.43,43,42
+LU100489,College of Health,Nursing,Senior,2.99,124,112
+LU100490,College of Education,Special Education,Junior,3.3,80,69
+LU100491,College of Business,Business Analytics,Graduate,3.77,19,17
+LU100492,College of Business,Marketing,Senior,3.36,125,124
+LU100493,P.C. Rossin College of Engineering,Computer Science,Sophomore,3.42,43,38
+LU100494,P.C. Rossin College of Engineering,Mechanical Engineering,First Year,2.96,16,15
+LU100495,P.C. Rossin College of Engineering,Bioengineering,Graduate,3.08,32,28
+LU100496,College of Arts and Sciences,Psychology,Senior,3.3,129,114
+LU100497,College of Business,Economics,Graduate,3.44,25,21
+LU100498,College of Education,Special Education,First Year,3.65,26,24
+LU100499,College of Business,Supply Chain Management,Graduate,3.69,33,28
+LU100500,College of Education,Special Education,Senior,3.6,109,104
+LU100501,College of Business,Accounting,Graduate,3.69,20,18
+LU100502,P.C. Rossin College of Engineering,Civil Engineering,Graduate,3.61,36,30
+LU100503,College of Health,Public Health,Sophomore,2.51,50,48
+LU100504,College of Education,Secondary Education,First Year,3.58,13,11
+LU100505,College of Education,Elementary Education,Graduate,3.9,18,17
+LU100506,College of Arts and Sciences,Physics,First Year,3.38,26,22
+LU100507,P.C. Rossin College of Engineering,Chemical Engineering,Junior,3.09,86,77
+LU100508,College of Health,Public Health,Senior,3.93,119,114
+LU100509,P.C. Rossin College of Engineering,Civil Engineering,First Year,2.73,23,21
+LU100510,College of Business,Marketing,First Year,3.33,24,23
+LU100511,College of Arts and Sciences,Chemistry,First Year,3.72,13,12
+LU100512,P.C. Rossin College of Engineering,Chemical Engineering,First Year,3.03,19,18
+LU100513,College of Education,Secondary Education,Senior,2.65,104,97
+LU100514,College of Education,Elementary Education,Senior,4.0,114,98
+LU100515,College of Education,Elementary Education,Junior,3.62,80,78
+LU100516,College of Health,Nursing,Sophomore,3.12,50,44
+LU100517,P.C. Rossin College of Engineering,Civil Engineering,Senior,3.2,107,98
+LU100518,College of Arts and Sciences,Political Science,First Year,2.92,23,22
+LU100519,P.C. Rossin College of Engineering,Bioengineering,Sophomore,3.18,47,45
+LU100520,College of Arts and Sciences,Philosophy,First Year,3.4,22,19
+LU100521,P.C. Rossin College of Engineering,Industrial Engineering,Sophomore,3.6,47,40
+LU100522,College of Health,Community Health,Junior,3.41,89,78
+LU100523,College of Health,Health Science,Senior,3.44,128,123
+LU100524,P.C. Rossin College of Engineering,Civil Engineering,First Year,3.17,24,21
+LU100525,College of Business,Business Analytics,Junior,3.45,74,65
+LU100526,College of Health,Public Health,First Year,2.98,22,19
+LU100527,College of Health,Health Science,First Year,2.1,24,22
+LU100528,College of Health,Community Health,First Year,2.6,18,17
+LU100529,College of Arts and Sciences,Mathematics,Junior,3.67,79,74
+LU100530,College of Health,Community Health,Graduate,3.93,24,20
+LU100531,College of Arts and Sciences,Political Science,First Year,3.49,28,24
+LU100532,College of Education,Elementary Education,Graduate,4.0,34,32
+LU100533,College of Health,Community Health,Sophomore,2.8,50,43
+LU100534,College of Arts and Sciences,Philosophy,First Year,2.89,20,17
+LU100535,College of Health,Nursing,Senior,4.0,105,93
+LU100536,P.C. Rossin College of Engineering,Chemical Engineering,Junior,3.3,73,70
+LU100537,P.C. Rossin College of Engineering,Computer Engineering,Sophomore,3.71,47,41
+LU100538,College of Arts and Sciences,Physics,Graduate,3.11,9,8
+LU100539,College of Arts and Sciences,Philosophy,Junior,3.03,87,81
+LU100540,P.C. Rossin College of Engineering,Bioengineering,First Year,2.95,13,11
+LU100541,P.C. Rossin College of Engineering,Computer Science,Junior,4.0,78,75
+LU100542,College of Arts and Sciences,Psychology,Graduate,3.6,36,35
+LU100543,College of Business,Accounting,First Year,3.01,15,14
+LU100544,College of Arts and Sciences,Chemistry,Sophomore,2.93,54,50
+LU100545,College of Arts and Sciences,Mathematics,Sophomore,4.0,55,53
+LU100546,College of Health,Nursing,First Year,2.95,29,27
+LU100547,College of Education,Secondary Education,Sophomore,2.94,51,48
+LU100548,College of Arts and Sciences,Psychology,First Year,2.9,12,11
+LU100549,College of Education,Secondary Education,Graduate,3.65,14,13
+LU100550,College of Education,Elementary Education,Senior,2.89,105,104
+LU100551,P.C. Rossin College of Engineering,Industrial Engineering,Senior,3.49,107,101
+LU100552,College of Business,Economics,Senior,4.0,122,117
+LU100553,College of Arts and Sciences,Sociology,First Year,3.33,23,20
+LU100554,College of Business,Management,First Year,3.99,24,21
+LU100555,College of Health,Public Health,Graduate,3.31,26,23
+LU100556,College of Health,Public Health,First Year,3.13,14,13
+LU100557,College of Business,Marketing,First Year,3.08,22,19
+LU100558,College of Health,Public Health,Senior,3.59,119,117
+LU100559,College of Business,Marketing,Junior,2.91,72,65
+LU100560,P.C. Rossin College of Engineering,Computer Engineering,First Year,2.65,15,13
+LU100561,P.C. Rossin College of Engineering,Computer Engineering,Senior,3.29,110,104
+LU100562,College of Arts and Sciences,English,First Year,2.14,24,22
+LU100563,College of Health,Public Health,First Year,3.36,27,23
+LU100564,College of Business,Finance,First Year,3.11,21,20
+LU100565,College of Health,Health Science,Sophomore,2.74,50,43
+LU100566,College of Education,Secondary Education,First Year,3.52,24,21
+LU100567,College of Health,Health Science,Sophomore,2.85,50,46
+LU100568,P.C. Rossin College of Engineering,Mechanical Engineering,First Year,3.19,23,22
+LU100569,College of Health,Public Health,Junior,3.75,85,84
+LU100570,College of Health,Public Health,Junior,2.6,74,67
+LU100571,College of Business,Business Analytics,Junior,2.72,76,65
+LU100572,College of Health,Public Health,Graduate,3.56,14,13
+LU100573,P.C. Rossin College of Engineering,Civil Engineering,First Year,3.9,18,17
+LU100574,P.C. Rossin College of Engineering,Chemical Engineering,Sophomore,3.56,44,37
+LU100575,College of Education,Secondary Education,Junior,3.64,72,69
+LU100576,College of Education,Special Education,Junior,2.87,85,73
+LU100577,P.C. Rossin College of Engineering,Civil Engineering,Junior,2.29,75,74
+LU100578,College of Education,Elementary Education,Senior,2.89,129,120
+LU100579,College of Arts and Sciences,Political Science,Sophomore,2.83,57,48
+LU100580,College of Arts and Sciences,Political Science,First Year,2.45,24,20
+LU100581,College of Arts and Sciences,English,First Year,2.63,23,19
+LU100582,College of Arts and Sciences,Mathematics,Sophomore,3.26,57,55
+LU100583,College of Business,Economics,Sophomore,2.94,52,46
+LU100584,College of Health,Health Science,First Year,4.0,18,17
+LU100585,College of Health,Community Health,Senior,3.9,118,114
+LU100586,College of Business,Marketing,Senior,2.85,114,99
+LU100587,College of Education,Special Education,First Year,3.5,13,11
+LU100588,College of Health,Health Science,Graduate,4.0,31,27
+LU100589,College of Arts and Sciences,Sociology,Junior,3.15,72,63
+LU100590,College of Health,Community Health,First Year,2.87,27,25
+LU100591,College of Arts and Sciences,Physics,First Year,3.89,14,12
+LU100592,College of Health,Health Science,First Year,2.49,30,29
+LU100593,P.C. Rossin College of Engineering,Electrical Engineering,Senior,3.26,115,106
+LU100594,College of Business,Supply Chain Management,Graduate,3.39,29,25
+LU100595,College of Business,Finance,Sophomore,3.34,50,45
+LU100596,College of Health,Nursing,Junior,2.94,78,71
+LU100597,College of Education,Special Education,Sophomore,3.68,53,49
+LU100598,College of Education,Special Education,Sophomore,3.56,45,41
+LU100599,College of Arts and Sciences,Mathematics,Senior,3.6,124,123
+LU100600,College of Arts and Sciences,English,First Year,2.74,19,18

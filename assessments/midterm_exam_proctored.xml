@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- BUAN 446 Midterm Exam: Chapters 1-5 -->
+<!-- 20 Multiple Choice Questions + 5 Short Answer Questions -->
+<!-- Proctored, No AI Assistance -->
+
+<question type="category">
+  <category>
+    <text>$course$/BUAN446/Midterm_Exam</text>
+  </category>
+</question>
+
+<!-- ==================== -->
+<!-- CHAPTER 1: Variables, Types, Expressions (4 questions) -->
+<!-- ==================== -->
+
+<!-- Q1: Variable Assignment and Types -->
+<question type="multichoice">
+  <name>
+    <text>Q1: Variable Assignment</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>What is the data type of <code>gpa</code> after this code runs?</p>
+<pre>
+gpa = 3.41
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>float</code>]]></text>
+    <feedback format="html">
+      <text>Correct! Numbers with decimal points are automatically stored as floats.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>int</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Integers are whole numbers without decimal points.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>str</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Strings require quotes around them.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>double</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Python uses "float" for decimal numbers, not "double".</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q2: String Concatenation vs Addition -->
+<question type="multichoice">
+  <name>
+    <text>Q2: String Operations</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+student_id = "LU" + "100001"
+print(student_id)
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>LU100001</code>]]></text>
+    <feedback format="html">
+      <text>Correct! The + operator concatenates (joins) strings together.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>LU 100001</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. String concatenation doesn't add spaces automatically.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[An error occurs]]></text>
+    <feedback format="html">
+      <text>Incorrect. Concatenating two strings with + is valid Python.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>"LU" + "100001"</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Python evaluates the expression, not prints it literally.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q3: Type Conversion -->
+<question type="multichoice">
+  <name>
+    <text>Q3: Type Conversion</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>What is the value of <code>result</code>?</p>
+<pre>
+credits_str = "105"
+result = int(credits_str) + 15
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>120</code>]]></text>
+    <feedback format="html">
+      <text>Correct! int() converts the string "105" to integer 105, then 105 + 15 = 120.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>"10515"</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The int() function converts the string to an integer before addition.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>"120"</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. After int() conversion, the result is an integer, not a string.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[An error occurs]]></text>
+    <feedback format="html">
+      <text>Incorrect. int("105") successfully converts to 105.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q4: F-string Formatting -->
+<question type="multichoice">
+  <name>
+    <text>Q4: F-string Formatting</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+name = "Alice"
+gpa = 3.8
+print(f"{name} has a {gpa} GPA")
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>Alice has a 3.8 GPA</code>]]></text>
+    <feedback format="html">
+      <text>Correct! F-strings substitute variable values inside the curly braces.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>{name} has a {gpa} GPA</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The f prefix makes it an f-string that evaluates expressions in braces.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>name has a gpa GPA</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The curly braces tell Python to substitute the variable values.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[An error occurs]]></text>
+    <feedback format="html">
+      <text>Incorrect. This is valid f-string syntax.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- ==================== -->
+<!-- CHAPTER 2: Control Flow (5 questions) -->
+<!-- ==================== -->
+
+<!-- Q5: Basic If Statement -->
+<question type="multichoice">
+  <name>
+    <text>Q5: If Statement</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+gpa = 3.6
+
+if gpa >= 3.5:
+    print("Dean's List")
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>Dean's List</code>]]></text>
+    <feedback format="html">
+      <text>Correct! 3.6 >= 3.5 is True, so the indented block executes.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Nothing is printed]]></text>
+    <feedback format="html">
+      <text>Incorrect. The condition 3.6 >= 3.5 is True.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>True</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The if statement doesn't print the condition result; it executes the block.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[An error occurs]]></text>
+    <feedback format="html">
+      <text>Incorrect. This is valid Python syntax.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q6: If-Elif-Else Chain -->
+<question type="multichoice">
+  <name>
+    <text>Q6: If-Elif-Else Chain</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+credits = 45
+
+if credits >= 90:
+    year = "Senior"
+elif credits >= 60:
+    year = "Junior"
+elif credits >= 30:
+    year = "Sophomore"
+else:
+    year = "First Year"
+
+print(year)
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>Sophomore</code>]]></text>
+    <feedback format="html">
+      <text>Correct! 45 >= 30 is the first True condition encountered.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>Junior</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. 45 >= 60 is False, so Python moves to the next condition.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>First Year</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. 45 >= 30 is True, so the else block doesn't run.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>Senior</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. 45 >= 90 is False.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q7: Logical Operators -->
+<question type="multichoice">
+  <name>
+    <text>Q7: Logical Operators</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>What is the value of <code>eligible</code>?</p>
+<pre>
+gpa = 3.2
+credits = 60
+eligible = gpa >= 3.0 and credits >= 60
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>True</code>]]></text>
+    <feedback format="html">
+      <text>Correct! Both conditions are True: 3.2 >= 3.0 and 60 >= 60. With "and", both must be True.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>False</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Both conditions evaluate to True.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>1</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Boolean expressions return True or False, not 1 or 0.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[An error occurs]]></text>
+    <feedback format="html">
+      <text>Incorrect. This is valid Python syntax.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q8: For Loop -->
+<question type="multichoice">
+  <name>
+    <text>Q8: For Loop</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+total = 0
+for gpa in [3.2, 3.5, 3.8]:
+    total = total + gpa
+print(total)
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>10.5</code>]]></text>
+    <feedback format="html">
+      <text>Correct! The loop adds each GPA: 0 + 3.2 + 3.5 + 3.8 = 10.5</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>3.8</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. total accumulates all values, not just the last one.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>0</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. total is updated inside the loop each iteration.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>[3.2, 3.5, 3.8]</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. We print total (a number), not the list.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q9: Range Function -->
+<question type="multichoice">
+  <name>
+    <text>Q9: Range Function</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>How many times does the word "Hello" print?</p>
+<pre>
+for i in range(4):
+    print("Hello")
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[4 times]]></text>
+    <feedback format="html">
+      <text>Correct! range(4) produces values 0, 1, 2, 3 (four iterations).</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[5 times]]></text>
+    <feedback format="html">
+      <text>Incorrect. range(4) stops before 4, so it produces 0, 1, 2, 3.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[3 times]]></text>
+    <feedback format="html">
+      <text>Incorrect. range(4) starts at 0, giving four values: 0, 1, 2, 3.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[1 time]]></text>
+    <feedback format="html">
+      <text>Incorrect. The loop runs once for each value in range(4).</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- ==================== -->
+<!-- CHAPTER 3: Functions (4 questions) -->
+<!-- ==================== -->
+
+<!-- Q10: Function Definition -->
+<question type="multichoice">
+  <name>
+    <text>Q10: Function Definition</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Which code correctly defines a function named <code>calculate_average</code> that takes two parameters?</p>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<pre>def calculate_average(a, b):
+    return (a + b) / 2</pre>]]></text>
+    <feedback format="html">
+      <text>Correct! Functions are defined with def, name, parameters in parentheses, and a colon.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<pre>function calculate_average(a, b):
+    return (a + b) / 2</pre>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Python uses "def" not "function" to define functions.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<pre>def calculate_average(a, b)
+    return (a + b) / 2</pre>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Missing the colon after the parameter list.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<pre>def calculate_average[a, b]:
+    return (a + b) / 2</pre>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Parameters must be in parentheses (), not square brackets [].</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q11: Return vs Print -->
+<question type="multichoice">
+  <name>
+    <text>Q11: Return vs Print</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>What is the value of <code>result</code>?</p>
+<pre>
+def double(x):
+    print(x * 2)
+
+result = double(5)
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>None</code>]]></text>
+    <feedback format="html">
+      <text>Correct! The function prints 10 but doesn't return anything. Functions without return statements return None.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>10</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. 10 is printed, but not returned. result stores what the function returns.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>5</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The function doesn't return any value.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[An error occurs]]></text>
+    <feedback format="html">
+      <text>Incorrect. The code runs fine; the function just returns None implicitly.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q12: Variable Scope -->
+<question type="multichoice">
+  <name>
+    <text>Q12: Variable Scope</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+x = 10
+
+def change_x():
+    x = 20
+    return x
+
+result = change_x()
+print(x)
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>10</code>]]></text>
+    <feedback format="html">
+      <text>Correct! The x inside the function is a local variable. The global x remains 10.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>20</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The x = 20 inside the function creates a local variable, not modifying the global x.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>None</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The global x still has its original value of 10.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[An error occurs]]></text>
+    <feedback format="html">
+      <text>Incorrect. This code runs without errors.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q13: Default Parameters -->
+<question type="multichoice">
+  <name>
+    <text>Q13: Default Parameters</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+def greet(name, college="Business"):
+    return f"{name} from {college}"
+
+print(greet("Alice"))
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>Alice from Business</code>]]></text>
+    <feedback format="html">
+      <text>Correct! Since no second argument was provided, the default value "Business" is used.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[An error occurs because college is missing]]></text>
+    <feedback format="html">
+      <text>Incorrect. college has a default value, so it's optional.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>Alice from college</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The default value is the string "Business", not the variable name.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>Alice from None</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The default value is "Business", not None.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- ==================== -->
+<!-- CHAPTER 4: Data Structures (4 questions) -->
+<!-- ==================== -->
+
+<!-- Q14: List Indexing -->
+<question type="multichoice">
+  <name>
+    <text>Q14: List Indexing</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+majors = ["Finance", "Biology", "History", "Art"]
+print(majors[-1])
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>Art</code>]]></text>
+    <feedback format="html">
+      <text>Correct! Negative indexing counts from the end. -1 is the last element.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>Finance</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. That's index 0. Index -1 is the last element.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>History</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. That's index 2 or -2. Index -1 is the last element.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[An error occurs]]></text>
+    <feedback format="html">
+      <text>Incorrect. Negative indexing is valid in Python.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q15: List Methods -->
+<question type="multichoice">
+  <name>
+    <text>Q15: List Methods</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+gpas = [3.2, 3.5]
+gpas.append(3.8)
+gpas.append(3.1)
+print(len(gpas))
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>4</code>]]></text>
+    <feedback format="html">
+      <text>Correct! Started with 2 items, appended 2 more: 2 + 2 = 4.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>2</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. append() modifies the list in place, adding items.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>3</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. We called append() twice, adding two items.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>[3.2, 3.5, 3.8, 3.1]</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. len() returns the count of items, not the list itself.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q16: Dictionary Access -->
+<question type="multichoice">
+  <name>
+    <text>Q16: Dictionary Access</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+student = {"id": "LU100001", "gpa": 3.41, "college": "Business"}
+print(student["college"])
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>Business</code>]]></text>
+    <feedback format="html">
+      <text>Correct! Dictionary values are accessed using their keys in square brackets.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>college</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. student["college"] returns the value, not the key.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>{"college": "Business"}</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Accessing a key returns just the value, not a key-value pair.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>2</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Dictionaries use keys, not numeric indices.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q17: Tuples vs Lists -->
+<question type="multichoice">
+  <name>
+    <text>Q17: Tuples vs Lists</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>What happens when you run this code?</p>
+<pre>
+coordinates = (10, 20)
+coordinates[0] = 15
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[A <code>TypeError</code> occurs]]></text>
+    <feedback format="html">
+      <text>Correct! Tuples are immutable (cannot be changed after creation). You cannot assign to tuple indices.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[coordinates becomes <code>(15, 20)</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Tuples cannot be modified. Use a list if you need to change values.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[coordinates becomes <code>[15, 20]</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Tuples cannot be modified or converted to lists automatically.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Nothing happens]]></text>
+    <feedback format="html">
+      <text>Incorrect. Python raises an error when you try to modify a tuple.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- ==================== -->
+<!-- CHAPTER 5: File I/O and Exceptions (3 questions) -->
+<!-- ==================== -->
+
+<!-- Q18: File Modes -->
+<question type="multichoice">
+  <name>
+    <text>Q18: File Modes</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>You have an existing file <code>data.txt</code> with important data. You want to add new content to the end without losing the existing data. Which mode should you use?</p>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>open('data.txt', 'a')</code>]]></text>
+    <feedback format="html">
+      <text>Correct! Append mode ('a') adds content to the end without erasing existing data.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>open('data.txt', 'w')</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Write mode ('w') erases all existing content before writing!</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>open('data.txt', 'r')</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Read mode ('r') only allows reading, not writing.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>open('data.txt')</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Without a mode, the default is 'r' (read only).</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q19: With Statement -->
+<question type="multichoice">
+  <name>
+    <text>Q19: The with Statement</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>What is the main benefit of using a <code>with</code> statement when working with files?</p>
+<pre>
+with open('students.csv', 'r') as file:
+    data = file.read()
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[The file is automatically closed when the block ends, even if an error occurs]]></text>
+    <feedback format="html">
+      <text>Correct! The with statement ensures proper resource cleanup, preventing file handle leaks.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[It makes reading files faster]]></text>
+    <feedback format="html">
+      <text>Incorrect. The with statement doesn't affect performance; it ensures proper cleanup.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[It automatically converts the file to a list]]></text>
+    <feedback format="html">
+      <text>Incorrect. The with statement manages the file connection, not the data format.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[It prevents all errors from occurring]]></text>
+    <feedback format="html">
+      <text>Incorrect. Errors can still occur; with just ensures cleanup happens regardless.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q20: Exception Handling -->
+<question type="multichoice">
+  <name>
+    <text>Q20: Exception Handling</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+try:
+    value = int("abc")
+    print("Success")
+except ValueError:
+    print("Invalid")
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>Invalid</code>]]></text>
+    <feedback format="html">
+      <text>Correct! int("abc") raises a ValueError, which is caught by the except block.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>Success</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The int() conversion fails, so "Success" never prints.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[The program crashes with a ValueError]]></text>
+    <feedback format="html">
+      <text>Incorrect. The try/except block catches the ValueError, preventing a crash.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Nothing is printed]]></text>
+    <feedback format="html">
+      <text>Incorrect. The except block runs and prints "Invalid".</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- ==================== -->
+<!-- SHORT ANSWER QUESTIONS (5 questions) -->
+<!-- ==================== -->
+
+<!-- SA1: Code Tracing -->
+<question type="shortanswer">
+  <name>
+    <text>SA1: Code Tracing</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>What is the <strong>final value</strong> of <code>count</code> after this code runs? Enter only the number.</p>
+<pre>
+grades = [85, 92, 78, 95, 88, 72]
+count = 0
+
+for grade in grades:
+    if grade >= 90:
+        count = count + 1
+
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>2</defaultgrade>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>2</text>
+    <feedback format="html">
+      <text>Correct! Two grades are >= 90: 92 and 95.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- SA2: Error Identification -->
+<question type="essay">
+  <name>
+    <text>SA2: Error Identification</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>The following code has a bug. Identify the error, explain why it occurs, and show how to fix it.</p>
+<pre>
+def calculate_average(numbers):
+    total = 0
+    for num in numbers:
+        total = total + num
+    average = total / len(numbers)
+
+result = calculate_average([10, 20, 30])
+print(f"The average is {result}")
+</pre>
+<p><strong>Your answer should include:</strong></p>
+<ol>
+<li>What error occurs (or what unexpected behavior happens)</li>
+<li>Why it happens</li>
+<li>The corrected code</li>
+</ol>]]></text>
+  </questiontext>
+  <defaultgrade>4</defaultgrade>
+  <graderinfo format="html">
+    <text><![CDATA[<p><strong>Expected Answer:</strong></p>
+<ol>
+<li><strong>Error:</strong> The function prints "The average is None" because calculate_average doesn't return a value.</li>
+<li><strong>Why:</strong> The function calculates the average but doesn't have a return statement. Functions without return statements return None by default.</li>
+<li><strong>Fix:</strong> Add <code>return average</code> at the end of the function.</li>
+</ol>
+<pre>
+def calculate_average(numbers):
+    total = 0
+    for num in numbers:
+        total = total + num
+    average = total / len(numbers)
+    return average  # This line was missing
+</pre>
+<p><strong>Grading:</strong></p>
+<ul>
+<li>1 point: Identifies that None is printed or return is missing</li>
+<li>1 point: Explains that functions return None without explicit return</li>
+<li>2 points: Shows correct fix with return statement</li>
+</ul>]]></text>
+  </graderinfo>
+</question>
+
+<!-- SA3: Write a Function -->
+<question type="essay">
+  <name>
+    <text>SA3: Write a Function</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Write a function called <code>is_deans_list</code> that:</p>
+<ul>
+<li>Takes two parameters: <code>gpa</code> (a float) and <code>credits</code> (an integer)</li>
+<li>Returns <code>True</code> if the student qualifies for Dean's List (GPA >= 3.5 AND credits >= 12)</li>
+<li>Returns <code>False</code> otherwise</li>
+</ul>
+<p><strong>Example usage:</strong></p>
+<pre>
+is_deans_list(3.6, 15)  # Should return True
+is_deans_list(3.6, 9)   # Should return False
+is_deans_list(3.2, 15)  # Should return False
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>4</defaultgrade>
+  <graderinfo format="html">
+    <text><![CDATA[<p><strong>Expected Answer:</strong></p>
+<pre>
+def is_deans_list(gpa, credits):
+    if gpa >= 3.5 and credits >= 12:
+        return True
+    else:
+        return False
+</pre>
+<p><strong>Also acceptable (more concise):</strong></p>
+<pre>
+def is_deans_list(gpa, credits):
+    return gpa >= 3.5 and credits >= 12
+</pre>
+<p><strong>Grading:</strong></p>
+<ul>
+<li>1 point: Correct function definition with def and two parameters</li>
+<li>1 point: Correct condition for GPA (>= 3.5)</li>
+<li>1 point: Correct condition for credits (>= 12) with AND logic</li>
+<li>1 point: Returns True/False correctly</li>
+</ul>]]></text>
+  </graderinfo>
+</question>
+
+<!-- SA4: Data Structure Selection -->
+<question type="essay">
+  <name>
+    <text>SA4: Data Structure Selection</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>You need to store information about a single student including their ID, name, GPA, and list of courses they're taking.</p>
+<p><strong>Answer the following:</strong></p>
+<ol>
+<li>Which data structure would you use to store this student's information? (list, dictionary, tuple, or set)</li>
+<li>Explain why this is the best choice (1-2 sentences)</li>
+<li>Write an example showing how you would create this data structure for a student named "Alice" with ID "LU100001", GPA 3.5, taking courses ["Math", "English", "History"]</li>
+</ol>]]></text>
+  </questiontext>
+  <defaultgrade>4</defaultgrade>
+  <graderinfo format="html">
+    <text><![CDATA[<p><strong>Expected Answer:</strong></p>
+<ol>
+<li><strong>Dictionary</strong></li>
+<li>A dictionary allows storing different types of data with meaningful labels (keys), making it easy to access specific fields by name rather than position.</li>
+<li>Example:
+<pre>
+student = {
+    "id": "LU100001",
+    "name": "Alice",
+    "gpa": 3.5,
+    "courses": ["Math", "English", "History"]
+}
+</pre>
+</li>
+</ol>
+<p><strong>Grading:</strong></p>
+<ul>
+<li>1 point: Correctly identifies dictionary</li>
+<li>1 point: Reasonable explanation (labeled access, mixed types, etc.)</li>
+<li>2 points: Correct dictionary syntax with all four fields</li>
+</ul>
+<p><strong>Note:</strong> Accept list as partial credit (1 point) if explanation mentions ordered access, but dictionary is the better answer for labeled data.</p>]]></text>
+  </graderinfo>
+</question>
+
+<!-- SA5: Exception Handling -->
+<question type="essay">
+  <name>
+    <text>SA5: Exception Handling</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Write code that safely converts a list of GPA strings to floats. Some values may be invalid (like "N/A" or empty strings).</p>
+<p><strong>Requirements:</strong></p>
+<ul>
+<li>Start with this list: <code>gpa_strings = ["3.5", "N/A", "3.2", "", "3.8"]</code></li>
+<li>Create a new list called <code>valid_gpas</code> containing only the successfully converted floats</li>
+<li>Use try/except to handle conversion errors</li>
+<li>Invalid values should be skipped (not added to the list)</li>
+</ul>
+<p><strong>Expected result:</strong> valid_gpas should be <code>[3.5, 3.2, 3.8]</code></p>]]></text>
+  </questiontext>
+  <defaultgrade>4</defaultgrade>
+  <graderinfo format="html">
+    <text><![CDATA[<p><strong>Expected Answer:</strong></p>
+<pre>
+gpa_strings = ["3.5", "N/A", "3.2", "", "3.8"]
+valid_gpas = []
+
+for gpa in gpa_strings:
+    try:
+        valid_gpas.append(float(gpa))
+    except ValueError:
+        pass  # Skip invalid values
+</pre>
+<p><strong>Also acceptable:</strong></p>
+<pre>
+gpa_strings = ["3.5", "N/A", "3.2", "", "3.8"]
+valid_gpas = []
+
+for gpa in gpa_strings:
+    try:
+        converted = float(gpa)
+        valid_gpas.append(converted)
+    except ValueError:
+        continue
+</pre>
+<p><strong>Grading:</strong></p>
+<ul>
+<li>1 point: Correct loop structure</li>
+<li>1 point: try block with float() conversion</li>
+<li>1 point: except ValueError (or except Exception)</li>
+<li>1 point: Appending to list only on success, skipping failures</li>
+</ul>]]></text>
+  </graderinfo>
+</question>
+
+</quiz>

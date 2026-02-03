@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- BUAN 446 Week 2 Quiz: Chapter 3 -->
+<!-- 10 Multiple Choice Questions -->
+<!-- Covers: Functions - Building Reusable Code -->
+
+<question type="category">
+  <category>
+    <text>$course$/BUAN446/Week2_Quiz</text>
+  </category>
+</question>
+
+<!-- Q1: Function Definition Syntax -->
+<question type="multichoice">
+  <n>
+    <text>Q1: Function Definition Syntax</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>Which of the following correctly defines a function named <code>greet</code> that prints "Hello"?</p>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<pre>def greet():
+    print("Hello")</pre>]]></text>
+    <feedback format="html">
+      <text>Correct! Functions are defined with def, followed by the name, parentheses, a colon, and an indented body.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<pre>function greet():
+    print("Hello")</pre>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Python uses "def" not "function" to define functions.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<pre>def greet()
+    print("Hello")</pre>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Missing the colon after the parentheses.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<pre>def greet:
+    print("Hello")</pre>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Missing the parentheses after the function name.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q2: Function Parameters -->
+<question type="multichoice">
+  <n>
+    <text>Q2: Function Parameters</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+def greet(name):
+    print(f"Hello, {name}!")
+
+greet("Alice")
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>Hello, Alice!</code>]]></text>
+    <feedback format="html">
+      <text>Correct! The argument "Alice" is passed to the parameter name.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>Hello, name!</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. name is a variable that holds the value "Alice".</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>Hello, {name}!</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The f-string evaluates the variable inside the braces.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[An error occurs]]></text>
+    <feedback format="html">
+      <text>Incorrect. This is valid Python code.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q3: Return vs Print -->
+<question type="multichoice">
+  <n>
+    <text>Q3: Return vs Print</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>What is the value of <code>x</code> after this code runs?</p>
+<pre>
+def add(a, b):
+    print(a + b)
+
+x = add(5, 3)
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>None</code>]]></text>
+    <feedback format="html">
+      <text>Correct! The function prints 8 but doesn't return anything, so x is None.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>8</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. 8 is printed, but the function doesn't return 8. Without a return statement, Python returns None.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>"8"</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The function doesn't return anything.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[An error occurs]]></text>
+    <feedback format="html">
+      <text>Incorrect. The code runs fine, it just doesn't return a value.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q4: Return Statement -->
+<question type="multichoice">
+  <n>
+    <text>Q4: Return Statement</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>What is the value of <code>result</code>?</p>
+<pre>
+def multiply(a, b):
+    return a * b
+
+result = multiply(4, 5)
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>20</code>]]></text>
+    <feedback format="html">
+      <text>Correct! The function returns 4 * 5 = 20.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>None</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. This function has a return statement that returns the product.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>9</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The function multiplies, not adds.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>"a * b"</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Python evaluates the expression a * b.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q5: Local Variable Scope -->
+<question type="multichoice">
+  <n>
+    <text>Q5: Local Variable Scope</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>What happens when you run this code?</p>
+<pre>
+def calculate():
+    result = 10 * 5
+    return result
+
+calculate()
+print(result)
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[A <code>NameError</code> occurs]]></text>
+    <feedback format="html">
+      <text>Correct! result is a local variable inside calculate(). It doesn't exist outside the function.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[It prints <code>50</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Local variables don't exist outside their function.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[It prints <code>None</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. result doesn't exist in the global scope at all.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[It prints <code>10 * 5</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Even if result existed, Python would evaluate the expression.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q6: Global vs Local -->
+<question type="multichoice">
+  <n>
+    <text>Q6: Global vs Local Variables</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+x = 10
+
+def change_x():
+    x = 20
+    print(x)
+
+change_x()
+print(x)
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<pre>20
+10</pre>]]></text>
+    <feedback format="html">
+      <text>Correct! Inside the function, x=20 creates a LOCAL variable. The global x remains 10.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<pre>20
+20</pre>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The x inside the function is a different (local) variable from the global x.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<pre>10
+10</pre>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Inside the function, the local x is 20.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[An error occurs]]></text>
+    <feedback format="html">
+      <text>Incorrect. This code runs without errors.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q7: Default Parameters -->
+<question type="multichoice">
+  <n>
+    <text>Q7: Default Parameter Values</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+def greet(name, greeting="Hello"):
+    return f"{greeting}, {name}!"
+
+print(greet("Alice"))
+print(greet("Bob", "Hi"))
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<pre>Hello, Alice!
+Hi, Bob!</pre>]]></text>
+    <feedback format="html">
+      <text>Correct! The first call uses the default "Hello", the second overrides it with "Hi".</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<pre>Hello, Alice!
+Hello, Bob!</pre>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The second call provides "Hi" as the greeting argument.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[An error on the first call]]></text>
+    <feedback format="html">
+      <text>Incorrect. greeting has a default value, so it's optional.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<pre>Hi, Alice!
+Hi, Bob!</pre>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The first call doesn't provide a greeting, so it uses the default.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q8: Keyword Arguments -->
+<question type="multichoice">
+  <n>
+    <text>Q8: Keyword Arguments</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+def describe(name, age, city="Unknown"):
+    return f"{name}, {age}, from {city}"
+
+print(describe(age=25, name="Alice"))
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>Alice, 25, from Unknown</code>]]></text>
+    <feedback format="html">
+      <text>Correct! Keyword arguments can be in any order. city uses its default value.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>25, Alice, from Unknown</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Keyword arguments match by name, not by position in the call.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[An error occurs]]></text>
+    <feedback format="html">
+      <text>Incorrect. Keyword arguments can be specified in any order.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>Alice, 25, from </code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. city has a default value of "Unknown".</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q9: Functions Calling Functions -->
+<question type="multichoice">
+  <n>
+    <text>Q9: Functions Calling Functions</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+def double(x):
+    return x * 2
+
+def add_five(x):
+    return x + 5
+
+result = add_five(double(3))
+print(result)
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>11</code>]]></text>
+    <feedback format="html">
+      <text>Correct! double(3) returns 6, then add_five(6) returns 11.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>16</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The inner function (double) is called first, not add_five.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>8</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Check the order of operations and calculations.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>6</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. That's just double(3). We then pass that to add_five().</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q10: Comprehensive Code Tracing -->
+<question type="multichoice">
+  <n>
+    <text>Q10: Comprehensive Code Tracing</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+def process(x):
+    x = x + 10
+    return x * 2
+
+value = 5
+result = process(value)
+print(value, result)
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>5 30</code>]]></text>
+    <feedback format="html">
+      <text>Correct! value stays 5 (global unchanged). Inside the function: 5+10=15, then 15*2=30.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>15 30</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The global value is not changed by the function.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>5 20</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Inside the function: x becomes 15, then 15*2=30.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>15 20</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. value stays 5, and the calculation is (5+10)*2 = 30.</text>
+    </feedback>
+  </answer>
+</question>
+
+</quiz>

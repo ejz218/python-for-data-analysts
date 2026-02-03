@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- BUAN 446 Week 5 Quiz: Chapter 8 -->
+<!-- 10 Multiple Choice Questions -->
+<!-- Covers: Data Visualization with Matplotlib and Seaborn (Ch8) -->
+
+<question type="category">
+  <category>
+    <text>$course$/BUAN446/Week5_Quiz</text>
+  </category>
+</question>
+
+<!-- Q1: Chart Type Selection - Distribution -->
+<question type="multichoice">
+  <n>
+    <text>Q1: Chart Type Selection - Distribution</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>You want to visualize the distribution of GPA values across all 600 students. Which chart type is most appropriate?</p>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Histogram]]></text>
+    <feedback format="html">
+      <text>Correct! A histogram is ideal for showing the distribution of a single numerical variable, revealing the shape, center, and spread of the data.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Bar chart]]></text>
+    <feedback format="html">
+      <text>Incorrect. Bar charts are for comparing counts or values across categories. For continuous numerical data like GPA, use a histogram.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Scatter plot]]></text>
+    <feedback format="html">
+      <text>Incorrect. Scatter plots show the relationship between two numerical variables. For a single variable's distribution, use a histogram.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Line chart]]></text>
+    <feedback format="html">
+      <text>Incorrect. Line charts show trends over time or a continuous sequence. For distribution of values, use a histogram.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q2: Chart Type Selection - Comparison -->
+<question type="multichoice">
+  <n>
+    <text>Q2: Chart Type Selection - Comparison</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>You want to compare the GPA distributions across five different colleges to see which college has the highest median and which has the most outliers. Which chart type is most appropriate?</p>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Box plot]]></text>
+    <feedback format="html">
+      <text>Correct! Box plots show the median, quartiles, and outliers for each group, making them ideal for comparing distributions across categories.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Pie chart]]></text>
+    <feedback format="html">
+      <text>Incorrect. Pie charts show proportions of a whole, not distributions. They can't show medians or outliers.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Scatter plot]]></text>
+    <feedback format="html">
+      <text>Incorrect. Scatter plots show relationships between two continuous variables, not distributions across categories.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Line chart]]></text>
+    <feedback format="html">
+      <text>Incorrect. Line charts show trends over a continuous sequence. Box plots are better for comparing distributions across categories.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q3: Chart Type Selection - Relationship -->
+<question type="multichoice">
+  <n>
+    <text>Q3: Chart Type Selection - Relationship</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>You want to explore whether there is a relationship between Credits Attempted and Credits Earned. Which chart type is most appropriate?</p>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Scatter plot]]></text>
+    <feedback format="html">
+      <text>Correct! Scatter plots show the relationship between two numerical variables, with each point representing one observation.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Histogram]]></text>
+    <feedback format="html">
+      <text>Incorrect. Histograms show the distribution of a single variable, not the relationship between two variables.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Bar chart]]></text>
+    <feedback format="html">
+      <text>Incorrect. Bar charts compare values across categories. For two continuous variables, use a scatter plot.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Box plot]]></text>
+    <feedback format="html">
+      <text>Incorrect. Box plots compare distributions across categories. For the relationship between two continuous variables, use a scatter plot.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q4: Basic Matplotlib Syntax -->
+<question type="multichoice">
+  <n>
+    <text>Q4: Basic Matplotlib Syntax</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>Which code correctly creates a histogram with 20 bins and black edges around each bar?</p>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>plt.hist(df['GPA'], bins=20, edgecolor='black')</code>]]></text>
+    <feedback format="html">
+      <text>Correct! The bins parameter controls the number of bars, and edgecolor adds borders to distinguish them.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>plt.hist(df['GPA'], bars=20, border='black')</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The correct parameters are bins (not bars) and edgecolor (not border).</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>plt.histogram(df['GPA'], bins=20, edgecolor='black')</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The function is plt.hist(), not plt.histogram().</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>plt.bar(df['GPA'], bins=20, edgecolor='black')</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. plt.bar() creates bar charts, not histograms. Use plt.hist() for histograms.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q5: Adding Labels -->
+<question type="multichoice">
+  <n>
+    <text>Q5: Adding Labels and Titles</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>Which set of functions correctly adds a title and axis labels to a matplotlib plot?</p>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>plt.title()</code>, <code>plt.xlabel()</code>, <code>plt.ylabel()</code>]]></text>
+    <feedback format="html">
+      <text>Correct! These three functions set the title and axis labels for the current plot.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>plt.title()</code>, <code>plt.x_label()</code>, <code>plt.y_label()</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The functions are xlabel() and ylabel() (no underscore), not x_label() and y_label().</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>plt.set_title()</code>, <code>plt.set_xlabel()</code>, <code>plt.set_ylabel()</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The set_ prefix is used with the axes object (ax.set_title()), not with plt directly.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>plt.add_title()</code>, <code>plt.add_xlabel()</code>, <code>plt.add_ylabel()</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. There are no add_ functions. Use plt.title(), plt.xlabel(), and plt.ylabel().</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q6: Saving Figures -->
+<question type="multichoice">
+  <n>
+    <text>Q6: Saving Figures</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>Which code correctly saves a matplotlib figure as a PNG file with high resolution?</p>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>plt.savefig('chart.png', dpi=300)</code>]]></text>
+    <feedback format="html">
+      <text>Correct! plt.savefig() saves the current figure, and dpi (dots per inch) controls resolution. 300 dpi is standard for print quality.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>plt.save('chart.png', resolution=300)</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The function is savefig() (not save()), and the parameter is dpi (not resolution).</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>plt.export('chart.png', dpi=300)</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. There is no plt.export() function. Use plt.savefig() to save figures.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>fig.write('chart.png', dpi=300)</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Figures don't have a write() method. Use plt.savefig() or fig.savefig().</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q7: Subplots -->
+<question type="multichoice">
+  <n>
+    <text>Q7: Creating Subplots</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code create?</p>
+<pre>
+fig, axes = plt.subplots(2, 3)
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[A figure with 6 empty subplots arranged in 2 rows and 3 columns]]></text>
+    <feedback format="html">
+      <text>Correct! plt.subplots(rows, cols) creates a grid of axes. (2, 3) means 2 rows and 3 columns = 6 subplots total.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[A figure with 6 empty subplots arranged in 3 rows and 2 columns]]></text>
+    <feedback format="html">
+      <text>Incorrect. The first argument is rows, second is columns. (2, 3) means 2 rows, 3 columns.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[A figure with 5 empty subplots (2 + 3)]]></text>
+    <feedback format="html">
+      <text>Incorrect. The arguments define a grid (rows × columns), not a sum. (2, 3) creates 2 × 3 = 6 subplots.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[An error because subplots requires only one argument]]></text>
+    <feedback format="html">
+      <text>Incorrect. plt.subplots() accepts (nrows, ncols) to create a grid of subplots.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q8: Seaborn Box Plot -->
+<question type="multichoice">
+  <n>
+    <text>Q8: Seaborn Box Plot</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>Which seaborn code creates a box plot showing GPA distribution for each College?</p>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>sns.boxplot(data=df, x='College', y='GPA')</code>]]></text>
+    <feedback format="html">
+      <text>Correct! Seaborn's boxplot takes a DataFrame and column names, automatically creating grouped box plots.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>sns.boxplot(df['College'], df['GPA'])</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. While this may work, the recommended syntax uses data=df with x= and y= parameters for clarity.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>sns.box(data=df, x='College', y='GPA')</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The function is sns.boxplot(), not sns.box().</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>sns.plot(kind='box', data=df, x='College', y='GPA')</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Seaborn uses specific functions like boxplot(), not a generic plot() with kind parameter.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q9: Seaborn hue Parameter -->
+<question type="multichoice">
+  <n>
+    <text>Q9: Seaborn hue Parameter</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does the <code>hue</code> parameter do in seaborn plots?</p>
+<pre>
+sns.scatterplot(data=df, x='Credits_Earned', y='GPA', hue='College')
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Colors the points differently based on the College column, adding a third variable dimension]]></text>
+    <feedback format="html">
+      <text>Correct! The hue parameter maps a categorical variable to colors, allowing you to visualize a third dimension in the plot.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Changes the overall color scheme of the plot to College colors]]></text>
+    <feedback format="html">
+      <text>Incorrect. hue maps data values to colors, not a theme. Each unique College value gets a different color.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Filters the data to only show one College at a time]]></text>
+    <feedback format="html">
+      <text>Incorrect. hue shows all data but distinguishes categories by color. It doesn't filter data.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Adjusts the brightness of the plot colors]]></text>
+    <feedback format="html">
+      <text>Incorrect. Despite the name "hue," this parameter maps a column to different colors, not brightness.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q10: Reading Box Plots -->
+<question type="multichoice">
+  <n>
+    <text>Q10: Interpreting Box Plots</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>In a box plot, what do the individual points plotted beyond the "whiskers" represent?</p>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Outliers (values more than 1.5 × IQR from the quartiles)]]></text>
+    <feedback format="html">
+      <text>Correct! Points beyond the whiskers are outliers, typically defined as values more than 1.5 times the interquartile range (IQR) from Q1 or Q3.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[The minimum and maximum values in the data]]></text>
+    <feedback format="html">
+      <text>Incorrect. The whiskers extend to the min/max within 1.5 × IQR. Points beyond are outliers that exceed this range.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[The mean values for each category]]></text>
+    <feedback format="html">
+      <text>Incorrect. The line inside the box is the median, not the mean. Points outside whiskers are outliers.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Data points that were removed from the analysis]]></text>
+    <feedback format="html">
+      <text>Incorrect. Outliers are displayed, not removed. The box plot shows them so you can identify unusual values.</text>
+    </feedback>
+  </answer>
+</question>
+
+</quiz>

@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- BUAN 446 Week 4 Quiz: Chapters 6 & 7 -->
+<!-- 10 Multiple Choice Questions -->
+<!-- Covers: NumPy (Ch6) and Pandas (Ch7) -->
+
+<question type="category">
+  <category>
+    <text>$course$/BUAN446/Week4_Quiz</text>
+  </category>
+</question>
+
+<!-- Q1: NumPy Array Creation -->
+<question type="multichoice">
+  <name>
+    <text>Q1: NumPy Array Creation</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+import numpy as np
+arr = np.array([3.5, 2.8, 4.0, 3.2])
+print(arr.dtype)
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>float64</code>]]></text>
+    <feedback format="html">
+      <text>Correct! NumPy infers float64 as the default type for decimal numbers.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>int64</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The array contains decimal values (floats), not integers.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>list</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. np.array() creates a NumPy array, not a list. dtype refers to the data type of elements.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>object</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. NumPy uses 'object' dtype for mixed types or strings, not for numeric arrays.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q2: NumPy Boolean Indexing -->
+<question type="multichoice">
+  <name>
+    <text>Q2: NumPy Boolean Indexing</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+import numpy as np
+gpas = np.array([3.2, 3.8, 2.5, 3.9, 2.1])
+print(gpas[gpas >= 3.5])
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>[3.8 3.9]</code>]]></text>
+    <feedback format="html">
+      <text>Correct! Boolean indexing returns only the elements where the condition is True. Only 3.8 and 3.9 are >= 3.5.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>[False True False True False]</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. That's what gpas >= 3.5 alone would produce. Using it as an index returns the actual values.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>[3.2 3.8 3.9]</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. 3.2 is not >= 3.5, so it's not included.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>2</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Boolean indexing returns the matching elements, not a count. Use (gpas >= 3.5).sum() for count.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q3: NumPy Vectorized Operations -->
+<question type="multichoice">
+  <name>
+    <text>Q3: NumPy Vectorized Operations</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+import numpy as np
+credits_attempted = np.array([100, 80, 90])
+credits_earned = np.array([95, 72, 85])
+completion_rate = credits_earned / credits_attempted * 100
+print(completion_rate)
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>[95. 90. 94.44444444]</code>]]></text>
+    <feedback format="html">
+      <text>Correct! NumPy performs element-wise division: 95/100*100=95, 72/80*100=90, 85/90*100≈94.44.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>93.15</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Vectorized operations return an array of results, not a single value.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>[0.95 0.90 0.94]</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. We multiplied by 100 to get percentages, so the values should be around 95, not 0.95.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[An error occurs because you can't divide arrays]]></text>
+    <feedback format="html">
+      <text>Incorrect. NumPy arrays support element-wise arithmetic operations including division.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q4: NumPy Statistical Functions -->
+<question type="multichoice">
+  <name>
+    <text>Q4: NumPy Statistical Functions</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+import numpy as np
+gpas = np.array([3.0, 3.5, 4.0, 2.5, 3.0])
+print(np.mean(gpas), np.median(gpas))
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>3.2 3.0</code>]]></text>
+    <feedback format="html">
+      <text>Correct! Mean = (3.0+3.5+4.0+2.5+3.0)/5 = 3.2. Sorted: [2.5, 3.0, 3.0, 3.5, 4.0], median is middle value = 3.0.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>3.0 3.2</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. You have the mean and median reversed. Mean is 3.2, median is 3.0.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>3.2 3.25</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The median is the middle value when sorted. With 5 values, it's the 3rd value: 3.0.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>3.0 3.0</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The mean is (3.0+3.5+4.0+2.5+3.0)/5 = 16/5 = 3.2, not 3.0.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q5: Pandas Loading CSV -->
+<question type="multichoice">
+  <name>
+    <text>Q5: Pandas Loading CSV</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Which line of code correctly loads a CSV file into a pandas DataFrame?</p>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>df = pd.read_csv('students.csv')</code>]]></text>
+    <feedback format="html">
+      <text>Correct! pd.read_csv() is the standard pandas function to load CSV files into a DataFrame.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>df = pd.load_csv('students.csv')</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The function is called read_csv, not load_csv.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>df = pd.DataFrame('students.csv')</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. pd.DataFrame() creates a DataFrame from data in memory, not from a file. Use pd.read_csv() for files.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>df = pd.open('students.csv')</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. There is no pd.open() function. Use pd.read_csv() to load CSV files.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q6: Pandas DataFrame Inspection -->
+<question type="multichoice">
+  <name>
+    <text>Q6: Pandas DataFrame Inspection</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A DataFrame <code>df</code> has 600 rows and 7 columns. What does <code>df.shape</code> return?</p>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>(600, 7)</code>]]></text>
+    <feedback format="html">
+      <text>Correct! df.shape returns a tuple of (rows, columns).</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>(7, 600)</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Shape is (rows, columns), not (columns, rows).</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>4200</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. That's the total number of cells (600 × 7). Use df.size for that. Shape returns dimensions as a tuple.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>[600, 7]</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Shape returns a tuple (600, 7), not a list [600, 7].</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q7: Pandas Column Selection -->
+<question type="multichoice">
+  <name>
+    <text>Q7: Pandas Column Selection</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Given a DataFrame <code>df</code> with columns Student_ID, College, GPA, what does <code>df[['Student_ID', 'GPA']]</code> return?</p>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[A DataFrame with only the Student_ID and GPA columns]]></text>
+    <feedback format="html">
+      <text>Correct! Passing a list of column names in double brackets returns a DataFrame with just those columns.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[A Series containing Student_ID values]]></text>
+    <feedback format="html">
+      <text>Incorrect. Single brackets with one column name (df['Student_ID']) returns a Series. Double brackets with a list returns a DataFrame.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[An error because you can't use double brackets]]></text>
+    <feedback format="html">
+      <text>Incorrect. Double brackets are valid syntax - the outer brackets index the DataFrame, the inner brackets create a list.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[A list of two Series objects]]></text>
+    <feedback format="html">
+      <text>Incorrect. It returns a single DataFrame containing both columns, not a list of Series.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q8: Pandas Boolean Filtering -->
+<question type="multichoice">
+  <name>
+    <text>Q8: Pandas Boolean Filtering</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Which code correctly filters a DataFrame for students with GPA above 3.5 who are in the Business college?</p>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>df[(df['GPA'] > 3.5) & (df['College'] == 'Business')]</code>]]></text>
+    <feedback format="html">
+      <text>Correct! Multiple conditions require & (not 'and') and each condition must be in parentheses.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>df[df['GPA'] > 3.5 and df['College'] == 'Business']</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Python's 'and' keyword doesn't work with pandas Series. Use & instead, with parentheses around each condition.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>df[df['GPA'] > 3.5 & df['College'] == 'Business']</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Without parentheses, operator precedence causes & to bind incorrectly. Use (df['GPA'] > 3.5) & (df['College'] == 'Business').</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>df.filter(GPA > 3.5, College == 'Business')</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. This is not valid pandas syntax. Use boolean indexing with df[condition].</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q9: Pandas GroupBy -->
+<question type="multichoice">
+  <name>
+    <text>Q9: Pandas GroupBy</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code calculate?</p>
+<pre>
+df.groupby('College')['GPA'].mean()
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[The average GPA for each college]]></text>
+    <feedback format="html">
+      <text>Correct! groupby('College') splits the data by college, ['GPA'] selects the GPA column, and .mean() calculates the average for each group.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[The average GPA across all students]]></text>
+    <feedback format="html">
+      <text>Incorrect. The groupby operation calculates separate averages for each college, not one overall average.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[The number of students in each college]]></text>
+    <feedback format="html">
+      <text>Incorrect. That would be df.groupby('College')['GPA'].count() or df['College'].value_counts().</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[A DataFrame grouped by College]]></text>
+    <feedback format="html">
+      <text>Incorrect. The .mean() at the end triggers the calculation and returns a Series of averages, not a grouped object.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q10: Pandas loc vs iloc -->
+<question type="multichoice">
+  <name>
+    <text>Q10: Pandas loc vs iloc</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>A DataFrame has a default integer index (0, 1, 2, ...). What is the difference between <code>df.loc[0]</code> and <code>df.iloc[0]</code>?</p>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[With a default integer index, both return the same row (the first row)]]></text>
+    <feedback format="html">
+      <text>Correct! When the index is 0, 1, 2..., loc[0] (label 0) and iloc[0] (position 0) refer to the same row. They differ when the index has non-integer labels.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>loc</code> returns a row, <code>iloc</code> returns a column]]></text>
+    <feedback format="html">
+      <text>Incorrect. Both loc and iloc can select rows and columns. The difference is label-based (loc) vs position-based (iloc) indexing.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>loc[0]</code> returns the first row, <code>iloc[0]</code> returns the last row]]></text>
+    <feedback format="html">
+      <text>Incorrect. iloc[0] always returns the first row (position 0). Use iloc[-1] for the last row.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>iloc</code> is faster than <code>loc</code> but produces different results]]></text>
+    <feedback format="html">
+      <text>Incorrect. With a default integer index, they return the same results. They differ when the index has custom labels.</text>
+    </feedback>
+  </answer>
+</question>
+
+</quiz>

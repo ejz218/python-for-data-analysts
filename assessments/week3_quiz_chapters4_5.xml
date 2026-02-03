@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- BUAN 446 Week 3 Quiz: Chapters 4 & 5 -->
+<!-- 10 Multiple Choice Questions -->
+<!-- Covers: Data Structures (Ch4) and File I/O and Exception Handling (Ch5) -->
+
+<question type="category">
+  <category>
+    <text>$course$/BUAN446/Week3_Quiz</text>
+  </category>
+</question>
+
+<!-- Q1: List Indexing -->
+<question type="multichoice">
+  <n>
+    <text>Q1: List Indexing</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+colleges = ["Business", "Engineering", "Arts", "Health", "Education"]
+print(colleges[2])
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>Arts</code>]]></text>
+    <feedback format="html">
+      <text>Correct! Python uses zero-based indexing, so index 2 is the third element.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>Engineering</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. That's index 1. Remember, Python starts counting at 0.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>Health</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. That's index 3. Index 2 is "Arts".</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>Business</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. That's index 0, the first element.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q2: List Slicing -->
+<question type="multichoice">
+  <n>
+    <text>Q2: List Slicing</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+gpas = [3.2, 3.5, 2.8, 3.9, 3.1]
+print(gpas[1:4])
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>[3.5, 2.8, 3.9]</code>]]></text>
+    <feedback format="html">
+      <text>Correct! Slicing [1:4] includes index 1, 2, and 3, but stops before index 4.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>[3.5, 2.8, 3.9, 3.1]</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The stop index (4) is exclusive, so index 4 is not included.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>[3.2, 3.5, 2.8, 3.9]</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The slice starts at index 1, not index 0.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>[2.8, 3.9]</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The slice starts at index 1 (3.5), not index 2.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q3: List Methods -->
+<question type="multichoice">
+  <n>
+    <text>Q3: List Methods</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+majors = ["Finance", "Biology"]
+majors.append("Psychology")
+majors.extend(["History", "Art"])
+print(len(majors))
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>5</code>]]></text>
+    <feedback format="html">
+      <text>Correct! Started with 2, append adds 1 item, extend adds 2 items: 2 + 1 + 2 = 5.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>4</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. extend() adds each element from the list, not the list as a single item.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>3</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Both append() and extend() add items. Count again: Finance, Biology, Psychology, History, Art.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>6</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. append() adds one item, and extend() adds two individual items from the list.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q4: Dictionary Access -->
+<question type="multichoice">
+  <n>
+    <text>Q4: Dictionary Access</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+student = {
+    "id": "LU100001",
+    "gpa": 3.41,
+    "college": "Business"
+}
+print(student["gpa"])
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>3.41</code>]]></text>
+    <feedback format="html">
+      <text>Correct! Dictionary values are accessed using their keys in square brackets.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>"gpa"</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. student["gpa"] returns the value associated with the key, not the key itself.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>{"gpa": 3.41}</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Accessing a single key returns just the value, not a key-value pair.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[A <code>KeyError</code> occurs]]></text>
+    <feedback format="html">
+      <text>Incorrect. The key "gpa" exists in the dictionary, so no error occurs.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q5: Dictionary Iteration -->
+<question type="multichoice">
+  <n>
+    <text>Q5: Dictionary Iteration</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+credits = {"Alice": 45, "Bob": 90, "Carol": 30}
+total = 0
+for name, cred in credits.items():
+    total += cred
+print(total)
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>165</code>]]></text>
+    <feedback format="html">
+      <text>Correct! The .items() method returns key-value pairs. We sum the values: 45 + 90 + 30 = 165.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>3</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. We're summing the credit values, not counting the entries.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>0</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The loop adds each credit value to total.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[An error occurs]]></text>
+    <feedback format="html">
+      <text>Incorrect. This is valid Python. The .items() method returns tuples that unpack into name and cred.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q6: Sets and Uniqueness -->
+<question type="multichoice">
+  <n>
+    <text>Q6: Sets and Uniqueness</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+class_years = ["Senior", "Junior", "Senior", "First Year", "Junior", "Senior"]
+unique_years = set(class_years)
+print(len(unique_years))
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>3</code>]]></text>
+    <feedback format="html">
+      <text>Correct! Sets contain only unique values. The unique years are: Senior, Junior, First Year.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>6</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. That's the length of the original list. Sets remove duplicates.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>4</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. Count the unique values: Senior, Junior, First Year. That's 3.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>1</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. There are 3 different class years in the list.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q7: File Modes -->
+<question type="multichoice">
+  <n>
+    <text>Q7: File Modes</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>You want to add new student records to an existing file without erasing the current contents. Which file mode should you use?</p>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>'a'</code> (append mode)]]></text>
+    <feedback format="html">
+      <text>Correct! Append mode adds new content to the end of the file without erasing existing data.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>'w'</code> (write mode)]]></text>
+    <feedback format="html">
+      <text>Incorrect. Write mode erases all existing content before writing. Use 'a' to preserve existing data.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>'r'</code> (read mode)]]></text>
+    <feedback format="html">
+      <text>Incorrect. Read mode only allows reading, not writing to the file.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>'x'</code> (exclusive creation mode)]]></text>
+    <feedback format="html">
+      <text>Incorrect. Exclusive creation mode only works if the file doesn't exist, and won't append to existing files.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q8: The with Statement -->
+<question type="multichoice">
+  <n>
+    <text>Q8: The with Statement</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>What is the primary advantage of using a <code>with</code> statement when working with files?</p>
+<pre>
+with open('students.csv', 'r') as file:
+    content = file.read()
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[The file is automatically closed when the block ends, even if an error occurs]]></text>
+    <feedback format="html">
+      <text>Correct! The with statement guarantees the file is properly closed, preventing resource leaks and data loss.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[It makes the code run faster]]></text>
+    <feedback format="html">
+      <text>Incorrect. The with statement doesn't improve performance; it ensures proper resource cleanup.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[It allows you to read and write to the file at the same time]]></text>
+    <feedback format="html">
+      <text>Incorrect. Read/write capability depends on the file mode, not the with statement.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[It automatically converts the file content to a list]]></text>
+    <feedback format="html">
+      <text>Incorrect. The with statement manages the file connection; it doesn't change how content is read.</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q9: CSV DictReader -->
+<question type="multichoice">
+  <n>
+    <text>Q9: CSV DictReader</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>Given a CSV file <code>students.csv</code> with this content:</p>
+<pre>
+Student_ID,GPA,College
+LU100001,3.41,Business
+LU100002,3.55,Engineering
+</pre>
+<p>What does this code print?</p>
+<pre>
+import csv
+with open('students.csv', 'r') as file:
+    reader = csv.DictReader(file)
+    for row in reader:
+        print(type(row['GPA']))
+        break
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>&lt;class 'str'&gt;</code>]]></text>
+    <feedback format="html">
+      <text>Correct! csv.DictReader reads all values as strings. You must convert them manually (e.g., float(row['GPA'])).</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>&lt;class 'float'&gt;</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. CSV readers don't automatically convert types. All values come in as strings.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>&lt;class 'int'&gt;</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. CSV readers read all values as strings, regardless of their content.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>&lt;class 'dict'&gt;</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. row is a dict, but row['GPA'] is a single value from that dict (a string).</text>
+    </feedback>
+  </answer>
+</question>
+
+<!-- Q10: Exception Handling -->
+<question type="multichoice">
+  <n>
+    <text>Q10: Exception Handling</text>
+  </n>
+  <questiontext format="html">
+    <text><![CDATA[<p>What does this code print?</p>
+<pre>
+gpa_values = ['3.5', 'N/A', '3.2']
+valid = []
+
+for val in gpa_values:
+    try:
+        valid.append(float(val))
+    except ValueError:
+        valid.append(0.0)
+
+print(valid)
+</pre>]]></text>
+  </questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answer fraction="100" format="html">
+    <text><![CDATA[<code>[3.5, 0.0, 3.2]</code>]]></text>
+    <feedback format="html">
+      <text>Correct! '3.5' and '3.2' convert to floats. 'N/A' raises ValueError, so 0.0 is appended instead.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>[3.5, 3.2]</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The except block appends 0.0 when conversion fails; it doesn't skip the value.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[<code>['3.5', 'N/A', '3.2']</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The successful conversions produce floats, not strings.</text>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[The code crashes with a <code>ValueError</code>]]></text>
+    <feedback format="html">
+      <text>Incorrect. The try/except block catches the ValueError and handles it by appending 0.0.</text>
+    </feedback>
+  </answer>
+</question>
+
+</quiz>
