@@ -1,0 +1,601 @@
+Student_ID,College,Major,Class_Year,GPA,Credits_Attempted,Credits_Earned,Enrollment_Date,Study_Hours_Per_Week,Campus_Housing,Financial_Aid,Extracurriculars,Part_Time_Job,First_Generation,Distance_From_Home
+LU100001,College of Business,Accounting,Senior,3.41,105,99,2021-01-24,14.2,Off-campus,No,3,Yes (18h),,19
+LU100002,College of Education,Elementary Education,Junior,3.55,73,62,2022-09-07,19.9,Off-campus,No,2,No,No,363
+LU100003,P.C. Rossin College of Engineering,Electrical Engineering,Junior,3.6,89,81,2022-08-09,24.8,On-campus,Yes,0,No,No,749
+LU100004,College of Health,Nursing,Senior,3.44,102,98,2021-08-03,29.6,Off-campus,No,2,No,No,19
+LU100005,P.C. Rossin College of Engineering,Computer Engineering,Sophomore,3.9,52,44,2023-01-28,15.3,On-campus,Yes,1,Yes (11h),No,68
+LU100006,College of Health,Health Science,Sophomore,4.0,53,49,2023-09-24,18.2,On-campus,Yes,1,No,Yes,8
+LU100007,College of Business,Management,Junior,4.0,74,69,2022-01-26,12.8,On-campus,Partial,3,Yes (25h),No,86
+LU100008,College of Education,Secondary Education,Junior,4.0,74,63,2022-01-08,20.1,Off-campus,Yes,3,No,No,1283
+LU100009,P.C. Rossin College of Engineering,Chemical Engineering,Graduate,3.97,21,18,2024-01-25,18.2,Off-campus,No,2,Yes (17h),No,40
+LU100010,College of Arts and Sciences,Psychology,Sophomore,2.41,48,45,2023-09-24,16.0,On-campus,No,3,No,Yes,5
+LU100011,College of Business,Business Analytics,Senior,3.11,116,105,2021-09-25,21.7,Commuter,Yes,2,No,No,185
+LU100012,College of Education,Elementary Education,Senior,3.34,128,123,2021-09-11,28.9,Off-campus,Yes,1,No,Yes,41
+LU100013,College of Business,Finance,Senior,3.54,104,91,2021-01-24,12.4,Off-campus,No,0,No,Yes,633
+LU100014,College of Education,Special Education,Sophomore,2.72,57,51,2023-09-25,15.2,Off-campus,Yes,1,No,No,80
+LU100015,College of Health,Public Health,Sophomore,3.21,50,48,2023-01-03,10.1,On-campus,Yes,0,No,No,272
+LU100016,College of Health,Community Health,Sophomore,3.84,46,42,2023-08-22,22.9,Off-campus,Yes,3,No,Yes,154
+LU100017,College of Business,Economics,First Year,3.75,25,23,2024-01-04,11.5,On-campus,No,0,No,Yes,311
+LU100018,College of Health,Community Health,Junior,3.7,86,79,2022-01-07,9.5,Off-campus,Yes,1,No,Yes,763
+LU100019,College of Education,Elementary Education,Senior,4.0,126,112,2021-01-21,28.3,Commuter,Partial,3,Yes (20h),No,1337
+LU100020,College of Arts and Sciences,Chemistry,Sophomore,3.89,47,43,2023-01-13,14.9,On-campus,No,2,No,No,174
+LU100021,College of Arts and Sciences,History,Senior,3.21,122,109,2021-01-10,15.5,Off-campus,Yes,1,Yes (20h),No,37
+LU100022,College of Education,Special Education,First Year,3.09,23,22,2024-01-03,17.4,Off-campus,No,1,Yes (23h),No,157
+LU100023,College of Education,Special Education,Graduate,3.32,12,11,2023-08-07,12.1,On-campus,Yes,2,No,No,44
+LU100024,College of Arts and Sciences,English,First Year,2.7,30,29,2024-01-18,9.7,On-campus,Yes,4,No,No,39
+LU100025,College of Business,Management,Junior,3.99,76,66,2022-09-26,14.5,Commuter,Yes,2,No,Yes,40
+LU100026,College of Health,Public Health,Sophomore,3.56,55,54,2023-08-10,14.3,Off-campus,No,1,No,No,2732
+LU100027,College of Education,Special Education,Senior,3.31,123,116,2021-01-21,10.0,On-campus,No,2,Yes (19h),No,9
+LU100028,College of Health,Community Health,First Year,2.51,19,16,2024-09-02,17.6,Commuter,Yes,0,Yes (14h),No,1081
+LU100029,College of Business,Business Analytics,Junior,3.25,73,64,2022-01-22,15.0,Off-campus,No,2,No,No,381
+LU100030,College of Business,Economics,Sophomore,3.17,58,51,2023-01-06,18.3,Off-campus,Yes,4,No,No,49
+LU100031,College of Health,Public Health,Junior,3.14,90,82,2022-08-28,22.7,On-campus,Partial,1,No,Yes,152
+LU100032,College of Health,Community Health,First Year,1.88,15,14,2024-08-28,16.9,On-campus,No,1,No,No,6
+LU100033,College of Arts and Sciences,Political Science,Sophomore,3.31,45,38,2023-08-06,2.0,On-campus,Yes,1,No,No,41
+LU100034,College of Arts and Sciences,Chemistry,Sophomore,3.07,48,44,2023-08-02,5.3,Off-campus,Yes,4,No,No,143
+LU100035,P.C. Rossin College of Engineering,Computer Engineering,First Year,1.91,14,12,2024-01-22,23.6,Off-campus,Yes,4,No,Yes,191
+LU100036,College of Education,Elementary Education,First Year,3.38,29,28,2024-01-14,10.3,Off-campus,Yes,3,Yes (23h),No,23
+LU100037,College of Business,Economics,Senior,3.63,108,105,2021-08-26,6.1,Off-campus,Yes,1,No,No,10
+LU100038,College of Business,Finance,Sophomore,3.7,54,48,2023-09-22,10.1,Off-campus,Yes,3,No,Yes,6
+LU100039,College of Health,Nursing,Junior,4.0,89,84,2022-01-16,5.8,Off-campus,No,2,No,No,49
+LU100040,College of Health,Public Health,First Year,2.58,18,17,2024-01-25,7.3,On-campus,Yes,4,No,,12
+LU100041,College of Education,Special Education,Junior,3.3,90,82,2022-01-26,6.6,Off-campus,Yes,3,No,No,190
+LU100042,College of Education,Elementary Education,First Year,2.89,28,24,2024-01-24,16.9,Commuter,Yes,3,No,No,111
+LU100043,P.C. Rossin College of Engineering,Mechanical Engineering,Junior,3.15,75,74,2022-08-03,13.8,On-campus,No,0,Yes (17h),No,31
+LU100044,College of Education,Elementary Education,Junior,3.01,73,68,2022-09-15,10.0,On-campus,Yes,2,No,No,983
+LU100045,College of Health,Nursing,Graduate,3.73,16,14,2024-08-01,20.5,On-campus,No,3,No,No,699
+LU100046,P.C. Rossin College of Engineering,Chemical Engineering,Junior,3.98,74,63,2022-08-14,12.9,Off-campus,Yes,2,No,No,2274
+LU100047,College of Education,Special Education,Graduate,3.79,17,14,2021-08-19,13.5,Off-campus,Yes,2,Yes (17h),No,29
+LU100048,College of Arts and Sciences,Chemistry,Graduate,3.69,20,17,2023-08-09,14.4,Commuter,Yes,3,Yes (16h),Yes,1082
+LU100049,College of Health,Nursing,Junior,3.95,72,68,2022-01-07,20.2,On-campus,Yes,0,No,Yes,43
+LU100050,College of Education,Secondary Education,Graduate,3.56,12,11,2021-01-10,6.7,On-campus,Yes,1,No,No,277
+LU100051,P.C. Rossin College of Engineering,Chemical Engineering,First Year,3.7,20,17,2024-01-23,16.9,Off-campus,Yes,5,No,No,37
+LU100052,P.C. Rossin College of Engineering,Industrial Engineering,First Year,3.57,20,18,2024-01-28,2.0,On-campus,Yes,2,Yes (19h),No,866
+LU100053,College of Arts and Sciences,Biology,First Year,2.67,12,10,2024-09-26,25.6,Off-campus,No,2,Yes (12h),Yes,449
+LU100054,P.C. Rossin College of Engineering,Chemical Engineering,First Year,3.32,26,24,2024-09-20,9.2,Off-campus,Yes,2,Yes (20h),No,43
+LU100055,College of Health,Health Science,First Year,3.97,16,14,2024-09-01,10.5,On-campus,Yes,2,Yes (20h),No,295
+LU100056,College of Arts and Sciences,Philosophy,Junior,3.07,85,73,2022-01-13,14.5,Off-campus,Yes,2,No,No,538
+LU100057,College of Arts and Sciences,Physics,Graduate,3.77,20,17,2023-09-15,14.3,On-campus,Yes,0,No,Yes,35
+LU100058,P.C. Rossin College of Engineering,Mechanical Engineering,Sophomore,2.25,59,57,2023-09-19,20.3,Commuter,Yes,1,Yes (11h),No,50
+LU100059,College of Health,Public Health,Graduate,3.61,34,33,2022-08-02,23.8,Off-campus,Yes,3,No,No,162
+LU100060,College of Health,Health Science,First Year,3.46,22,21,2024-01-02,13.6,On-campus,No,0,Yes (20h),,63
+LU100061,College of Health,Public Health,Sophomore,3.26,43,42,2023-01-26,9.5,Commuter,Yes,3,No,Yes,165
+LU100062,P.C. Rossin College of Engineering,Electrical Engineering,Senior,3.21,116,104,2021-08-28,12.7,Off-campus,Yes,2,Yes (8h),Yes,47
+LU100063,P.C. Rossin College of Engineering,Electrical Engineering,First Year,3.29,14,13,2024-01-08,16.3,On-campus,Yes,2,Yes (12h),Yes,272
+LU100064,College of Arts and Sciences,Physics,Senior,3.73,114,108,2021-08-26,17.5,Off-campus,Yes,3,Yes (8h),No,2692
+LU100065,College of Education,Secondary Education,Graduate,4.0,14,13,2022-01-02,18.0,Off-campus,Yes,1,Yes (14h),No,176
+LU100066,College of Arts and Sciences,Biology,First Year,4.0,25,22,2024-01-20,20.2,On-campus,Yes,1,Yes (7h),No,801
+LU100067,College of Arts and Sciences,Political Science,Junior,2.86,90,79,2022-09-27,14.8,Off-campus,Yes,2,No,No,175
+LU100068,College of Business,Management,Junior,3.27,88,87,2022-08-12,17.0,On-campus,Yes,0,Yes (18h),Yes,2666
+LU100069,College of Education,Special Education,Senior,3.37,113,103,2021-08-03,12.6,Commuter,Yes,2,No,No,98
+LU100070,College of Arts and Sciences,Philosophy,Sophomore,2.46,45,43,2023-09-25,20.7,Off-campus,Yes,0,Yes (9h),No,81
+LU100071,College of Arts and Sciences,History,Sophomore,2.77,51,47,2023-09-20,18.4,On-campus,Yes,2,Yes (8h),Yes,710
+LU100072,P.C. Rossin College of Engineering,Computer Engineering,Senior,3.62,114,108,2021-09-23,4.5,On-campus,No,5,Yes (22h),Yes,84
+LU100073,P.C. Rossin College of Engineering,Chemical Engineering,Sophomore,3.41,48,43,2023-08-25,16.8,Commuter,Yes,3,Yes (14h),No,88
+LU100074,College of Education,Special Education,Senior,3.11,116,106,2021-09-16,8.0,On-campus,Yes,2,No,Yes,196
+LU100075,P.C. Rossin College of Engineering,Bioengineering,Senior,4.0,123,106,2021-01-28,15.3,Off-campus,No,3,Yes (25h),No,37
+LU100076,College of Education,Special Education,Senior,3.24,112,96,2021-01-28,12.9,Commuter,Yes,4,Yes (9h),No,35
+LU100077,P.C. Rossin College of Engineering,Chemical Engineering,Sophomore,3.23,49,48,2023-08-20,11.4,Commuter,No,3,Yes (15h),No,188
+LU100078,College of Education,Elementary Education,Junior,3.4,90,79,2022-09-03,5.5,On-campus,No,1,Yes (7h),Yes,75
+LU100079,College of Health,Community Health,Sophomore,3.66,45,43,2023-01-23,14.5,On-campus,Yes,1,No,No,96
+LU100080,P.C. Rossin College of Engineering,Civil Engineering,Senior,3.89,124,115,2021-01-03,16.6,Off-campus,Yes,2,No,Yes,167
+LU100081,College of Business,Business Analytics,Sophomore,3.52,56,53,2023-09-01,21.3,On-campus,Yes,0,No,Yes,2413
+LU100082,College of Education,Special Education,Sophomore,2.75,56,52,2023-08-28,10.4,On-campus,Partial,3,Yes (17h),No,1604
+LU100083,College of Education,Secondary Education,Senior,2.59,125,122,2021-09-13,13.6,Off-campus,No,0,No,No,19
+LU100084,College of Health,Nursing,Senior,3.15,128,121,2021-01-21,23.9,On-campus,Yes,3,No,Yes,45
+LU100085,College of Education,Secondary Education,Senior,3.38,111,98,2021-08-26,6.4,Off-campus,Yes,1,No,Yes,143
+LU100086,College of Arts and Sciences,Physics,Graduate,3.72,11,9,2023-01-09,18.3,Commuter,Partial,4,Yes (15h),No,19
+LU100087,P.C. Rossin College of Engineering,Computer Engineering,Senior,3.36,115,103,2021-09-12,20.9,On-campus,Yes,1,No,No,145
+LU100088,College of Health,Community Health,First Year,2.89,25,22,2024-09-08,18.8,Off-campus,Yes,4,Yes (24h),Yes,917
+LU100089,College of Education,Special Education,First Year,3.67,27,22,2024-09-14,16.6,On-campus,Partial,0,Yes (22h),No,188
+LU100090,College of Arts and Sciences,Mathematics,Senior,3.04,129,126,2021-09-24,16.4,Off-campus,No,2,No,No,49
+LU100091,College of Health,Public Health,Junior,3.23,84,75,2022-01-15,10.2,On-campus,Partial,1,No,Yes,12
+LU100092,College of Health,Public Health,Senior,3.86,106,105,2021-01-22,16.7,On-campus,Yes,4,Yes (15h),Yes,67
+LU100093,College of Education,Elementary Education,Graduate,3.23,11,10,2022-09-07,17.0,Off-campus,No,2,Yes (9h),No,312
+LU100094,P.C. Rossin College of Engineering,Bioengineering,First Year,2.62,20,18,2024-01-01,10.3,On-campus,No,2,Yes (13h),,738
+LU100095,P.C. Rossin College of Engineering,Bioengineering,Sophomore,3.23,55,48,2023-09-03,3.0,Off-campus,Yes,2,No,,874
+LU100096,College of Business,Supply Chain Management,First Year,2.52,29,24,2024-08-21,16.8,Commuter,Yes,2,No,No,1150
+LU100097,College of Arts and Sciences,English,Senior,3.51,126,107,2021-08-20,17.2,Off-campus,Yes,3,Yes (24h),No,75
+LU100098,P.C. Rossin College of Engineering,Electrical Engineering,Senior,2.83,121,105,2021-09-21,17.9,Commuter,Yes,3,No,No,608
+LU100099,P.C. Rossin College of Engineering,Bioengineering,Senior,3.14,124,110,2021-09-04,12.7,On-campus,Partial,2,No,,32
+LU100100,College of Arts and Sciences,Psychology,Junior,3.18,75,72,2022-09-24,20.6,On-campus,Yes,0,No,No,158
+LU100101,P.C. Rossin College of Engineering,Chemical Engineering,First Year,3.61,24,21,2024-08-20,13.7,Off-campus,Yes,2,No,No,22
+LU100102,P.C. Rossin College of Engineering,Mechanical Engineering,Junior,3.36,79,68,2022-08-28,18.0,Off-campus,No,2,No,No,118
+LU100103,College of Arts and Sciences,Philosophy,Senior,3.55,103,92,2021-01-09,13.2,On-campus,Yes,3,No,Yes,57
+LU100104,College of Health,Nursing,First Year,2.36,22,18,2024-09-17,9.2,On-campus,Yes,1,Yes (15h),No,8
+LU100105,College of Health,Community Health,First Year,3.93,26,24,2024-01-25,7.3,On-campus,No,2,No,No,32
+LU100106,College of Health,Public Health,Senior,3.26,122,108,2021-08-22,7.9,Off-campus,Yes,2,Yes (17h),Yes,18
+LU100107,College of Education,Secondary Education,Junior,3.58,82,80,2022-08-10,14.6,Off-campus,Yes,1,No,No,273
+LU100108,College of Business,Marketing,Graduate,3.24,16,15,2024-09-02,15.8,On-campus,Yes,0,Yes (18h),No,79
+LU100109,College of Education,Special Education,Senior,3.16,112,98,2021-01-11,23.0,Off-campus,No,1,No,No,70
+LU100110,P.C. Rossin College of Engineering,Industrial Engineering,Senior,3.8,112,99,2021-08-24,30.0,On-campus,Yes,1,No,No,1715
+LU100111,College of Education,Special Education,Graduate,3.26,15,12,2023-09-27,12.6,On-campus,Yes,1,Yes (25h),,2286
+LU100112,College of Health,Community Health,Junior,3.11,79,75,2022-08-25,11.9,Off-campus,Yes,2,No,No,45
+LU100113,College of Health,Community Health,Senior,3.64,124,109,2021-01-15,21.9,On-campus,Yes,0,No,No,23
+LU100114,College of Education,Secondary Education,Junior,3.48,88,79,2022-09-28,18.1,Commuter,Yes,2,Yes (23h),No,660
+LU100115,College of Education,Secondary Education,Sophomore,2.79,49,42,2023-08-20,11.0,On-campus,Yes,3,Yes (7h),Yes,33
+LU100116,P.C. Rossin College of Engineering,Industrial Engineering,First Year,3.25,29,28,2024-09-17,15.6,Off-campus,Yes,4,Yes (15h),Yes,135
+LU100117,P.C. Rossin College of Engineering,Electrical Engineering,First Year,2.14,28,26,2024-08-04,8.5,On-campus,No,4,No,Yes,139
+LU100118,College of Business,Economics,First Year,3.2,19,17,2024-09-23,12.5,Off-campus,Yes,3,Yes (22h),No,886
+LU100119,College of Arts and Sciences,Biology,Senior,3.49,103,96,2021-09-22,9.1,On-campus,Yes,1,No,Yes,9
+LU100120,P.C. Rossin College of Engineering,Bioengineering,First Year,3.23,12,11,2024-01-17,18.1,Off-campus,No,3,Yes (15h),No,89
+LU100121,College of Health,Community Health,Junior,3.36,87,75,2022-01-27,11.6,Commuter,No,0,Yes (12h),No,659
+LU100122,College of Business,Supply Chain Management,Junior,3.43,90,84,2022-09-08,5.8,On-campus,No,2,No,No,1945
+LU100123,College of Business,Finance,First Year,2.63,19,16,2024-08-17,2.0,Commuter,No,0,Yes (25h),No,2456
+LU100124,College of Health,Public Health,Senior,3.27,114,104,2021-08-03,11.9,Off-campus,Yes,4,Yes (18h),,2672
+LU100125,College of Health,Nursing,Graduate,3.86,28,24,2024-08-01,8.9,On-campus,Yes,0,Yes (15h),No,87
+LU100126,College of Business,Economics,First Year,3.07,18,16,2024-01-10,18.6,Commuter,Yes,3,No,No,1038
+LU100127,College of Business,Finance,Sophomore,2.92,55,50,2023-01-27,24.8,Off-campus,Yes,3,Yes (8h),,167
+LU100128,College of Education,Secondary Education,Sophomore,3.11,49,43,2023-01-27,28.4,Commuter,Yes,0,No,Yes,140
+LU100129,College of Arts and Sciences,Sociology,First Year,3.15,30,28,2024-09-14,19.0,Off-campus,Yes,4,No,No,35
+LU100130,P.C. Rossin College of Engineering,Computer Engineering,First Year,3.57,19,17,2024-09-13,24.6,Commuter,Yes,0,No,No,198
+LU100131,College of Arts and Sciences,Psychology,First Year,3.36,30,29,2024-01-02,11.2,Off-campus,No,2,No,Yes,50
+LU100132,College of Health,Health Science,Junior,3.63,81,77,2022-01-10,20.1,On-campus,No,3,Yes (14h),No,114
+LU100133,College of Arts and Sciences,History,Junior,2.74,85,81,2022-09-07,11.9,On-campus,No,1,No,No,148
+LU100134,College of Education,Secondary Education,First Year,3.41,19,18,2024-01-16,28.6,Off-campus,Yes,3,Yes (7h),Yes,96
+LU100135,College of Education,Special Education,Graduate,4.0,17,15,2023-08-04,24.0,On-campus,Yes,2,No,Yes,561
+LU100136,P.C. Rossin College of Engineering,Bioengineering,Junior,3.3,86,84,2022-08-21,20.0,Commuter,Partial,0,No,No,57
+LU100137,P.C. Rossin College of Engineering,Computer Engineering,Senior,3.23,113,102,2021-09-22,15.4,On-campus,No,1,Yes (23h),,33
+LU100138,College of Arts and Sciences,Chemistry,Graduate,3.61,19,17,2023-08-15,13.2,Off-campus,Yes,2,Yes (25h),No,16
+LU100139,College of Health,Nursing,Senior,2.85,103,94,2021-09-13,18.0,Off-campus,No,1,No,No,13
+LU100140,College of Arts and Sciences,Mathematics,Sophomore,3.69,54,52,2023-08-06,13.2,Commuter,Yes,0,No,Yes,9
+LU100141,College of Business,Management,Graduate,3.5,25,22,2023-08-28,21.0,Off-campus,Yes,1,Yes (11h),Yes,142
+LU100142,College of Health,Community Health,Senior,3.43,108,96,2021-08-26,24.2,Commuter,Yes,3,Yes (17h),No,154
+LU100143,P.C. Rossin College of Engineering,Chemical Engineering,Junior,3.23,79,75,2022-01-11,10.2,Off-campus,Yes,3,No,Yes,1886
+LU100144,College of Arts and Sciences,History,First Year,2.81,25,21,2024-01-17,9.0,On-campus,Yes,1,No,No,280
+LU100145,College of Business,Supply Chain Management,Graduate,3.5,31,27,2023-01-21,20.4,Off-campus,Yes,0,No,No,44
+LU100146,College of Arts and Sciences,Political Science,Senior,3.21,117,103,2021-09-02,13.5,Commuter,Yes,0,No,No,626
+LU100147,College of Education,Elementary Education,Sophomore,3.73,46,45,2023-08-21,5.4,On-campus,Yes,3,No,No,31
+LU100148,College of Arts and Sciences,Political Science,Sophomore,2.92,58,51,2023-08-07,12.2,On-campus,Yes,3,Yes (16h),Yes,40
+LU100149,College of Business,Marketing,Senior,3.68,123,113,2021-08-08,9.6,On-campus,Yes,1,Yes (24h),No,2666
+LU100150,P.C. Rossin College of Engineering,Bioengineering,Junior,2.79,83,74,2022-09-24,16.2,On-campus,No,2,No,Yes,30
+LU100151,College of Education,Secondary Education,Junior,3.17,79,73,2022-01-07,13.1,On-campus,Yes,3,No,Yes,13
+LU100152,P.C. Rossin College of Engineering,Computer Engineering,First Year,3.45,27,25,2024-09-12,13.9,Off-campus,Yes,2,No,No,37
+LU100153,College of Health,Community Health,Graduate,3.71,13,12,2024-09-09,19.5,Off-campus,Yes,0,Yes (15h),No,43
+LU100154,College of Business,Finance,Junior,2.67,90,80,2022-09-02,6.3,On-campus,Yes,1,No,No,133
+LU100155,College of Business,Economics,Senior,4.0,102,97,2021-01-13,26.5,On-campus,Yes,3,No,Yes,577
+LU100156,College of Health,Public Health,First Year,3.87,20,18,2024-09-04,14.3,Commuter,Yes,3,No,Yes,198
+LU100157,College of Health,Health Science,Graduate,3.96,21,20,2022-09-02,11.3,Off-campus,Yes,3,Yes (12h),,1225
+LU100158,College of Health,Health Science,Junior,2.59,79,74,2022-01-15,12.9,On-campus,Yes,2,No,No,953
+LU100159,College of Arts and Sciences,English,Senior,3.23,122,116,2021-09-05,6.1,Commuter,Yes,1,No,No,117
+LU100160,College of Business,Supply Chain Management,First Year,3.21,21,20,2024-01-08,13.9,On-campus,Yes,4,No,No,175
+LU100161,College of Business,Marketing,Senior,3.3,106,93,2021-08-12,2.0,Off-campus,Yes,2,No,No,14
+LU100162,College of Health,Public Health,First Year,3.66,14,13,2024-01-10,8.9,Commuter,Yes,4,No,Yes,477
+LU100163,College of Health,Public Health,Junior,3.02,80,73,2022-01-04,8.0,On-campus,No,2,No,,170
+LU100164,College of Business,Economics,Junior,3.14,81,77,2022-09-25,8.8,On-campus,Partial,4,Yes (25h),No,101
+LU100165,P.C. Rossin College of Engineering,Mechanical Engineering,Junior,2.96,85,81,2022-08-10,5.7,On-campus,Yes,2,No,No,16
+LU100166,College of Health,Nursing,First Year,3.76,24,23,2024-08-26,2.9,Off-campus,Partial,4,No,Yes,77
+LU100167,College of Business,Finance,Sophomore,2.94,51,43,2023-08-15,23.7,Off-campus,Partial,3,No,Yes,34
+LU100168,College of Health,Nursing,First Year,3.49,13,12,2024-09-06,14.4,On-campus,Yes,1,No,No,153
+LU100169,College of Health,Nursing,Senior,3.49,109,103,2021-09-11,23.9,On-campus,Yes,1,Yes (13h),No,26
+LU100170,College of Education,Secondary Education,Senior,4.0,125,120,2021-09-24,20.4,Off-campus,Yes,1,Yes (8h),Yes,129
+LU100171,P.C. Rossin College of Engineering,Mechanical Engineering,Graduate,3.44,23,19,2021-09-10,11.7,Commuter,Yes,2,No,No,2551
+LU100172,College of Arts and Sciences,Psychology,First Year,2.69,21,18,2024-01-22,18.7,Off-campus,No,0,No,Yes,65
+LU100173,College of Health,Public Health,First Year,3.38,23,21,2024-09-18,18.7,Off-campus,Yes,1,No,,64
+LU100174,College of Arts and Sciences,Psychology,Sophomore,2.2,57,56,2023-01-17,20.0,On-campus,Yes,2,No,Yes,5
+LU100175,College of Arts and Sciences,Physics,Senior,3.24,126,125,2021-09-03,21.2,On-campus,Partial,4,Yes (20h),,84
+LU100176,College of Health,Nursing,First Year,3.15,24,20,2024-08-13,16.8,On-campus,Partial,1,Yes (22h),No,39
+LU100177,College of Education,Elementary Education,Junior,2.99,90,81,2022-09-05,14.3,On-campus,Yes,1,No,No,453
+LU100178,College of Arts and Sciences,Chemistry,Senior,2.87,117,99,2021-08-05,10.1,On-campus,Partial,3,Yes (18h),No,446
+LU100179,College of Education,Secondary Education,Graduate,3.62,35,32,2022-01-04,8.7,Off-campus,No,1,Yes (19h),Yes,257
+LU100180,College of Arts and Sciences,Political Science,First Year,3.31,13,12,2024-09-10,10.8,On-campus,Partial,2,No,No,14
+LU100181,College of Arts and Sciences,Sociology,First Year,3.17,24,22,2024-08-10,13.6,Off-campus,No,1,No,Yes,46
+LU100182,College of Education,Secondary Education,Junior,3.86,76,74,2022-09-11,23.8,Off-campus,Yes,1,Yes (22h),No,50
+LU100183,College of Business,Economics,Junior,2.37,73,69,2022-08-02,2.0,Off-campus,Yes,1,Yes (25h),,144
+LU100184,P.C. Rossin College of Engineering,Bioengineering,Junior,3.9,79,77,2022-09-24,8.0,Commuter,Yes,1,No,,42
+LU100185,College of Business,Management,Sophomore,3.79,43,39,2023-08-07,19.3,Commuter,Yes,4,No,No,112
+LU100186,P.C. Rossin College of Engineering,Mechanical Engineering,Graduate,3.35,35,32,2022-08-08,10.4,Off-campus,No,1,No,Yes,177
+LU100187,P.C. Rossin College of Engineering,Computer Science,First Year,2.2,30,26,2024-01-26,22.8,Commuter,Partial,1,No,Yes,21
+LU100188,College of Education,Elementary Education,Junior,4.0,79,71,2022-08-05,14.1,On-campus,Yes,2,Yes (22h),No,36
+LU100189,P.C. Rossin College of Engineering,Computer Science,Sophomore,4.0,59,52,2023-08-06,14.3,On-campus,Yes,1,No,No,69
+LU100190,P.C. Rossin College of Engineering,Mechanical Engineering,Senior,3.28,102,88,2021-01-14,8.5,On-campus,Yes,0,Yes (11h),No,173
+LU100191,College of Arts and Sciences,English,Junior,3.65,76,73,2022-01-01,7.9,On-campus,No,2,Yes (21h),No,383
+LU100192,College of Education,Elementary Education,Senior,3.43,117,107,2021-01-17,13.6,On-campus,Yes,2,No,No,30
+LU100193,College of Arts and Sciences,History,Junior,3.0,73,70,2022-09-08,20.0,Off-campus,No,2,No,Yes,40
+LU100194,College of Education,Secondary Education,Junior,3.39,72,61,2022-01-21,14.7,On-campus,Yes,2,No,No,297
+LU100195,College of Health,Community Health,Junior,3.85,86,74,2022-01-07,23.7,Off-campus,Yes,4,No,No,95
+LU100196,College of Business,Marketing,Junior,3.75,74,64,2022-01-07,8.8,Off-campus,No,3,Yes (7h),No,149
+LU100197,College of Education,Special Education,Junior,3.2,88,78,2022-08-25,14.2,Off-campus,Yes,3,Yes (8h),No,44
+LU100198,College of Education,Special Education,Junior,2.87,75,73,2022-08-01,2.6,Off-campus,No,2,Yes (22h),No,147
+LU100199,College of Education,Special Education,Graduate,3.03,22,19,2021-09-10,18.3,On-campus,Yes,3,No,Yes,5
+LU100200,College of Health,Community Health,Sophomore,3.65,45,40,2023-08-12,4.4,Off-campus,Yes,0,No,No,10
+LU100201,College of Arts and Sciences,Mathematics,Sophomore,3.85,44,38,2023-09-03,4.9,Commuter,Yes,2,No,No,1497
+LU100202,College of Business,Accounting,Junior,4.0,83,80,2022-09-13,8.0,On-campus,Yes,1,Yes (10h),No,69
+LU100203,College of Education,Elementary Education,Junior,2.93,75,68,2022-08-08,13.5,Off-campus,Yes,0,Yes (17h),No,537
+LU100204,College of Health,Health Science,Graduate,3.5,28,25,2024-08-14,6.9,Commuter,No,4,Yes (15h),No,95
+LU100205,College of Business,Business Analytics,Junior,3.59,75,67,2022-08-10,14.1,Commuter,No,1,Yes (17h),No,39
+LU100206,College of Education,Secondary Education,First Year,3.67,20,18,2024-09-25,5.1,Off-campus,Partial,2,No,Yes,154
+LU100207,College of Health,Health Science,Junior,2.92,72,63,2022-01-21,13.3,On-campus,Yes,1,No,No,157
+LU100208,College of Arts and Sciences,Physics,Sophomore,2.56,47,46,2023-08-23,20.1,Commuter,Yes,2,Yes (12h),No,61
+LU100209,College of Education,Special Education,Sophomore,3.64,42,36,2023-08-26,14.1,On-campus,Yes,2,No,No,48
+LU100210,College of Education,Elementary Education,Sophomore,3.75,56,50,2023-08-01,15.4,Off-campus,Yes,4,Yes (9h),Yes,733
+LU100211,College of Arts and Sciences,Mathematics,Senior,3.49,104,102,2021-08-16,24.2,Off-campus,Yes,0,No,,11
+LU100212,P.C. Rossin College of Engineering,Civil Engineering,Senior,2.89,103,97,2021-09-08,21.4,Off-campus,Yes,1,No,No,97
+LU100213,College of Arts and Sciences,Sociology,Senior,2.97,110,97,2021-08-01,13.9,On-campus,Yes,0,Yes (13h),No,11
+LU100214,College of Education,Elementary Education,Sophomore,3.25,45,40,2023-08-11,2.0,On-campus,Yes,2,No,Yes,30
+LU100215,College of Education,Secondary Education,Junior,3.19,73,62,2022-08-12,20.5,Commuter,No,1,No,,12
+LU100216,College of Arts and Sciences,English,Senior,3.66,126,111,2021-08-04,7.0,On-campus,No,2,No,No,45
+LU100217,College of Arts and Sciences,Chemistry,First Year,3.09,24,22,2024-09-06,11.2,On-campus,Yes,0,Yes (5h),Yes,40
+LU100218,P.C. Rossin College of Engineering,Industrial Engineering,First Year,2.73,13,11,2024-08-22,15.3,Off-campus,No,2,Yes (23h),,499
+LU100219,College of Health,Health Science,Graduate,3.25,31,29,2021-08-08,10.9,Off-campus,No,3,No,Yes,575
+LU100220,College of Arts and Sciences,Chemistry,Sophomore,2.9,52,45,2023-09-15,14.0,Off-campus,Partial,0,No,Yes,1921
+LU100221,College of Education,Secondary Education,Senior,3.55,129,111,2021-08-28,18.1,Commuter,No,1,No,No,847
+LU100222,College of Health,Community Health,Junior,3.21,84,82,2022-01-20,8.1,On-campus,Yes,1,Yes (16h),No,50
+LU100223,College of Arts and Sciences,English,Sophomore,3.49,45,41,2023-08-19,13.5,Commuter,No,0,No,No,2775
+LU100224,P.C. Rossin College of Engineering,Industrial Engineering,Sophomore,3.72,46,40,2023-09-28,28.7,On-campus,Yes,1,Yes (17h),No,31
+LU100225,P.C. Rossin College of Engineering,Chemical Engineering,First Year,2.29,14,12,2024-08-03,5.4,On-campus,Yes,1,No,No,5
+LU100226,College of Health,Community Health,Senior,2.99,126,118,2021-09-15,4.3,Off-campus,No,3,No,No,706
+LU100227,College of Education,Special Education,Senior,2.83,122,109,2021-08-27,13.2,On-campus,No,3,No,Yes,167
+LU100228,College of Health,Health Science,Junior,2.67,81,78,2022-01-28,23.6,On-campus,Yes,5,No,No,509
+LU100229,College of Education,Elementary Education,Sophomore,3.7,43,36,2023-08-03,12.0,On-campus,Partial,1,Yes (14h),No,73
+LU100230,College of Arts and Sciences,Chemistry,Senior,3.6,129,111,2021-01-07,10.6,Off-campus,Yes,1,No,,80
+LU100231,College of Education,Special Education,Sophomore,2.11,43,39,2023-09-05,10.0,On-campus,No,0,Yes (14h),No,336
+LU100232,College of Education,Special Education,First Year,2.38,27,24,2024-01-17,15.7,Off-campus,Yes,1,Yes (11h),Yes,163
+LU100233,College of Business,Supply Chain Management,First Year,3.54,14,12,2024-01-04,17.3,Off-campus,Yes,2,No,No,43
+LU100234,P.C. Rossin College of Engineering,Computer Science,Sophomore,2.93,56,55,2023-09-01,17.8,Commuter,No,1,No,No,8
+LU100235,College of Education,Special Education,Junior,2.64,84,76,2022-08-13,21.3,Off-campus,Yes,4,No,Yes,782
+LU100236,College of Arts and Sciences,Philosophy,First Year,4.0,22,18,2024-08-18,20.4,Off-campus,No,4,No,,21
+LU100237,College of Business,Business Analytics,Senior,3.26,123,122,2021-01-02,21.7,On-campus,No,3,No,No,89
+LU100238,College of Education,Elementary Education,Sophomore,3.98,60,56,2023-01-10,12.8,On-campus,Partial,4,Yes (15h),No,897
+LU100239,College of Arts and Sciences,Mathematics,Graduate,3.5,28,26,2021-08-23,2.0,On-campus,Yes,4,Yes (24h),Yes,958
+LU100240,College of Business,Marketing,Junior,2.87,82,79,2022-01-01,21.6,Off-campus,No,1,No,No,370
+LU100241,College of Education,Elementary Education,Senior,3.06,113,101,2021-01-24,16.1,Commuter,No,0,No,Yes,790
+LU100242,P.C. Rossin College of Engineering,Industrial Engineering,Graduate,3.73,24,21,2021-08-15,9.6,Off-campus,Yes,3,Yes (10h),Yes,79
+LU100243,P.C. Rossin College of Engineering,Civil Engineering,First Year,3.25,29,28,2024-09-17,28.8,On-campus,Yes,1,No,No,50
+LU100244,College of Education,Elementary Education,Senior,3.25,130,125,2021-01-11,15.2,On-campus,Partial,1,No,Yes,63
+LU100245,P.C. Rossin College of Engineering,Computer Engineering,First Year,3.49,17,16,2024-01-26,12.9,On-campus,No,3,No,Yes,144
+LU100246,College of Business,Supply Chain Management,Sophomore,3.9,49,48,2023-08-19,14.8,Off-campus,No,1,Yes (20h),No,759
+LU100247,College of Education,Secondary Education,Senior,3.46,109,97,2021-01-01,16.4,Off-campus,Yes,2,Yes (15h),,128
+LU100248,College of Health,Public Health,Sophomore,2.84,60,59,2023-01-17,14.4,Commuter,Yes,4,No,Yes,19
+LU100249,College of Health,Nursing,Senior,2.98,107,104,2021-09-12,3.8,Off-campus,Yes,2,Yes (23h),No,1484
+LU100250,College of Education,Elementary Education,Graduate,3.59,10,9,2023-08-28,18.0,On-campus,No,3,No,Yes,17
+LU100251,College of Arts and Sciences,History,Graduate,3.51,12,10,2022-09-04,17.3,Off-campus,Yes,2,No,Yes,12
+LU100252,P.C. Rossin College of Engineering,Chemical Engineering,Junior,2.77,88,76,2022-01-26,18.5,Off-campus,No,2,Yes (15h),No,1811
+LU100253,College of Health,Health Science,Graduate,3.66,20,19,2021-09-10,13.6,On-campus,Yes,2,No,No,343
+LU100254,College of Health,Health Science,Sophomore,3.74,53,46,2023-01-02,36.4,Commuter,Partial,0,No,No,199
+LU100255,College of Business,Marketing,Sophomore,3.1,52,50,2023-01-01,19.6,Off-campus,No,0,No,Yes,1103
+LU100256,P.C. Rossin College of Engineering,Computer Science,Sophomore,3.41,57,54,2023-09-14,14.9,Commuter,Yes,0,No,Yes,22
+LU100257,P.C. Rossin College of Engineering,Bioengineering,Junior,3.48,80,70,2022-01-02,7.7,Off-campus,Yes,3,No,,31
+LU100258,P.C. Rossin College of Engineering,Computer Engineering,First Year,3.11,21,18,2024-09-26,8.6,Off-campus,Yes,3,No,No,39
+LU100259,College of Business,Accounting,Sophomore,2.75,44,38,2023-08-19,8.1,On-campus,Yes,1,No,Yes,2084
+LU100260,College of Health,Health Science,Senior,2.97,120,106,2021-09-08,14.9,Commuter,Yes,2,Yes (6h),No,149
+LU100261,P.C. Rossin College of Engineering,Chemical Engineering,Junior,3.05,85,74,2022-01-06,15.5,Off-campus,Yes,2,No,No,17
+LU100262,College of Business,Business Analytics,Graduate,3.45,11,10,2024-09-10,21.1,On-campus,Yes,0,No,,134
+LU100263,College of Education,Special Education,Senior,3.32,129,118,2021-01-11,11.8,Commuter,Yes,0,No,No,573
+LU100264,College of Health,Nursing,Sophomore,3.2,42,37,2023-08-23,2.0,Commuter,Yes,0,Yes (9h),No,174
+LU100265,College of Business,Marketing,Sophomore,3.07,60,57,2023-01-23,25.6,Commuter,No,1,No,Yes,82
+LU100266,College of Arts and Sciences,Psychology,First Year,2.87,29,26,2024-09-01,12.9,Commuter,Partial,1,No,Yes,106
+LU100267,P.C. Rossin College of Engineering,Bioengineering,Graduate,3.41,13,11,2021-08-05,13.6,On-campus,Yes,2,No,No,543
+LU100268,College of Health,Health Science,Sophomore,3.24,43,41,2023-01-09,17.5,On-campus,No,1,No,Yes,157
+LU100269,College of Business,Marketing,Graduate,2.7,26,23,2022-08-16,19.8,On-campus,No,3,No,Yes,58
+LU100270,College of Business,Economics,Senior,3.28,111,100,2021-01-11,10.6,On-campus,Yes,1,No,Yes,1190
+LU100271,College of Business,Economics,Senior,3.3,115,113,2021-09-20,23.6,On-campus,No,2,No,,17
+LU100272,College of Health,Community Health,Sophomore,4.0,47,43,2023-09-18,8.2,Off-campus,No,1,Yes (12h),,40
+LU100273,College of Health,Nursing,Graduate,3.06,32,29,2024-01-02,10.3,On-campus,No,2,Yes (5h),No,1969
+LU100274,College of Health,Public Health,Junior,3.2,82,70,2022-08-26,20.7,On-campus,Yes,2,Yes (22h),No,16
+LU100275,College of Arts and Sciences,Mathematics,Sophomore,2.78,56,50,2023-01-09,9.9,Commuter,Yes,1,No,,188
+LU100276,College of Business,Management,Graduate,3.41,20,18,2024-09-08,17.0,Off-campus,No,3,No,No,110
+LU100277,College of Health,Nursing,Senior,3.44,123,116,2021-08-03,4.2,On-campus,Yes,2,No,Yes,1919
+LU100278,College of Arts and Sciences,History,Senior,3.27,123,107,2021-01-07,23.4,Commuter,Yes,2,No,No,116
+LU100279,College of Business,Finance,Senior,3.21,106,91,2021-09-26,21.3,On-campus,Yes,1,No,No,183
+LU100280,College of Arts and Sciences,Physics,Sophomore,2.72,60,51,2023-01-14,17.8,On-campus,Yes,2,No,Yes,492
+LU100281,P.C. Rossin College of Engineering,Bioengineering,Graduate,3.25,27,23,2023-08-09,9.0,Off-campus,Yes,1,Yes (24h),No,26
+LU100282,College of Arts and Sciences,Political Science,Sophomore,3.81,50,44,2023-01-24,20.4,Off-campus,Yes,1,Yes (14h),No,901
+LU100283,College of Business,Accounting,Senior,3.0,119,103,2021-01-05,11.4,Off-campus,Yes,3,No,,154
+LU100284,College of Arts and Sciences,Sociology,First Year,3.1,21,20,2024-09-28,26.0,On-campus,Yes,3,Yes (21h),No,195
+LU100285,College of Health,Public Health,First Year,3.5,26,25,2024-01-07,18.3,On-campus,Yes,0,Yes (11h),No,81
+LU100286,College of Arts and Sciences,Physics,Senior,3.05,119,110,2021-01-12,11.7,Off-campus,Yes,4,No,Yes,464
+LU100287,College of Arts and Sciences,Psychology,Senior,3.91,127,114,2021-08-01,11.8,Off-campus,Partial,3,No,Yes,55
+LU100288,P.C. Rossin College of Engineering,Mechanical Engineering,Graduate,3.41,34,29,2021-08-05,17.7,Off-campus,Yes,0,Yes (14h),No,29
+LU100289,College of Health,Health Science,Sophomore,2.7,59,51,2023-08-09,16.2,Off-campus,Yes,2,Yes (16h),No,48
+LU100290,College of Business,Accounting,Sophomore,2.95,57,52,2023-08-03,20.8,On-campus,Yes,1,Yes (25h),No,14
+LU100291,College of Health,Health Science,First Year,3.0,26,24,2024-01-26,23.0,On-campus,Yes,0,Yes (20h),Yes,149
+LU100292,College of Arts and Sciences,Psychology,Graduate,3.71,33,30,2021-09-23,5.0,Commuter,No,1,No,No,141
+LU100293,College of Education,Elementary Education,Senior,3.73,129,110,2021-01-27,10.1,On-campus,Yes,3,No,No,2842
+LU100294,College of Business,Business Analytics,First Year,3.61,17,14,2024-09-03,7.5,On-campus,Yes,3,No,No,168
+LU100295,P.C. Rossin College of Engineering,Industrial Engineering,Graduate,3.36,11,9,2021-08-02,21.2,Commuter,Yes,3,No,No,8
+LU100296,College of Education,Secondary Education,First Year,3.04,21,19,2024-01-07,8.1,On-campus,Partial,3,No,No,10
+LU100297,College of Business,Business Analytics,Senior,2.96,107,101,2021-08-21,21.0,On-campus,Yes,1,No,Yes,998
+LU100298,College of Education,Secondary Education,Senior,3.11,120,102,2021-01-20,14.5,On-campus,Yes,2,No,,145
+LU100299,College of Business,Accounting,First Year,2.6,18,17,2024-08-25,17.3,Off-campus,Yes,1,No,Yes,42
+LU100300,College of Health,Health Science,Junior,2.84,89,79,2022-01-03,11.1,Commuter,Yes,1,No,Yes,337
+LU100301,College of Arts and Sciences,Sociology,Sophomore,3.38,56,48,2023-08-12,15.0,Commuter,No,0,Yes (9h),Yes,81
+LU100302,College of Business,Finance,Junior,2.87,87,80,2022-09-21,10.8,Off-campus,Yes,2,No,No,11
+LU100303,College of Arts and Sciences,Philosophy,First Year,3.44,23,22,2024-01-23,20.7,On-campus,Yes,3,Yes (25h),,75
+LU100304,P.C. Rossin College of Engineering,Industrial Engineering,Junior,3.0,75,67,2022-09-20,20.0,Off-campus,Yes,3,No,Yes,709
+LU100305,College of Health,Health Science,Sophomore,3.2,51,50,2023-09-07,17.3,Commuter,Yes,2,Yes (22h),Yes,1677
+LU100306,College of Education,Secondary Education,Sophomore,3.43,47,45,2023-01-01,2.0,Off-campus,Partial,3,No,Yes,75
+LU100307,College of Education,Special Education,Sophomore,3.25,58,53,2023-09-08,2.0,On-campus,Yes,3,No,No,159
+LU100308,College of Arts and Sciences,Sociology,First Year,2.4,24,22,2024-01-28,20.2,Off-campus,Yes,3,No,No,118
+LU100309,P.C. Rossin College of Engineering,Electrical Engineering,Junior,3.65,87,77,2022-08-27,13.1,On-campus,Yes,3,No,No,370
+LU100310,College of Business,Economics,First Year,3.25,16,15,2024-01-23,17.9,Off-campus,Partial,3,Yes (23h),No,147
+LU100311,College of Arts and Sciences,Political Science,Sophomore,2.67,48,43,2023-09-01,24.4,Off-campus,No,2,No,No,46
+LU100312,College of Arts and Sciences,Chemistry,Sophomore,3.58,56,54,2023-01-23,4.0,Commuter,Yes,3,No,No,731
+LU100313,College of Arts and Sciences,Philosophy,Senior,4.0,114,103,2021-08-22,13.8,Off-campus,Yes,0,No,No,15
+LU100314,College of Arts and Sciences,History,Graduate,4.0,33,28,2024-08-28,7.1,On-campus,No,1,Yes (13h),,46
+LU100315,College of Education,Special Education,Sophomore,3.34,52,50,2023-08-27,15.7,Commuter,Yes,3,No,No,76
+LU100316,College of Education,Secondary Education,First Year,3.14,28,24,2024-08-02,22.7,Off-campus,Yes,0,No,Yes,102
+LU100317,College of Education,Secondary Education,First Year,4.0,21,19,2024-08-12,20.9,Commuter,Yes,3,No,No,74
+LU100318,College of Education,Special Education,Junior,3.26,90,80,2022-01-11,3.5,On-campus,Yes,3,No,Yes,704
+LU100319,College of Business,Marketing,Sophomore,3.6,51,49,2023-09-24,14.4,Off-campus,Yes,4,Yes (19h),Yes,31
+LU100320,College of Business,Business Analytics,Junior,3.6,90,84,2022-09-27,11.7,Off-campus,Yes,3,No,No,1008
+LU100321,College of Business,Business Analytics,Junior,2.59,84,73,2022-09-14,19.3,Off-campus,Partial,1,No,Yes,43
+LU100322,P.C. Rossin College of Engineering,Computer Science,Junior,3.19,75,65,2022-09-13,8.2,On-campus,Yes,2,Yes (17h),No,84
+LU100323,College of Health,Nursing,Sophomore,2.91,58,56,2023-08-20,11.4,On-campus,No,3,No,No,44
+LU100324,College of Health,Health Science,Senior,3.54,118,103,2021-09-12,3.9,Commuter,Yes,3,No,No,79
+LU100325,College of Arts and Sciences,Sociology,Junior,3.19,89,80,2022-09-16,2.0,Off-campus,No,3,No,No,11
+LU100326,College of Arts and Sciences,Mathematics,Junior,3.56,78,77,2022-08-05,6.7,On-campus,Yes,1,No,No,8
+LU100327,College of Arts and Sciences,History,Sophomore,4.0,51,48,2023-01-25,8.6,Off-campus,Yes,2,No,No,37
+LU100328,College of Health,Nursing,Junior,2.84,89,88,2022-09-22,13.3,On-campus,Yes,2,No,No,21
+LU100329,College of Arts and Sciences,Mathematics,First Year,2.84,24,23,2024-09-28,17.7,Commuter,Partial,3,No,No,99
+LU100330,P.C. Rossin College of Engineering,Chemical Engineering,First Year,2.57,14,12,2024-08-06,2.0,Commuter,Yes,4,No,Yes,21
+LU100331,College of Health,Nursing,Senior,3.57,110,108,2021-01-19,15.4,Off-campus,Partial,0,No,No,127
+LU100332,College of Arts and Sciences,Psychology,First Year,4.0,30,26,2024-09-18,14.4,On-campus,No,1,Yes (10h),No,39
+LU100333,College of Business,Management,Graduate,3.63,12,10,2024-01-12,15.9,On-campus,Yes,1,No,No,864
+LU100334,College of Health,Health Science,Senior,3.69,106,90,2021-01-22,19.8,On-campus,Yes,2,No,Yes,590
+LU100335,College of Education,Elementary Education,Sophomore,4.0,57,54,2023-08-09,9.5,Commuter,No,1,No,Yes,397
+LU100336,College of Arts and Sciences,Physics,Sophomore,2.79,43,42,2023-09-03,13.6,Commuter,Yes,4,No,,47
+LU100337,College of Business,Management,Junior,2.6,73,72,2022-09-14,17.4,Commuter,No,3,No,Yes,56
+LU100338,P.C. Rossin College of Engineering,Computer Engineering,Graduate,3.49,14,13,2024-09-11,10.9,On-campus,Yes,1,Yes (7h),Yes,29
+LU100339,College of Business,Economics,Sophomore,2.03,51,50,2023-09-13,13.8,Off-campus,Yes,2,No,No,274
+LU100340,College of Business,Marketing,Junior,3.33,75,74,2022-09-04,15.5,On-campus,No,2,Yes (19h),No,15
+LU100341,College of Arts and Sciences,Mathematics,Junior,2.95,76,74,2022-01-24,5.3,Off-campus,Partial,0,No,No,582
+LU100342,College of Health,Nursing,First Year,2.53,15,13,2024-09-28,22.9,Off-campus,Yes,0,No,No,27
+LU100343,College of Health,Nursing,Senior,3.76,111,103,2021-08-21,17.3,On-campus,Yes,1,Yes (23h),No,2124
+LU100344,P.C. Rossin College of Engineering,Civil Engineering,Junior,3.34,84,81,2022-09-18,11.9,On-campus,No,1,Yes (23h),Yes,46
+LU100345,College of Education,Secondary Education,First Year,2.91,16,14,2024-01-10,4.0,On-campus,Yes,2,Yes (23h),No,638
+LU100346,P.C. Rossin College of Engineering,Computer Science,Sophomore,2.92,49,44,2023-01-11,4.7,On-campus,Yes,3,No,Yes,691
+LU100347,College of Arts and Sciences,Physics,Sophomore,3.19,53,50,2023-08-12,16.3,On-campus,Yes,0,Yes (9h),Yes,841
+LU100348,College of Business,Management,First Year,3.01,21,18,2024-09-03,7.0,Commuter,No,2,No,No,7
+LU100349,College of Education,Special Education,Senior,3.19,111,100,2021-09-18,3.1,On-campus,Yes,3,No,No,151
+LU100350,P.C. Rossin College of Engineering,Electrical Engineering,Graduate,3.2,24,20,2023-09-01,17.1,Off-campus,No,3,No,No,95
+LU100351,College of Education,Secondary Education,Sophomore,2.66,59,57,2023-09-24,8.4,On-campus,Yes,0,Yes (6h),No,597
+LU100352,P.C. Rossin College of Engineering,Electrical Engineering,Senior,3.26,121,118,2021-08-02,15.7,On-campus,Yes,0,No,Yes,792
+LU100353,College of Business,Business Analytics,Junior,3.25,90,78,2022-08-21,8.3,Commuter,Yes,1,No,No,553
+LU100354,College of Education,Special Education,First Year,2.87,29,25,2024-08-20,21.4,On-campus,No,2,Yes (21h),Yes,28
+LU100355,College of Arts and Sciences,History,Junior,3.0,87,75,2022-09-08,9.6,On-campus,No,2,No,No,13
+LU100356,College of Education,Secondary Education,Senior,2.82,116,100,2021-01-21,18.2,Off-campus,No,0,Yes (10h),No,2305
+LU100357,College of Health,Community Health,Junior,2.67,81,77,2022-09-24,12.0,On-campus,Yes,5,No,No,199
+LU100358,College of Health,Nursing,Senior,3.18,125,110,2021-09-22,10.1,Off-campus,Yes,2,No,Yes,13
+LU100359,College of Business,Accounting,Junior,3.13,73,72,2022-01-07,2.0,Off-campus,No,2,Yes (24h),No,80
+LU100360,College of Business,Supply Chain Management,First Year,2.39,25,21,2024-08-22,12.8,On-campus,Yes,3,No,No,144
+LU100361,P.C. Rossin College of Engineering,Computer Engineering,Sophomore,3.62,54,48,2023-09-17,2.0,Off-campus,No,1,No,No,158
+LU100362,College of Education,Elementary Education,Senior,3.12,113,98,2021-08-16,22.1,Off-campus,Partial,0,No,Yes,5
+LU100363,College of Education,Secondary Education,Junior,3.26,72,69,2022-09-01,11.6,Commuter,Yes,0,No,Yes,194
+LU100364,College of Arts and Sciences,Sociology,Senior,3.12,119,108,2021-09-09,18.4,Commuter,Yes,1,No,Yes,173
+LU100365,College of Health,Public Health,Sophomore,2.97,45,38,2023-08-19,8.9,Off-campus,No,2,No,No,18
+LU100366,College of Health,Health Science,Sophomore,3.53,44,38,2023-08-26,24.1,Off-campus,No,3,Yes (25h),,14
+LU100367,College of Business,Supply Chain Management,Junior,3.26,73,66,2022-09-14,19.7,On-campus,Yes,3,No,No,43
+LU100368,P.C. Rossin College of Engineering,Electrical Engineering,Senior,3.28,126,108,2021-01-21,17.9,Off-campus,Yes,3,No,Yes,722
+LU100369,College of Education,Secondary Education,Sophomore,3.77,60,56,2023-09-06,12.0,Off-campus,Partial,0,Yes (17h),No,182
+LU100370,College of Arts and Sciences,English,Sophomore,2.87,46,45,2023-09-23,9.1,On-campus,Yes,1,No,Yes,1566
+LU100371,College of Education,Elementary Education,Sophomore,3.1,60,58,2023-09-07,8.2,On-campus,Yes,2,No,Yes,37
+LU100372,P.C. Rossin College of Engineering,Computer Engineering,Junior,3.87,73,72,2022-09-27,17.0,Off-campus,Yes,2,Yes (20h),No,1939
+LU100373,College of Health,Nursing,Senior,3.12,107,103,2021-09-28,18.4,On-campus,Yes,5,No,Yes,2057
+LU100374,College of Health,Public Health,Senior,3.58,111,108,2021-09-27,15.6,On-campus,Yes,1,No,No,25
+LU100375,P.C. Rossin College of Engineering,Bioengineering,Graduate,2.87,26,24,2023-01-19,13.0,Off-campus,Partial,2,Yes (12h),Yes,20
+LU100376,College of Health,Public Health,Sophomore,2.7,52,49,2023-01-25,31.9,On-campus,Partial,2,No,No,60
+LU100377,College of Health,Nursing,First Year,3.04,20,18,2024-08-20,9.0,Commuter,Yes,1,Yes (21h),Yes,63
+LU100378,College of Education,Special Education,First Year,2.71,14,12,2024-08-18,28.7,On-campus,Yes,3,No,Yes,130
+LU100379,College of Education,Special Education,Senior,3.46,112,100,2021-01-22,17.3,On-campus,Yes,1,No,No,143
+LU100380,College of Business,Finance,Graduate,3.8,32,27,2022-08-14,24.0,On-campus,No,1,No,Yes,41
+LU100381,College of Health,Public Health,Senior,3.28,109,101,2021-01-24,14.4,On-campus,Yes,0,No,No,36
+LU100382,College of Arts and Sciences,Political Science,Junior,2.87,83,74,2022-09-17,20.1,Off-campus,Yes,2,Yes (23h),,15
+LU100383,College of Arts and Sciences,History,Graduate,3.07,32,29,2021-01-27,14.6,On-campus,No,1,Yes (22h),Yes,12
+LU100384,College of Arts and Sciences,English,Sophomore,3.39,55,47,2023-09-20,28.4,On-campus,Yes,2,Yes (14h),No,164
+LU100385,P.C. Rossin College of Engineering,Civil Engineering,First Year,2.35,25,22,2024-08-20,12.7,On-campus,Yes,3,Yes (25h),No,1162
+LU100386,P.C. Rossin College of Engineering,Industrial Engineering,Sophomore,2.98,60,58,2023-08-08,24.6,On-campus,No,3,No,No,571
+LU100387,College of Health,Nursing,Sophomore,3.77,57,52,2023-08-06,15.6,Off-campus,No,4,No,,11
+LU100388,College of Arts and Sciences,Psychology,First Year,1.69,29,26,2024-01-16,16.4,Off-campus,Yes,1,No,,14
+LU100389,College of Education,Special Education,Graduate,3.03,11,10,2021-09-13,13.1,On-campus,Yes,0,No,,133
+LU100390,College of Business,Economics,First Year,2.93,16,15,2024-08-28,19.9,Off-campus,Yes,2,No,Yes,194
+LU100391,P.C. Rossin College of Engineering,Mechanical Engineering,Senior,3.87,113,97,2021-09-21,11.1,On-campus,Yes,3,No,Yes,5
+LU100392,College of Education,Secondary Education,Senior,3.43,102,86,2021-08-10,10.4,Off-campus,Yes,4,No,Yes,124
+LU100393,College of Education,Secondary Education,First Year,2.63,21,17,2024-01-18,9.9,Off-campus,Yes,1,No,No,32
+LU100394,College of Health,Public Health,First Year,3.01,15,13,2024-09-25,20.1,Off-campus,Yes,2,Yes (25h),No,67
+LU100395,P.C. Rossin College of Engineering,Electrical Engineering,Junior,3.29,84,72,2022-01-10,20.9,Off-campus,No,2,Yes (9h),,97
+LU100396,College of Health,Community Health,Junior,3.72,79,70,2022-08-09,19.9,On-campus,Yes,0,Yes (5h),Yes,36
+LU100397,College of Business,Management,Graduate,3.56,21,19,2023-08-23,16.6,Commuter,Partial,0,No,,99
+LU100398,College of Education,Secondary Education,First Year,2.98,12,11,2024-08-27,8.9,On-campus,Partial,3,Yes (19h),No,11
+LU100399,College of Business,Supply Chain Management,Senior,3.18,129,128,2021-08-13,12.5,On-campus,Yes,0,No,Yes,100
+LU100400,College of Education,Elementary Education,Sophomore,2.85,60,55,2023-01-28,9.5,Off-campus,Partial,1,No,,798
+LU100401,College of Business,Accounting,Senior,3.31,123,105,2021-08-26,15.8,Off-campus,No,2,Yes (7h),No,136
+LU100402,College of Arts and Sciences,Biology,Graduate,3.97,27,23,2021-01-12,33.4,Off-campus,No,3,Yes (12h),No,138
+LU100403,College of Health,Health Science,Sophomore,2.6,54,51,2023-09-07,21.8,Off-campus,Yes,0,No,No,195
+LU100404,College of Education,Secondary Education,Sophomore,2.95,46,44,2023-09-12,15.9,On-campus,Yes,3,No,Yes,165
+LU100405,College of Business,Business Analytics,Senior,3.3,109,106,2021-08-18,14.8,Off-campus,Yes,1,Yes (16h),Yes,874
+LU100406,College of Arts and Sciences,Philosophy,Senior,3.55,121,110,2021-01-17,15.2,Off-campus,No,1,Yes (18h),Yes,67
+LU100407,College of Arts and Sciences,Biology,Senior,3.49,109,98,2021-01-06,18.3,Off-campus,Yes,2,No,No,462
+LU100408,College of Health,Community Health,First Year,2.46,30,28,2024-08-08,11.6,Off-campus,Yes,4,Yes (20h),No,65
+LU100409,College of Business,Economics,Junior,3.51,74,65,2022-09-24,21.7,On-campus,No,3,Yes (6h),No,18
+LU100410,College of Health,Public Health,Senior,2.8,112,101,2021-01-24,12.3,On-campus,Yes,1,No,No,192
+LU100411,College of Business,Accounting,Graduate,3.12,12,10,2024-09-04,15.9,Off-campus,No,2,Yes (10h),No,186
+LU100412,P.C. Rossin College of Engineering,Computer Engineering,Junior,3.56,89,82,2022-08-11,5.9,Off-campus,Partial,3,No,No,20
+LU100413,College of Business,Accounting,First Year,2.34,22,21,2024-08-25,4.0,On-campus,Yes,4,Yes (6h),No,127
+LU100414,College of Business,Marketing,Sophomore,2.97,44,42,2023-08-08,11.4,On-campus,Yes,3,No,No,196
+LU100415,College of Education,Elementary Education,Junior,3.51,76,67,2022-01-02,11.0,On-campus,No,1,Yes (14h),,18
+LU100416,College of Arts and Sciences,Sociology,First Year,3.61,17,15,2024-09-11,16.0,Off-campus,Yes,3,No,No,126
+LU100417,College of Health,Nursing,Junior,3.6,79,75,2022-09-26,12.5,On-campus,No,1,No,No,432
+LU100418,College of Health,Public Health,Junior,3.46,76,68,2022-09-25,13.7,Off-campus,Yes,2,Yes (23h),No,8
+LU100419,College of Health,Nursing,Senior,2.82,116,104,2021-08-25,8.1,On-campus,Yes,1,Yes (7h),No,117
+LU100420,College of Education,Elementary Education,Sophomore,3.88,48,44,2023-08-17,10.3,On-campus,No,3,No,No,193
+LU100421,P.C. Rossin College of Engineering,Computer Engineering,Graduate,3.48,24,23,2022-01-03,14.2,Off-campus,Yes,0,No,Yes,46
+LU100422,P.C. Rossin College of Engineering,Industrial Engineering,Sophomore,3.94,54,48,2023-08-06,22.4,Commuter,Yes,5,No,Yes,404
+LU100423,College of Education,Elementary Education,Junior,2.65,89,76,2022-01-25,14.6,Off-campus,Yes,2,Yes (14h),,78
+LU100424,College of Health,Public Health,Junior,3.11,81,78,2022-08-16,12.1,On-campus,Yes,2,Yes (21h),No,86
+LU100425,College of Business,Economics,Senior,3.57,106,100,2021-08-19,22.1,On-campus,Yes,1,No,No,1136
+LU100426,P.C. Rossin College of Engineering,Chemical Engineering,Senior,2.83,124,113,2021-09-09,10.2,Off-campus,Partial,1,Yes (14h),No,29
+LU100427,College of Health,Health Science,Junior,2.81,89,82,2022-08-16,20.8,On-campus,Yes,2,No,,38
+LU100428,College of Health,Health Science,Senior,3.09,113,107,2021-08-16,8.6,On-campus,Yes,1,Yes (25h),No,1564
+LU100429,College of Education,Special Education,Senior,3.99,123,116,2021-09-09,25.6,Commuter,Yes,2,Yes (9h),No,29
+LU100430,P.C. Rossin College of Engineering,Computer Science,Junior,3.69,84,83,2022-08-08,4.8,Off-campus,Yes,1,No,Yes,198
+LU100431,College of Arts and Sciences,Political Science,First Year,3.45,28,26,2024-01-10,9.4,Commuter,Yes,4,No,No,9
+LU100432,College of Education,Elementary Education,Junior,3.49,84,77,2022-01-11,2.0,Commuter,Yes,0,Yes (18h),Yes,852
+LU100433,College of Education,Special Education,Junior,3.24,75,67,2022-01-25,16.4,On-campus,Partial,2,No,No,6
+LU100434,College of Business,Accounting,Senior,3.47,125,108,2021-01-23,18.4,Off-campus,Yes,3,No,Yes,35
+LU100435,College of Arts and Sciences,Physics,Junior,3.44,87,75,2022-01-07,16.1,Commuter,Partial,4,Yes (11h),Yes,1899
+LU100436,College of Health,Nursing,First Year,3.76,13,12,2024-09-11,22.1,Commuter,No,2,No,No,603
+LU100437,College of Business,Accounting,Senior,3.04,107,105,2021-09-04,2.5,On-campus,Partial,2,Yes (6h),No,62
+LU100438,P.C. Rossin College of Engineering,Civil Engineering,Junior,2.76,82,76,2022-08-15,18.9,On-campus,Yes,3,No,No,38
+LU100439,College of Health,Public Health,Senior,3.22,123,112,2021-08-27,13.1,Off-campus,Yes,2,No,No,6
+LU100440,College of Business,Management,Junior,3.09,78,71,2022-08-19,12.6,Commuter,No,3,Yes (15h),No,935
+LU100441,College of Health,Community Health,First Year,3.21,14,13,2024-01-04,12.3,On-campus,No,3,No,Yes,61
+LU100442,College of Education,Elementary Education,Sophomore,3.59,48,44,2023-08-19,5.4,Commuter,No,1,Yes (6h),Yes,656
+LU100443,College of Arts and Sciences,Sociology,Junior,2.91,84,78,2022-09-06,17.7,On-campus,Yes,1,No,No,36
+LU100444,College of Arts and Sciences,Physics,Senior,2.99,121,105,2021-01-19,17.5,Off-campus,Yes,2,No,,484
+LU100445,College of Arts and Sciences,Philosophy,Junior,3.12,79,70,2022-01-06,21.1,On-campus,No,2,No,No,31
+LU100446,P.C. Rossin College of Engineering,Industrial Engineering,Senior,3.09,118,107,2021-01-22,23.2,On-campus,No,2,No,No,568
+LU100447,College of Education,Elementary Education,Junior,2.84,89,84,2022-01-25,13.0,On-campus,Yes,2,No,Yes,120
+LU100448,P.C. Rossin College of Engineering,Civil Engineering,Junior,3.54,76,66,2022-09-14,21.4,Off-campus,No,2,Yes (25h),Yes,819
+LU100449,College of Health,Health Science,Graduate,3.93,15,14,2023-08-20,18.1,Off-campus,Yes,4,No,No,96
+LU100450,College of Education,Special Education,Senior,3.26,115,109,2021-09-10,10.6,Commuter,Yes,0,No,No,624
+LU100451,College of Health,Community Health,Junior,3.4,79,70,2022-01-11,7.6,On-campus,Yes,2,Yes (7h),No,5
+LU100452,College of Arts and Sciences,English,Junior,3.36,77,74,2022-09-11,25.3,On-campus,No,2,Yes (10h),No,1981
+LU100453,College of Education,Special Education,Senior,2.92,120,104,2021-01-21,17.7,Off-campus,No,3,No,No,38
+LU100454,College of Education,Secondary Education,Junior,3.32,73,70,2022-09-24,18.1,Off-campus,Yes,0,No,No,267
+LU100455,College of Health,Public Health,Graduate,4.0,33,29,2022-08-27,34.7,Off-campus,No,2,Yes (24h),No,25
+LU100456,College of Business,Supply Chain Management,Sophomore,3.76,44,40,2023-08-14,18.9,On-campus,No,1,No,No,28
+LU100457,College of Business,Economics,Senior,3.56,124,111,2021-01-03,13.5,Off-campus,Yes,1,No,No,346
+LU100458,College of Education,Special Education,Junior,4.0,76,73,2022-09-22,15.5,Commuter,Yes,0,Yes (21h),Yes,43
+LU100459,P.C. Rossin College of Engineering,Computer Science,Junior,2.71,77,69,2022-08-15,17.5,Off-campus,No,0,No,Yes,23
+LU100460,College of Arts and Sciences,Mathematics,Junior,3.18,88,87,2022-09-11,12.9,Off-campus,No,1,Yes (8h),,181
+LU100461,College of Business,Finance,Graduate,3.75,17,16,2021-01-18,11.4,On-campus,No,1,Yes (7h),No,62
+LU100462,P.C. Rossin College of Engineering,Civil Engineering,Sophomore,2.11,52,50,2023-01-16,20.0,Commuter,Yes,1,Yes (17h),No,164
+LU100463,College of Health,Community Health,First Year,2.53,24,22,2024-08-11,19.5,Off-campus,Yes,4,No,Yes,915
+LU100464,College of Business,Supply Chain Management,Junior,2.83,80,76,2022-01-15,4.9,On-campus,Yes,3,No,Yes,464
+LU100465,College of Arts and Sciences,Sociology,Graduate,3.59,33,32,2023-08-06,11.8,Off-campus,No,2,Yes (20h),No,489
+LU100466,College of Business,Management,Graduate,3.62,29,27,2023-09-19,5.2,On-campus,Yes,3,No,No,745
+LU100467,College of Arts and Sciences,Chemistry,Senior,2.56,128,112,2021-08-19,6.7,Off-campus,Partial,1,Yes (23h),No,137
+LU100468,College of Arts and Sciences,Physics,Senior,4.0,112,104,2021-01-22,20.0,Off-campus,No,3,No,No,11
+LU100469,P.C. Rossin College of Engineering,Bioengineering,Senior,3.93,103,89,2021-01-10,17.6,On-campus,No,3,Yes (20h),Yes,13
+LU100470,College of Health,Health Science,First Year,2.47,17,15,2024-01-22,14.3,On-campus,Yes,1,No,No,41
+LU100471,College of Business,Supply Chain Management,First Year,2.98,21,18,2024-08-23,21.4,On-campus,Yes,5,No,Yes,40
+LU100472,College of Arts and Sciences,Chemistry,Senior,3.2,110,94,2021-01-23,14.3,Off-campus,Partial,0,Yes (5h),No,25
+LU100473,P.C. Rossin College of Engineering,Computer Science,Sophomore,2.94,49,44,2023-08-13,10.6,On-campus,Yes,2,No,No,47
+LU100474,College of Business,Management,First Year,3.97,18,16,2024-01-01,16.9,On-campus,Yes,3,No,No,46
+LU100475,P.C. Rossin College of Engineering,Electrical Engineering,Junior,3.25,82,79,2022-08-26,9.6,Off-campus,Yes,2,No,Yes,51
+LU100476,College of Health,Public Health,Junior,3.32,79,71,2022-09-08,2.0,Off-campus,Yes,4,No,,35
+LU100477,College of Business,Accounting,Sophomore,3.4,46,43,2023-01-19,4.4,On-campus,No,5,No,No,44
+LU100478,P.C. Rossin College of Engineering,Mechanical Engineering,Junior,3.13,72,67,2022-01-16,16.2,Off-campus,No,2,No,No,137
+LU100479,P.C. Rossin College of Engineering,Bioengineering,Sophomore,3.39,55,51,2023-08-15,7.1,Off-campus,Yes,4,No,Yes,2534
+LU100480,College of Health,Public Health,First Year,4.0,15,13,2024-09-26,14.4,Off-campus,Yes,2,Yes (6h),Yes,227
+LU100481,College of Business,Business Analytics,Senior,3.15,127,110,2021-08-03,17.0,Off-campus,Yes,2,Yes (13h),,16
+LU100482,College of Arts and Sciences,Chemistry,Sophomore,3.63,51,49,2023-09-15,17.0,On-campus,Yes,3,Yes (10h),No,10
+LU100483,College of Business,Economics,Senior,3.59,121,112,2021-09-27,19.6,Commuter,No,1,No,Yes,553
+LU100484,College of Health,Nursing,Senior,3.21,127,125,2021-09-09,21.8,Off-campus,Yes,1,Yes (14h),No,1478
+LU100485,P.C. Rossin College of Engineering,Bioengineering,Sophomore,3.24,44,40,2023-09-23,10.8,Off-campus,Yes,1,No,Yes,60
+LU100486,College of Business,Marketing,Graduate,4.0,13,11,2021-09-21,18.5,On-campus,No,2,No,Yes,461
+LU100487,College of Education,Secondary Education,Sophomore,2.85,44,37,2023-08-25,12.6,Off-campus,No,2,No,Yes,5
+LU100488,College of Business,Accounting,Sophomore,2.43,43,42,2023-01-14,10.4,On-campus,Yes,2,Yes (14h),Yes,64
+LU100489,College of Health,Nursing,Senior,2.99,124,112,2021-09-21,27.7,On-campus,Yes,1,No,No,12
+LU100490,College of Education,Special Education,Junior,3.3,80,69,2022-08-10,27.2,Off-campus,Partial,2,No,No,2576
+LU100491,College of Business,Business Analytics,Graduate,3.77,19,17,2023-08-06,16.1,On-campus,Yes,5,Yes (13h),Yes,1410
+LU100492,College of Business,Marketing,Senior,3.36,125,124,2021-01-21,9.5,Off-campus,Yes,3,Yes (25h),No,7
+LU100493,P.C. Rossin College of Engineering,Computer Science,Sophomore,3.42,43,38,2023-01-19,13.3,On-campus,Yes,2,Yes (6h),Yes,600
+LU100494,P.C. Rossin College of Engineering,Mechanical Engineering,First Year,2.96,16,15,2024-09-23,3.0,Commuter,Yes,2,No,No,50
+LU100495,P.C. Rossin College of Engineering,Bioengineering,Graduate,3.08,32,28,2024-09-27,15.7,Off-campus,Partial,1,Yes (6h),No,39
+LU100496,College of Arts and Sciences,Psychology,Senior,3.3,129,114,2021-01-27,11.5,Off-campus,No,2,Yes (6h),No,29
+LU100497,College of Business,Economics,Graduate,3.44,25,21,2021-09-23,13.1,Off-campus,No,0,Yes (23h),No,858
+LU100498,College of Education,Special Education,First Year,3.65,26,24,2024-08-18,17.3,Commuter,No,4,Yes (15h),,243
+LU100499,College of Business,Supply Chain Management,Graduate,3.69,33,28,2024-01-07,18.6,Off-campus,No,3,Yes (23h),Yes,700
+LU100500,College of Education,Special Education,Senior,3.6,109,104,2021-08-20,5.3,On-campus,No,0,Yes (6h),No,44
+LU100501,College of Business,Accounting,Graduate,3.69,20,18,2022-09-03,16.4,Off-campus,No,1,No,No,2389
+LU100502,P.C. Rossin College of Engineering,Civil Engineering,Graduate,3.61,36,30,2024-08-04,12.0,Commuter,Yes,0,No,No,135
+LU100503,College of Health,Public Health,Sophomore,2.51,50,48,2023-01-09,19.6,Off-campus,Yes,2,No,,45
+LU100504,College of Education,Secondary Education,First Year,3.58,13,11,2024-01-01,20.6,Commuter,Yes,0,No,No,49
+LU100505,College of Education,Elementary Education,Graduate,3.9,18,17,2024-09-05,17.7,Off-campus,Yes,4,No,,36
+LU100506,College of Arts and Sciences,Physics,First Year,3.38,26,22,2024-09-27,24.6,Off-campus,Yes,0,Yes (8h),No,188
+LU100507,P.C. Rossin College of Engineering,Chemical Engineering,Junior,3.09,86,77,2022-08-25,11.6,On-campus,Yes,0,No,No,7
+LU100508,College of Health,Public Health,Senior,3.93,119,114,2021-09-12,11.6,On-campus,Yes,1,No,Yes,750
+LU100509,P.C. Rossin College of Engineering,Civil Engineering,First Year,2.73,23,21,2024-01-26,23.3,On-campus,Yes,2,No,No,435
+LU100510,College of Business,Marketing,First Year,3.33,24,23,2024-08-08,16.5,On-campus,No,3,Yes (12h),,63
+LU100511,College of Arts and Sciences,Chemistry,First Year,3.72,13,12,2024-01-07,21.9,On-campus,Yes,3,No,Yes,49
+LU100512,P.C. Rossin College of Engineering,Chemical Engineering,First Year,3.03,19,18,2024-08-05,11.6,On-campus,Yes,2,No,Yes,45
+LU100513,College of Education,Secondary Education,Senior,2.65,104,97,2021-09-18,16.8,Commuter,Yes,5,No,Yes,953
+LU100514,College of Education,Elementary Education,Senior,4.0,114,98,2021-01-11,12.6,On-campus,Yes,4,No,No,61
+LU100515,College of Education,Elementary Education,Junior,3.62,80,78,2022-08-24,15.2,Off-campus,Yes,3,No,Yes,53
+LU100516,College of Health,Nursing,Sophomore,3.12,50,44,2023-01-05,13.2,On-campus,Yes,5,Yes (14h),No,199
+LU100517,P.C. Rossin College of Engineering,Civil Engineering,Senior,3.2,107,98,2021-08-15,16.9,On-campus,No,1,No,No,49
+LU100518,College of Arts and Sciences,Political Science,First Year,2.92,23,22,2024-09-02,2.0,On-campus,No,2,No,Yes,135
+LU100519,P.C. Rossin College of Engineering,Bioengineering,Sophomore,3.18,47,45,2023-09-22,13.5,On-campus,Yes,0,Yes (25h),Yes,409
+LU100520,College of Arts and Sciences,Philosophy,First Year,3.4,22,19,2024-08-08,16.7,Off-campus,Yes,3,No,No,979
+LU100521,P.C. Rossin College of Engineering,Industrial Engineering,Sophomore,3.6,47,40,2023-08-12,21.6,On-campus,Yes,1,No,No,186
+LU100522,College of Health,Community Health,Junior,3.41,89,78,2022-08-20,10.0,On-campus,No,2,No,Yes,289
+LU100523,College of Health,Health Science,Senior,3.44,128,123,2021-08-06,10.8,On-campus,Yes,2,No,No,125
+LU100524,P.C. Rossin College of Engineering,Civil Engineering,First Year,3.17,24,21,2024-09-18,32.0,Commuter,Yes,2,No,,6
+LU100525,College of Business,Business Analytics,Junior,3.45,74,65,2022-09-21,10.3,Off-campus,No,2,No,No,195
+LU100526,College of Health,Public Health,First Year,2.98,22,19,2024-08-06,22.9,Off-campus,Yes,1,Yes (6h),Yes,2266
+LU100527,College of Health,Health Science,First Year,2.1,24,22,2024-09-18,10.9,Commuter,No,2,Yes (12h),No,162
+LU100528,College of Health,Community Health,First Year,2.6,18,17,2024-08-06,33.4,On-campus,No,2,No,No,2092
+LU100529,College of Arts and Sciences,Mathematics,Junior,3.67,79,74,2022-01-01,8.2,On-campus,Yes,1,Yes (22h),Yes,685
+LU100530,College of Health,Community Health,Graduate,3.93,24,20,2023-09-22,19.6,On-campus,Yes,4,No,No,1285
+LU100531,College of Arts and Sciences,Political Science,First Year,3.49,28,24,2024-08-01,4.1,On-campus,Yes,0,No,Yes,1569
+LU100532,College of Education,Elementary Education,Graduate,4.0,34,32,2022-01-03,22.8,Off-campus,Yes,2,Yes (21h),No,180
+LU100533,College of Health,Community Health,Sophomore,2.8,50,43,2023-09-12,6.1,On-campus,Yes,0,Yes (14h),No,33
+LU100534,College of Arts and Sciences,Philosophy,First Year,2.89,20,17,2024-08-10,21.7,On-campus,No,3,No,No,86
+LU100535,College of Health,Nursing,Senior,4.0,105,93,2021-08-16,23.5,On-campus,Partial,2,Yes (5h),No,192
+LU100536,P.C. Rossin College of Engineering,Chemical Engineering,Junior,3.3,73,70,2022-09-19,14.4,Off-campus,Yes,1,Yes (22h),No,42
+LU100537,P.C. Rossin College of Engineering,Computer Engineering,Sophomore,3.71,47,41,2023-08-18,14.7,Off-campus,Yes,1,No,Yes,123
+LU100538,College of Arts and Sciences,Physics,Graduate,3.11,9,8,2024-01-16,10.0,Commuter,Yes,0,No,No,142
+LU100539,College of Arts and Sciences,Philosophy,Junior,3.03,87,81,2022-09-14,21.7,Off-campus,No,0,No,No,8
+LU100540,P.C. Rossin College of Engineering,Bioengineering,First Year,2.95,13,11,2024-08-15,7.8,Commuter,Yes,1,Yes (18h),No,23
+LU100541,P.C. Rossin College of Engineering,Computer Science,Junior,4.0,78,75,2022-09-07,15.5,On-campus,No,2,No,No,48
+LU100542,College of Arts and Sciences,Psychology,Graduate,3.6,36,35,2023-01-18,10.6,Off-campus,No,0,No,No,15
+LU100543,College of Business,Accounting,First Year,3.01,15,14,2024-01-05,2.0,Off-campus,Yes,2,No,No,316
+LU100544,College of Arts and Sciences,Chemistry,Sophomore,2.93,54,50,2023-08-03,14.7,On-campus,Yes,0,Yes (16h),No,2071
+LU100545,College of Arts and Sciences,Mathematics,Sophomore,4.0,55,53,2023-01-23,11.1,On-campus,Yes,2,No,Yes,1870
+LU100546,College of Health,Nursing,First Year,2.95,29,27,2024-01-01,25.9,Off-campus,No,0,Yes (21h),No,1088
+LU100547,College of Education,Secondary Education,Sophomore,2.94,51,48,2023-08-22,18.1,On-campus,Yes,2,Yes (16h),,22
+LU100548,College of Arts and Sciences,Psychology,First Year,2.9,12,11,2024-08-06,15.2,Commuter,No,2,No,,981
+LU100549,College of Education,Secondary Education,Graduate,3.65,14,13,2021-09-07,11.1,On-campus,No,0,No,No,686
+LU100550,College of Education,Elementary Education,Senior,2.89,105,104,2021-09-19,2.0,On-campus,No,0,No,No,154
+LU100551,P.C. Rossin College of Engineering,Industrial Engineering,Senior,3.49,107,101,2021-08-04,6.7,Off-campus,Yes,1,No,,148
+LU100552,College of Business,Economics,Senior,4.0,122,117,2021-08-20,16.8,Off-campus,No,3,Yes (18h),No,9
+LU100553,College of Arts and Sciences,Sociology,First Year,3.33,23,20,2024-09-12,26.0,Off-campus,Yes,2,No,,30
+LU100554,College of Business,Management,First Year,3.99,24,21,2024-09-06,38.1,On-campus,Partial,1,No,Yes,942
+LU100555,College of Health,Public Health,Graduate,3.31,26,23,2024-08-25,12.9,On-campus,No,2,No,No,174
+LU100556,College of Health,Public Health,First Year,3.13,14,13,2024-01-25,6.0,Off-campus,Yes,2,Yes (9h),,269
+LU100557,College of Business,Marketing,First Year,3.08,22,19,2024-09-01,21.8,Off-campus,Yes,2,Yes (7h),No,169
+LU100558,College of Health,Public Health,Senior,3.59,119,117,2021-08-22,13.8,Off-campus,Yes,2,No,Yes,640
+LU100559,College of Business,Marketing,Junior,2.91,72,65,2022-08-15,12.3,Off-campus,Yes,2,No,No,84
+LU100560,P.C. Rossin College of Engineering,Computer Engineering,First Year,2.65,15,13,2024-09-13,21.3,Off-campus,Yes,2,No,No,90
+LU100561,P.C. Rossin College of Engineering,Computer Engineering,Senior,3.29,110,104,2021-08-09,2.0,Off-campus,Yes,4,Yes (5h),Yes,42
+LU100562,College of Arts and Sciences,English,First Year,2.14,24,22,2024-09-11,15.6,On-campus,Yes,5,No,,20
+LU100563,College of Health,Public Health,First Year,3.36,27,23,2024-09-03,17.2,On-campus,Yes,0,Yes (19h),No,157
+LU100564,College of Business,Finance,First Year,3.11,21,20,2024-01-23,13.6,Off-campus,Yes,1,No,Yes,102
+LU100565,College of Health,Health Science,Sophomore,2.74,50,43,2023-08-17,18.9,On-campus,Yes,4,Yes (25h),No,748
+LU100566,College of Education,Secondary Education,First Year,3.52,24,21,2024-08-09,5.4,On-campus,Partial,2,Yes (7h),No,119
+LU100567,College of Health,Health Science,Sophomore,2.85,50,46,2023-09-26,7.8,On-campus,Yes,3,No,No,31
+LU100568,P.C. Rossin College of Engineering,Mechanical Engineering,First Year,3.19,23,22,2024-08-20,13.6,Off-campus,No,2,No,No,36
+LU100569,College of Health,Public Health,Junior,3.75,85,84,2022-09-27,14.6,Commuter,Yes,2,No,No,183
+LU100570,College of Health,Public Health,Junior,2.6,74,67,2022-08-15,7.2,On-campus,Yes,2,Yes (18h),No,2298
+LU100571,College of Business,Business Analytics,Junior,2.72,76,65,2022-08-09,19.5,On-campus,Yes,2,Yes (11h),,517
+LU100572,College of Health,Public Health,Graduate,3.56,14,13,2024-08-18,6.0,Commuter,Yes,4,Yes (13h),Yes,874
+LU100573,P.C. Rossin College of Engineering,Civil Engineering,First Year,3.9,18,17,2024-09-28,25.8,Off-campus,Yes,3,Yes (14h),No,143
+LU100574,P.C. Rossin College of Engineering,Chemical Engineering,Sophomore,3.56,44,37,2023-08-27,17.9,Off-campus,Yes,0,No,No,993
+LU100575,College of Education,Secondary Education,Junior,3.64,72,69,2022-08-03,15.3,Commuter,Yes,2,Yes (12h),Yes,18
+LU100576,College of Education,Special Education,Junior,2.87,85,73,2022-08-14,18.6,On-campus,Yes,2,Yes (8h),No,121
+LU100577,P.C. Rossin College of Engineering,Civil Engineering,Junior,2.29,75,74,2022-08-16,12.2,On-campus,Partial,2,No,No,111
+LU100578,College of Education,Elementary Education,Senior,2.89,129,120,2021-09-13,2.3,On-campus,Partial,1,No,No,597
+LU100579,College of Arts and Sciences,Political Science,Sophomore,2.83,57,48,2023-08-09,9.8,Off-campus,Yes,3,Yes (19h),No,616
+LU100580,College of Arts and Sciences,Political Science,First Year,2.45,24,20,2024-08-28,30.6,On-campus,No,2,No,Yes,75
+LU100581,College of Arts and Sciences,English,First Year,2.63,23,19,2024-09-09,8.5,Off-campus,No,3,No,,46
+LU100582,College of Arts and Sciences,Mathematics,Sophomore,3.26,57,55,2023-09-15,14.7,Off-campus,Yes,2,No,Yes,38
+LU100583,College of Business,Economics,Sophomore,2.94,52,46,2023-09-22,2.0,Off-campus,No,0,Yes (23h),No,31
+LU100584,College of Health,Health Science,First Year,4.0,18,17,2024-01-13,23.9,Commuter,Partial,3,Yes (5h),No,72
+LU100585,College of Health,Community Health,Senior,3.9,118,114,2021-01-09,13.7,On-campus,Yes,1,Yes (16h),No,38
+LU100586,College of Business,Marketing,Senior,2.85,114,99,2021-08-27,10.9,Off-campus,Yes,3,Yes (13h),No,18
+LU100587,College of Education,Special Education,First Year,3.5,13,11,2024-08-24,11.8,On-campus,Yes,1,Yes (24h),Yes,167
+LU100588,College of Health,Health Science,Graduate,4.0,31,27,2021-01-16,8.5,On-campus,Yes,2,No,No,462
+LU100589,College of Arts and Sciences,Sociology,Junior,3.15,72,63,2022-01-18,20.9,On-campus,Partial,5,No,No,246
+LU100590,College of Health,Community Health,First Year,2.87,27,25,2024-08-17,17.3,Off-campus,Yes,1,Yes (22h),,15
+LU100591,College of Arts and Sciences,Physics,First Year,3.89,14,12,2024-08-15,19.1,Off-campus,Yes,0,Yes (9h),No,28
+LU100592,College of Health,Health Science,First Year,2.49,30,29,2024-08-09,19.5,Off-campus,No,1,Yes (10h),No,354
+LU100593,P.C. Rossin College of Engineering,Electrical Engineering,Senior,3.26,115,106,2021-01-07,18.0,On-campus,Yes,3,No,No,27
+LU100594,College of Business,Supply Chain Management,Graduate,3.39,29,25,2024-08-16,19.1,On-campus,No,0,Yes (11h),Yes,37
+LU100595,College of Business,Finance,Sophomore,3.34,50,45,2023-09-22,7.0,Commuter,Yes,2,No,,893
+LU100596,College of Health,Nursing,Junior,2.94,78,71,2022-08-01,10.2,On-campus,Partial,0,Yes (8h),Yes,50
+LU100597,College of Education,Special Education,Sophomore,3.68,53,49,2023-08-21,24.0,On-campus,Partial,2,No,No,782
+LU100598,College of Education,Special Education,Sophomore,3.56,45,41,2023-01-28,12.4,On-campus,Yes,1,Yes (7h),No,21
+LU100599,College of Arts and Sciences,Mathematics,Senior,3.6,124,123,2021-01-25,17.0,Commuter,Yes,3,Yes (25h),Yes,953
+LU100600,College of Arts and Sciences,English,First Year,2.74,19,18,2024-09-20,12.7,On-campus,No,3,No,No,194

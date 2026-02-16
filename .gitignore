@@ -147,3 +147,14 @@ secrets.py
 credentials.json
 *.pem
 *.key
+
+# Obsidian
+.obsidian/
+
+# R
+.Rhistory
+
+# Personal planning / temp files
+_Old/
+todo*.md
+*.zip
