@@ -156,5 +156,6 @@ credentials.json
 
 # Personal planning / temp files
 _Old/
+assessments/
 todo*.md
 *.zip
