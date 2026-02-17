@@ -1,4 +1,4 @@
-# Lehigh University Student Dataset - Documentation
+# Crestview University Student Dataset - Documentation
 
 ## Overview
 This is a synthetic dataset created for educational purposes in BUAN 446 (Python for Data Analysts). It contains fictional student records with realistic patterns based on typical university distributions.
@@ -13,9 +13,9 @@ This course uses **three distinct datasets** that progressively introduce comple
 
 | Dataset | Variables | Records | Quality | Used In | Purpose |
 |---------|-----------|---------|---------|---------|---------|
-| **lehigh_students_clean.csv** | 7 | 600 | Perfect | Chapters 1-5 | Learn Python fundamentals |
-| **lehigh_students_messy.csv** | 8 | 605 | 20+ issues | Chapter 5 (Midterm) | Learn data cleaning |
-| **lehigh_students_extended.csv** | 15 | 600 | Clean | Chapters 6-9 | Perform rich analysis |
+| **crestview_students_clean.csv** | 7 | 600 | Perfect | Chapters 1-5 | Learn Python fundamentals |
+| **crestview_students_messy.csv** | 8 | 605 | 20+ issues | Chapter 5 (Midterm) | Learn data cleaning |
+| **crestview_students_extended.csv** | 15 | 600 | Clean | Chapters 6-9 | Perform rich analysis |
 
 ### Why Three Datasets?
 
@@ -25,13 +25,13 @@ This course uses **three distinct datasets** that progressively introduce comple
 
 ### Which Dataset Should I Use?
 
-- **Chapters 1-4:** `lehigh_students_clean.csv`
-- **Chapter 5 / Midterm project:** `lehigh_students_messy.csv`
-- **Chapters 6-9 / Final project:** `lehigh_students_extended.csv`
+- **Chapters 1-4:** `crestview_students_clean.csv`
+- **Chapter 5 / Midterm project:** `crestview_students_messy.csv`
+- **Chapters 6-9 / Final project:** `crestview_students_extended.csv`
 
 ---
 
-## Dataset 1: Clean (`lehigh_students_clean.csv`)
+## Dataset 1: Clean (`crestview_students_clean.csv`)
 
 **Records:** 600 students
 **Variables:** 7 columns
@@ -41,8 +41,8 @@ This course uses **three distinct datasets** that progressively introduce comple
 
 | Variable | Type | Description | Example Values |
 |----------|------|-------------|----------------|
-| Student_ID | String | Unique anonymous identifier | LU100001, LU100002 |
-| College | String | Lehigh college affiliation | "College of Business", "P.C. Rossin College of Engineering" |
+| Student_ID | String | Unique anonymous identifier | CU100001, CU100002 |
+| College | String | Crestview college affiliation | "College of Business", "College of Engineering" |
 | Major | String | Student's declared major | "Computer Science", "Finance", "Biology" |
 | Class_Year | String | Current academic standing | "First Year", "Sophomore", "Junior", "Senior", "Graduate" |
 | GPA | Float | Grade Point Average (0.0-4.0 scale) | 3.41, 2.87, 4.00 |
@@ -54,18 +54,18 @@ This course uses **three distinct datasets** that progressively introduce comple
 ```python
 # Pure Python (Chapters 1-5)
 import csv
-with open('data/lehigh_students_clean.csv', 'r') as file:
+with open('data/crestview_students_clean.csv', 'r') as file:
     reader = csv.DictReader(file)
     students = list(reader)
 
 # Pandas (Chapter 7+)
 import pandas as pd
-df = pd.read_csv('data/lehigh_students_clean.csv')
+df = pd.read_csv('data/crestview_students_clean.csv')
 ```
 
 ---
 
-## Dataset 2: Messy (`lehigh_students_messy.csv`)
+## Dataset 2: Messy (`crestview_students_messy.csv`)
 
 **Records:** 605 students (includes 5 duplicates)
 **Variables:** 8 columns (adds Enrollment_Date)
@@ -89,14 +89,14 @@ This dataset mirrors what real corporate data looks like. See `messy_dataset_gui
 
 ```python
 import pandas as pd
-df_messy = pd.read_csv('data/lehigh_students_messy.csv')
+df_messy = pd.read_csv('data/crestview_students_messy.csv')
 print(df_messy.info())           # Notice object dtypes where you expect numbers
 print(df_messy['College'].value_counts())  # Notice 28 variations instead of 5
 ```
 
 ---
 
-## Dataset 3: Extended (`lehigh_students_extended.csv`)
+## Dataset 3: Extended (`crestview_students_extended.csv`)
 
 **Records:** 600 students
 **Variables:** 15 columns (7 original + 8 new)
@@ -110,8 +110,8 @@ This is the same 600 students from the clean dataset, enriched with 8 additional
 
 | Variable | Type | Description | Example Values |
 |----------|------|-------------|----------------|
-| Student_ID | String | Unique anonymous identifier | LU100001, LU100002 |
-| College | String | Lehigh college affiliation | "College of Business" |
+| Student_ID | String | Unique anonymous identifier | CU100001, CU100002 |
+| College | String | Crestview college affiliation | "College of Business" |
 | Major | String | Student's declared major | "Accounting", "Computer Science" |
 | Class_Year | String | Current academic standing | "First Year", "Senior", "Graduate" |
 | GPA | Float | Grade Point Average (0.0-4.0) | 3.41, 2.87, 4.00 |
@@ -158,7 +158,7 @@ This is the same 600 students from the clean dataset, enriched with 8 additional
 
 ```python
 import pandas as pd
-df = pd.read_csv('data/lehigh_students_extended.csv')
+df = pd.read_csv('data/crestview_students_extended.csv')
 print(f"{len(df)} students, {len(df.columns)} variables")
 print(df.describe())
 ```
@@ -176,7 +176,7 @@ print(df.describe())
 - Management
 - Economics
 
-### P.C. Rossin College of Engineering (114 students)
+### College of Engineering (114 students)
 - Computer Science
 - Mechanical Engineering
 - Civil Engineering
@@ -247,12 +247,12 @@ print(df.describe())
 
 *Print this page and keep it next to your notebook during Chapters 6-9.*
 
-**File:** `data/lehigh_students_extended.csv` | **Records:** 600 | **Quality:** Clean
+**File:** `data/crestview_students_extended.csv` | **Records:** 600 | **Quality:** Clean
 
 | # | Variable | Type | Description | Example Values | Range/Categories |
 |---|----------|------|-------------|----------------|------------------|
-| 1 | Student_ID | str | Unique identifier | LU100001 | LU100001-LU100600 |
-| 2 | College | str | Lehigh college | College of Business | 5 colleges |
+| 1 | Student_ID | str | Unique identifier | CU100001 | CU100001-CU100600 |
+| 2 | College | str | Crestview college | College of Business | 5 colleges |
 | 3 | Major | str | Declared major | Computer Science | ~30 majors |
 | 4 | Class_Year | str | Academic standing | Junior | First Year, Sophomore, Junior, Senior, Graduate |
 | 5 | GPA | float | Grade point average | 3.41 | 0.0 - 4.0 |
@@ -308,9 +308,9 @@ When discussing this dataset, remember:
 ## Files in This Directory
 
 **Datasets:**
-1. `lehigh_students_clean.csv` - 600 students, 7 variables
-2. `lehigh_students_messy.csv` - 605 students, 8 variables
-3. `lehigh_students_extended.csv` - 600 students, 15 variables
+1. `crestview_students_clean.csv` - 600 students, 7 variables
+2. `crestview_students_messy.csv` - 605 students, 8 variables
+3. `crestview_students_extended.csv` - 600 students, 15 variables
 
 **Generation Scripts:**
 4. `generate_student_data.py` - Recreate clean dataset

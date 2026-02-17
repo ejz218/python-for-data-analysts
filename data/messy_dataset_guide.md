@@ -1,10 +1,10 @@
-# Lehigh University Student Dataset - MESSY VERSION
+# Crestview University Student Dataset - MESSY VERSION
 ## Data Cleaning Exercise for Week 3+
 
 ## Overview
 This is the MESSY version of the student dataset, intentionally containing realistic data quality issues that students will encounter in professional data analysis work. This dataset should be used starting in Week 3 when students learn about data wrangling and cleaning.
 
-**Dataset:** lehigh_students_messy.csv  
+**Dataset:** crestview_students_messy.csv  
 **Records:** 605 students (includes 5 duplicates)  
 **Variables:** 8 columns (added Enrollment_Date)  
 **Quality:** Intentionally degraded with 10+ types of data issues
@@ -26,7 +26,7 @@ Variations found:
 ```
 
 **Other examples:**
-- Engineering: "RCOE", "engineering", "Rossin College of Engineering"
+- Engineering: "COE", "engineering", "College of Engineering"
 - Arts & Sciences: "CAS", "A&S", "Arts and Sciences"
 - Education: "COE", "Ed"
 - Health: "COH", "Health College"
@@ -68,8 +68,8 @@ Variations found:
 
 **Examples:**
 ```csv
-LU100004,Arts and Sciences,History,First Year,,22,21,2024-08-27
-LU100011,College of Education,Elementary Education,PhD,,14,12,2023-08-28
+CU100004,Arts and Sciences,History,First Year,,22,21,2024-08-27
+CU100011,College of Education,Elementary Education,PhD,,14,12,2023-08-28
 ```
 
 **Cleaning Tasks:**
@@ -86,7 +86,7 @@ LU100011,College of Education,Elementary Education,PhD,,14,12,2023-08-28
 
 **Examples:**
 ```csv
-"  P.C. Rossin College of Engineering  "  (spaces around entire string)
+"  College of Engineering  "  (spaces around entire string)
 "  Civil Engineering  "  (spaces around major)
 "  junior  "  (spaces around class year)
 " 3.21"  (space before GPA)
@@ -170,8 +170,8 @@ GPA: "3.410" (too many decimal places)
 
 **Examples:**
 ```csv
-LU100XXX,College of Business,Finance,Senior,5.0,105,99,2021-08-01
-LU100YYY,Engineering,Computer Science,Junior,3.2,-10,30,2022-08-01
+CU100XXX,College of Business,Finance,Senior,5.0,105,99,2021-08-01
+CU100YYY,Engineering,Computer Science,Junior,3.2,-10,30,2022-08-01
 ```
 
 **Cleaning Tasks:**
@@ -188,8 +188,8 @@ LU100YYY,Engineering,Computer Science,Junior,3.2,-10,30,2022-08-01
 
 **Example pattern:**
 ```csv
-LU100123,College of Business,Finance,Senior,3.41,105,99,2021-08-01
-LU100123,College of Business,Finance,Senior,3.42,105,100,2021-08-01
+CU100123,College of Business,Finance,Senior,3.41,105,99,2021-08-01
+CU100123,College of Business,Finance,Senior,3.42,105,100,2021-08-01
 ```
 (Same ID, but slightly different GPA or credits)
 
@@ -228,7 +228,7 @@ NaN          (after pandas loads)
 ```python
 # Load and examine
 import pandas as pd
-df = pd.read_csv('data/lehigh_students_messy.csv')
+df = pd.read_csv('data/crestview_students_messy.csv')
 
 # What do you notice?
 print(df.info())
@@ -338,8 +338,8 @@ When students submit cleaned data, check for:
 ## Comparison Files
 
 Students should keep:
-1. **Original:** lehigh_students_messy.csv (never modify)
-2. **Cleaned:** lehigh_students_clean_[name].csv (their work)
+1. **Original:** crestview_students_messy.csv (never modify)
+2. **Cleaned:** crestview_students_clean_[name].csv (their work)
 3. **Cleaning Script:** cleaning_script.py or .ipynb (reproducible)
 4. **Documentation:** cleaning_log.md (what they did and why)
 

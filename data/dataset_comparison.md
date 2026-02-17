@@ -4,7 +4,7 @@
 
 | Feature | Clean Version | Messy Version |
 |---------|--------------|---------------|
-| **File** | lehigh_students_clean.csv | lehigh_students_messy.csv |
+| **File** | crestview_students_clean.csv | crestview_students_messy.csv |
 | **Records** | 600 | 605 (includes 5 duplicates) |
 | **Columns** | 7 | 8 (added Enrollment_Date) |
 | **Use In** | Week 1-2 | Week 3+ |
@@ -62,7 +62,7 @@ average = total_gpa / count
 **Example tasks:**
 ```python
 # Now students deal with reality
-df = pd.read_csv('data/lehigh_students_messy.csv')
+df = pd.read_csv('data/crestview_students_messy.csv')
 print(df['GPA'].dtype)  # Oh no, it's 'object' not 'float'!
 print(df['College'].value_counts())  # 28 variations?!
 ```
@@ -115,10 +115,10 @@ Recommended folder structure for students:
 BUAN446_Project/
 ├── data/
 │   ├── original/
-│   │   ├── lehigh_students_clean.csv      (Week 1-2)
-│   │   └── lehigh_students_messy.csv      (Week 3+, never modify)
+│   │   ├── crestview_students_clean.csv      (Week 1-2)
+│   │   └── crestview_students_messy.csv      (Week 3+, never modify)
 │   └── cleaned/
-│       └── lehigh_students_cleaned.csv    (Student's cleaned version)
+│       └── crestview_students_cleaned.csv    (Student's cleaned version)
 ├── notebooks/
 │   ├── week1_basics.ipynb
 │   ├── week2_control.ipynb

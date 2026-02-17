@@ -1,6 +1,6 @@
 # BUAN 446: Python for Data Analysts
 
-**Lehigh University Graduate Course**  
+**Crestview University Graduate Course**  
 6-week intensive | 4 days/week | 1.75 hours per session
 
 ## Course Overview
@@ -36,13 +36,13 @@ This course implements a structured three-tier approach to AI integration in lea
 This course uses a structured three-dataset approach to mirror the professional data analyst journey:
 
 1.  **Phase 1: Foundation (Weeks 1-2)**
-    *   **Dataset**: `lehigh_students_clean.csv` (7 variables, 600 records)
+    *   **Dataset**: `crestview_students_clean.csv` (7 variables, 600 records)
     *   **Goal**: Master Python syntax and logic without data quality distractions.
 2.  **Phase 2: Reality Check (Week 3)**
-    *   **Dataset**: `lehigh_students_messy.csv` (8 variables, 605 records)
+    *   **Dataset**: `crestview_students_messy.csv` (8 variables, 605 records)
     *   **Goal**: Face the messy reality of corporate data. Learn systematic cleaning, standardization, and validation.
 3.  **Phase 3: Analysis & Scale (Weeks 4-6)**
-    *   **Dataset**: `lehigh_students_extended.csv` (15 variables, 600 records)
+    *   **Dataset**: `crestview_students_extended.csv` (15 variables, 600 records)
     *   **Goal**: The "Reward Dataset." Use clean, rich data with double the variables to perform sophisticated multi-dimensional analysis with NumPy and Pandas.
 
 ## Repository Structure
@@ -63,7 +63,7 @@ buan446-python-for-data-analysts/
 **Chapter 1: Python Fundamentals**
 - Variables, data types, and expressions
 - Basic input/output operations
-- Introduction to the Lehigh student dataset
+- Introduction to the Crestview student dataset
 
 **Chapter 2: Control Flow**
 - Conditional statements (if/elif/else)
@@ -85,28 +85,43 @@ buan446-python-for-data-analysts/
 - CSV file processing
 - Error handling with try/except blocks
 
-### Future Chapters (6-9)
+### Completed Chapters (6-9)
 
-- Chapter 6: NumPy for numerical computing
-- Chapter 7: Pandas for data manipulation
-- Chapter 8: Data visualization with Matplotlib/Seaborn
-- Chapter 9: Complete data analysis workflows
+**Chapter 6: NumPy**
+- Array creation and vectorized operations
+- Boolean indexing and statistical analysis
+- Correlation analysis with extended dataset (15 variables)
 
-## Case Study: Lehigh University Student Data Progression
+**Chapter 7: Pandas**
+- DataFrames, groupby, merge, pivot tables
+- Multi-dimensional analysis with extended dataset
+- Missing data handling and derived columns
 
-The course centers on a comprehensive synthetic dataset representing Lehigh University students, evolving in complexity as your skills grow:
+**Chapter 8: Data Visualization**
+- Matplotlib fundamentals and Seaborn statistical plots
+- Multi-panel dashboards and correlation heatmaps
+- Publication-quality figures and chart selection
 
-**1. Clean Dataset** (`lehigh_students_clean.csv`)
+**Chapter 9: Complete Data Analysis Workflow**
+- End-to-end analysis pipeline
+- Capstone project with 15-variable dataset
+- Professional deliverables and executive summaries
+
+## Case Study: Crestview University Student Data Progression
+
+The course centers on a comprehensive synthetic dataset representing Crestview University students, evolving in complexity as your skills grow:
+
+**1. Clean Dataset** (`crestview_students_clean.csv`)
 - **Focus**: Weeks 1-2 (Python Fundamentals)
 - 600 student records | 7 variables
 - Purpose: Building confidence with core Python syntax.
 
-**2. Messy Dataset** (`lehigh_students_messy.csv`)
+**2. Messy Dataset** (`crestview_students_messy.csv`)
 - **Focus**: Week 3 (Data Cleaning)
 - 605 records | 8 variables | 28+ intentional issues
 - Purpose: Mastering the "80% of the job" — handles inconsistent formatting, missing values, duplicates, and typos.
 
-**3. Extended Dataset** (`lehigh_students_extended.csv`)
+**3. Extended Dataset** (`crestview_students_extended.csv`)
 - **Focus**: Weeks 4-6 (Advanced Analysis)
 - 600 records | 15 variables | Clean & Rich
 - Purpose: Unlocks sophisticated analysis (Study Hours, Financial Aid, Extracurriculars, etc.) using NumPy and Pandas.
@@ -136,13 +151,13 @@ The course centers on a comprehensive synthetic dataset representing Lehigh Univ
 
 **Part 2: Take-Home Project**
 - Jupyter notebook-based analysis
-- Uses clean Lehigh student dataset
+- Uses clean Crestview student dataset
 - Demonstrates ability to apply concepts independently
 
 ### Assignments (RUN Phase - Full AI Collaboration)
 **Week 3: Data Cleaning Project** (100+ points)
 - Six progressive parts guiding students through data quality challenges
-- Inspect, clean, and validate the messy Lehigh student dataset
+- Inspect, clean, and validate the messy Crestview student dataset
 - Requires strategic decision-making and documentation of cleaning choices
 
 ## Learning Objectives
@@ -216,14 +231,14 @@ This course material is provided for educational purposes. Please contact the co
 ## Contact
 
 **Course Instructor**: Eric Hollow  
-**Institution**: Lehigh University  
+**Institution**: Crestview University  
 **Course**: BUAN 446 - Python for Data Analysts
 
 ## Acknowledgments
 
 - Course content based on "Intro to Python for Computer Science and Data Science"
 - DataCamp integration for supplementary learning resources
-- Lehigh University College of Business for supporting innovative AI-integrated pedagogy
+- Crestview University College of Business for supporting innovative AI-integrated pedagogy
 
 ---
 

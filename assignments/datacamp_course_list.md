@@ -1,8 +1,8 @@
 # BUAN 446: Required DataCamp Courses
 
-**Course:** Python for Data Analysts | Lehigh University
+**Course:** Python for Data Analysts | Crestview University
 
-Complete these DataCamp courses **before or alongside** the corresponding chapter exercises to reinforce foundational concepts. All courses are available through Lehigh's DataCamp institutional access.
+Complete these DataCamp courses **before or alongside** the corresponding chapter exercises to reinforce foundational concepts. All courses are available through Crestview's DataCamp institutional access.
 
 ---
 

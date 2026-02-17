@@ -6,16 +6,16 @@ This course uses **three distinct datasets** that progressively introduce comple
 
 | Dataset | Variables | Records | Quality | Used In | Purpose |
 |---------|-----------|---------|---------|---------|---------|
-| **lehigh_students_clean.csv** | 7 | 600 | Perfect | Weeks 1-2 | Learn Python fundamentals |
-| **lehigh_students_messy.csv** | 8 | 605 | 20+ issues | Week 3 | Learn data cleaning |
-| **lehigh_students_extended.csv** | 15 | 600 | Clean | Weeks 4+ | Perform rich analysis |
+| **crestview_students_clean.csv** | 7 | 600 | Perfect | Weeks 1-2 | Learn Python fundamentals |
+| **crestview_students_messy.csv** | 8 | 605 | 20+ issues | Week 3 | Learn data cleaning |
+| **crestview_students_extended.csv** | 15 | 600 | Clean | Weeks 4+ | Perform rich analysis |
 
 ---
 
 ## The Learning Progression
 
 ### 📖 Phase 1: Weeks 1-2 (Foundation)
-**Dataset:** `lehigh_students_clean.csv` (7 variables)
+**Dataset:** `crestview_students_clean.csv` (7 variables)
 
 **Learning Focus:** Python basics without data quality distractions
 - Variables, data types, expressions
@@ -29,7 +29,7 @@ This course uses **three distinct datasets** that progressively introduce comple
 ---
 
 ### 🧹 Phase 2: Week 3 (Reality Check)
-**Dataset:** `lehigh_students_messy.csv` (8 variables)
+**Dataset:** `crestview_students_messy.csv` (8 variables)
 
 **Learning Focus:** Real-world data is messy
 - Identify 20+ types of data quality issues
@@ -45,7 +45,7 @@ This course uses **three distinct datasets** that progressively introduce comple
 ---
 
 ### 📊 Phase 3: Weeks 4-6 (Reward & Depth)
-**Dataset:** `lehigh_students_extended.csv` (15 variables)
+**Dataset:** `crestview_students_extended.csv` (15 variables)
 
 **Learning Focus:** Rich analytical capabilities
 - NumPy: Correlations, statistical analysis
@@ -61,7 +61,7 @@ This course uses **three distinct datasets** that progressively introduce comple
 
 ## Detailed Dataset Comparison
 
-### Dataset 1: Clean (lehigh_students_clean.csv)
+### Dataset 1: Clean (crestview_students_clean.csv)
 
 **Structure:**
 - 600 students
@@ -70,7 +70,7 @@ This course uses **three distinct datasets** that progressively introduce comple
 - Perfect for learning
 
 **Variables:**
-1. Student_ID - Unique identifier (LU100001-LU100600)
+1. Student_ID - Unique identifier (CU100001-CU100600)
 2. College - Full official names
 3. Major - Standardized major names
 4. Class_Year - "First Year", "Sophomore", "Junior", "Senior", "Graduate"
@@ -87,7 +87,7 @@ This course uses **three distinct datasets** that progressively introduce comple
 
 ---
 
-### Dataset 2: Messy (lehigh_students_messy.csv)
+### Dataset 2: Messy (crestview_students_messy.csv)
 
 **Structure:**
 - 605 students (includes 5 duplicates)
@@ -125,7 +125,7 @@ Students must systematically:
 
 ---
 
-### Dataset 3: Extended (lehigh_students_extended.csv)
+### Dataset 3: Extended (crestview_students_extended.csv)
 
 **Structure:**
 - 600 students
@@ -231,15 +231,15 @@ Students must systematically:
 import pandas as pd
 
 # Week 1-2: Clean dataset
-df_clean = pd.read_csv('data/lehigh_students_clean.csv')
+df_clean = pd.read_csv('data/crestview_students_clean.csv')
 print(f"Clean: {len(df_clean)} rows, {len(df_clean.columns)} columns")
 
 # Week 3: Messy dataset
-df_messy = pd.read_csv('data/lehigh_students_messy.csv')
+df_messy = pd.read_csv('data/crestview_students_messy.csv')
 print(f"Messy: {len(df_messy)} rows, {len(df_messy.columns)} columns")
 
 # Week 4+: Extended dataset
-df_extended = pd.read_csv('data/lehigh_students_extended.csv')
+df_extended = pd.read_csv('data/crestview_students_extended.csv')
 print(f"Extended: {len(df_extended)} rows, {len(df_extended.columns)} columns")
 ```
 
@@ -302,9 +302,9 @@ pd.crosstab(df_extended['College'], df_extended['Financial_Aid'])
 ### Files Provided
 
 **Datasets:**
-1. lehigh_students_clean.csv - 600 students, 7 variables
-2. lehigh_students_messy.csv - 605 students, 8 variables
-3. lehigh_students_extended.csv - 600 students, 15 variables
+1. crestview_students_clean.csv - 600 students, 7 variables
+2. crestview_students_messy.csv - 605 students, 8 variables
+3. crestview_students_extended.csv - 600 students, 15 variables
 
 **Generation Scripts:**
 4. generate_student_data.py - Recreate clean dataset

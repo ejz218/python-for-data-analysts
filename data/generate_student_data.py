@@ -4,13 +4,13 @@ import csv
 # Set random seed for reproducibility
 random.seed(42)
 
-# Define Lehigh colleges and their majors
+# Define Crestview University colleges and their majors
 colleges_majors = {
     "College of Business": [
         "Accounting", "Finance", "Marketing", "Supply Chain Management",
         "Business Analytics", "Management", "Economics"
     ],
-    "P.C. Rossin College of Engineering": [
+    "College of Engineering": [
         "Computer Science", "Mechanical Engineering", "Civil Engineering",
         "Electrical Engineering", "Chemical Engineering", "Industrial Engineering",
         "Computer Engineering", "Bioengineering"
@@ -73,8 +73,8 @@ def generate_student_dataset(num_students=600):
     students = []
     
     for i in range(1, num_students + 1):
-        # Generate Student ID (format: LU + 6 digits)
-        student_id = f"LU{100000 + i:06d}"
+        # Generate Student ID (format: CU + 6 digits)
+        student_id = f"CU{100000 + i:06d}"
         
         # Select college and major
         college = random.choice(list(colleges_majors.keys()))
@@ -172,19 +172,19 @@ def print_summary_statistics(students):
 
 if __name__ == "__main__":
     # Generate dataset
-    print("Generating synthetic Lehigh University student dataset...\n")
+    print("Generating synthetic Crestview University student dataset...\n")
     students = generate_student_dataset(num_students=600)
     
     # Save to CSV
-    output_file = "/mnt/user-data/outputs/lehigh_students_clean.csv"
+    output_file = "/mnt/user-data/outputs/crestview_students_clean.csv"
     save_to_csv(students, output_file)
     
     # Print summary statistics
     print_summary_statistics(students)
     
     print("\n=== Data Dictionary ===\n")
-    print("Student_ID: Unique anonymous identifier (format: LUXXXXXX)")
-    print("College: Lehigh college the student belongs to")
+    print("Student_ID: Unique anonymous identifier (format: CUXXXXXX)")
+    print("College: Crestview University college the student belongs to")
     print("Major: Student's declared major")
     print("Class_Year: Academic year (First Year, Sophomore, Junior, Senior, Graduate)")
     print("GPA: Grade Point Average on 4.0 scale")

@@ -5,13 +5,13 @@ from datetime import datetime, timedelta
 # Set random seed for reproducibility
 random.seed(42)
 
-# Define Lehigh colleges and their majors (with variations for messiness)
+# Define Crestview University colleges and their majors (with variations for messiness)
 colleges_majors = {
     "College of Business": [
         "Accounting", "Finance", "Marketing", "Supply Chain Management",
         "Business Analytics", "Management", "Economics"
     ],
-    "P.C. Rossin College of Engineering": [
+    "College of Engineering": [
         "Computer Science", "Mechanical Engineering", "Civil Engineering",
         "Electrical Engineering", "Chemical Engineering", "Industrial Engineering",
         "Computer Engineering", "Bioengineering"
@@ -34,9 +34,9 @@ college_variations = {
         "College of Business", "COB", "Business", "college of business", 
         "College Of Business", "Buisness"  # intentional typo
     ],
-    "P.C. Rossin College of Engineering": [
-        "P.C. Rossin College of Engineering", "Engineering", "RCOE", 
-        "Rossin College of Engineering", "engineering", "College of Engineering"
+    "College of Engineering": [
+        "College of Engineering", "Engineering", "COE",
+        "School of Engineering", "engineering", "Eng"
     ],
     "College of Arts and Sciences": [
         "College of Arts and Sciences", "CAS", "Arts and Sciences", 
@@ -206,7 +206,7 @@ def generate_messy_dataset(num_students=600):
     students = []
     
     for i in range(1, num_students + 1):
-        student_id = f"LU{100000 + i:06d}"
+        student_id = f"CU{100000 + i:06d}"
         
         # Select college and major
         college = random.choice(list(colleges_majors.keys()))
@@ -330,7 +330,7 @@ def analyze_data_quality(students):
             issues.append("Missing GPA")
         if student["College"].startswith(" ") or student["College"].endswith(" "):
             issues.append(f"Whitespace in college: '{student['College']}'")
-        if student["College"] in ["COB", "RCOE", "CAS", "COH", "COE"]:
+        if student["College"] in ["COB", "COE", "CAS", "COH"]:
             issues.append(f"Abbreviated college: {student['College']}")
         if student["Class_Year"] in ["Fr", "Soph", "Jr", "Sr", "Grad"]:
             issues.append(f"Abbreviated year: {student['Class_Year']}")
@@ -343,11 +343,11 @@ def analyze_data_quality(students):
             print()
 
 if __name__ == "__main__":
-    print("Generating messy Lehigh University student dataset...\n")
+    print("Generating messy Crestview University student dataset...\n")
     students = generate_messy_dataset(num_students=600)
     
     # Save to CSV
-    output_file = "/mnt/user-data/outputs/lehigh_students_messy.csv"
+    output_file = "/mnt/user-data/outputs/crestview_students_messy.csv"
     save_to_csv(students, output_file)
     
     # Analyze data quality issues
