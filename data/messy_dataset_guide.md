@@ -228,7 +228,7 @@ NaN          (after pandas loads)
 ```python
 # Load and examine
 import pandas as pd
-df = pd.read_csv('lehigh_students_messy.csv')
+df = pd.read_csv('data/lehigh_students_messy.csv')
 
 # What do you notice?
 print(df.info())

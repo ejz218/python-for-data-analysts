@@ -62,7 +62,7 @@ average = total_gpa / count
 **Example tasks:**
 ```python
 # Now students deal with reality
-df = pd.read_csv('lehigh_students_messy.csv')
+df = pd.read_csv('data/lehigh_students_messy.csv')
 print(df['GPA'].dtype)  # Oh no, it's 'object' not 'float'!
 print(df['College'].value_counts())  # 28 variations?!
 ```

@@ -231,15 +231,15 @@ Students must systematically:
 import pandas as pd
 
 # Week 1-2: Clean dataset
-df_clean = pd.read_csv('lehigh_students_clean.csv')
+df_clean = pd.read_csv('data/lehigh_students_clean.csv')
 print(f"Clean: {len(df_clean)} rows, {len(df_clean.columns)} columns")
 
 # Week 3: Messy dataset
-df_messy = pd.read_csv('lehigh_students_messy.csv')
+df_messy = pd.read_csv('data/lehigh_students_messy.csv')
 print(f"Messy: {len(df_messy)} rows, {len(df_messy.columns)} columns")
 
 # Week 4+: Extended dataset
-df_extended = pd.read_csv('lehigh_students_extended.csv')
+df_extended = pd.read_csv('data/lehigh_students_extended.csv')
 print(f"Extended: {len(df_extended)} rows, {len(df_extended.columns)} columns")
 ```
 
@@ -308,8 +308,7 @@ pd.crosstab(df_extended['College'], df_extended['Financial_Aid'])
 
 **Generation Scripts:**
 4. generate_student_data.py - Recreate clean dataset
-5. generate_messy_original.py - Recreate messy dataset
-6. generate_extended_clean.py - Recreate extended dataset
+5. generate_messy_data.py - Recreate messy dataset
 
 **Documentation:**
 7. dataset_documentation.md - Clean dataset guide
