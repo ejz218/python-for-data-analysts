@@ -186,22 +186,19 @@ By the end of this course, students will be able to:
 *   **Install [Anaconda](https://www.anaconda.com/download):** This installs Python, Jupyter Notebook, and all the data libraries you need (Pandas, NumPy, etc.) in one click.
 *   **Install [GitHub Desktop](https://desktop.github.com/):** This lets you download and update course files without using the command line.
 
-**2. Setup Your Course Folder**
-Before downloading, create a dedicated folder on your Desktop:
-*   **Mac:** Go to your Desktop, right-click > New Folder, and name it `pythoncourse`.
-*   **Windows:** Go to your Desktop, right-click > New > Folder, and name it `pythoncourse`.
 
-**3. Get the Course Files**
+
+**2. Get the Course Files**
 *   Open **GitHub Desktop**.
 *   Go to **File > Clone Repository**.
 *   Select the **URL** tab and paste: `https://github.com/ejz218/python-for-data-analysts.git`
-*   **Local Path:** Click "Choose..." and select the `pythoncourse` folder you just created on your Desktop.
+*   **Local Path:** Click "Choose..." and select your `Desktop` folder.
 *   Click **Clone**.
 
-**4. Start Coding**
+**3. Start Coding**
 *   Open **Anaconda Navigator**.
 *   Click **Launch** under "Jupyter Notebook".
-*   In the browser tab that opens, click **Desktop**, then **pythoncourse**, then **python-for-data-analysts**.
+*   In the browser tab that opens, click **Desktop**, then **python-for-data-analysts**.
 *   Click on specific chapter notebooks (e.g., `chapters/Chapter1_Python_Fundamentals.ipynb`) to open them.
 
 ### Method 2: The Command Line Way (Advanced)
@@ -210,10 +207,8 @@ If you prefer using the terminal (Mac) or Command Prompt/PowerShell (Windows):
 
 **Mac / Linux:**
 ```bash
-# 1. Navigate to Desktop and create folder
+# 1. Navigate to Desktop
 cd ~/Desktop
-mkdir pythoncourse
-cd pythoncourse
 
 # 2. Clone the repository
 git clone https://github.com/ejz218/python-for-data-analysts.git
@@ -229,10 +224,8 @@ pip install jupyter pandas numpy matplotlib seaborn
 
 **Windows:**
 ```powershell
-# 1. Navigate to Desktop and create folder
+# 1. Navigate to Desktop
 cd $HOME\Desktop
-mkdir pythoncourse
-cd pythoncourse
 
 # 2. Clone the repository
 git clone https://github.com/ejz218/python-for-data-analysts.git

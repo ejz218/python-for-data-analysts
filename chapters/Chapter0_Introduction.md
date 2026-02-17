@@ -14,11 +14,7 @@ PYTHON FOR
 
 *Intensive 6-Week Graduate Course*
 
-+-----------------------------------------------------------------------+
-| **CHAPTER 0**                                                         |
-|                                                                       |
-| **Course Introduction & Setup**                                       |
-+=======================================================================+
+# Chapter 0: Course Introduction & Setup
 
   -----------------------------------------------------------------------
   **WHAT YOU\'LL LEARN IN THIS COURSE**
@@ -119,12 +115,7 @@ framework that teaches you when and how to use AI effectively.
 
 **How AI Fits into Your Learning**
 
-AI is a tool, not a replacement for learning. A carpenter does not hand
-their apprentice a power saw on day one. First, the apprentice learns to
-use hand tools, understands wood grain, and develops feel for the
-material. Only then do power tools make sense. The same principle
-applies here. You need to build foundational skills and mental models
-before AI becomes useful rather than a crutch that prevents learning.
+AI is a tool, not a replacement for learning. A power saw in the hands of a master carpenter speeds up the work, but the tool itself cannot design a stable structure or select the right wood for the job. Those insights come from foundational knowledge, not the tool. The same principle applies here. You need to build foundational skills and mental models before AI becomes useful rather than a crutch that prevents learning.
 
 **CRAWL Phase: Building Your Foundation**
 
@@ -170,14 +161,9 @@ approach, and make strategic decisions about data cleaning and analysis.
 
 **QUICK REFERENCE: When Can I Use AI?**
 
-+-----------------------+-----------------------+-----------------------+
-| **CRAWL**             | **WALK**              | **RUN**               |
-|                       |                       |                       |
-| Quizzes, Exams,       | Understanding         | Projects FULL AI      |
-| DataCamp NO AI        | concepts, Debugging   | COLLABORATION with    |
-|                       | your code AI FOR      | documentation         |
-|                       | EXPLANATION           |                       |
-+=======================+=======================+=======================+
+| **CRAWL** | **WALK** | **RUN** |
+| :--- | :--- | :--- |
+| Quizzes, Exams, DataCamp<br>**NO AI** | Understanding concepts, Debugging your code<br>**AI FOR EXPLANATION** | Projects<br>**FULL AI COLLABORATION** with documentation |
 
 **Why We Restrict AI on Exams**
 
@@ -204,7 +190,7 @@ Crestview students.
   -----------------------------------------------------------------------
 
   -------------------------------------------------------------------------
-  **3**   **THE LEHIGH STUDENT DATASET CASE STUDY**
+  **3**   **THE CRESTVIEW STUDENT DATASET CASE STUDY**
   ------- -----------------------------------------------------------------
 
   -------------------------------------------------------------------------
@@ -212,6 +198,10 @@ Crestview students.
 Rather than jumping between disconnected datasets, this course uses a
 single comprehensive case study throughout all chapters: synthetic
 Crestview University student enrollment data.
+
+**What is Synthetic Data?**
+
+Synthetic data is artificially generated information that mirrors the statistical properties of real-world data without containing any actual personal information. By using synthetic data, we can work with a realistic, complex dataset of "students" while maintaining complete privacy. It also allows us to intentionally design specific data messiness—like typos, inconsistent formats, and missing values—that you must learn to fix, ensuring you encounter every type of cleaning challenge you'll face in your career.
 
 **What You Will Be Analyzing**
 
@@ -316,7 +306,7 @@ pandas, matplotlib, etc.) in a single installer.
 
 **Step 3: Verify Installation**
 
-Open a terminal or command prompt and type: python \--version
+Open a terminal (Mac) or command prompt (Windows) and type: python \--version
 
 You should see output like \"Python 3.11.5\" or similar. If you get an
 error, the installation may have failed or PATH was not configured
@@ -339,27 +329,30 @@ materials.
 
 **Getting Course Files (The Easy Way)**
 
-**1. Setup Your Folder**
-*   Go to your Desktop.
-*   Create a new folder named `pythoncourse`.
-
-**2. Download Files**
+**1. Download Files**
 *   Open **GitHub Desktop**.
 *   Go to **File > Clone Repository**.
 *   Select the **URL** tab.
 *   Paste this URL: `https://github.com/ejz218/python-for-data-analysts.git`
-*   **Local Path:** Click "Choose..." and select your `Desktop/pythoncourse` folder.
+*   **Local Path:** Click "Choose..." and select your `Desktop` folder.
 *   Click **Clone**.
 
-**3. Verify**
-You should now see a `python-for-data-analysts` folder inside your `pythoncourse` folder on the Desktop.
+**2. Verify**
+You should now see a `python-for-data-analysts` folder on your Desktop.
 
   -----------------------------------------------------------------------
-  ⚠ **IMPORTANT: WORKING WITH FILES**
+  ℹ **GETTING WEEKLY UPDATES**
   -----------------------------------------------------------------------
-  The course repository contains templates. Always make a copy of
-  assignment notebooks before you start working. This prevents conflicts
-  when you pull updates from GitHub.
+  This course follows an **Immutable Release** strategy. Once a week's content
+  is released, the instructor will not modify those specific files again.
+
+  To get new chapters and assignments:
+  1. Open GitHub Desktop.
+  2. Click **Fetch origin** (or **Pull origin**).
+  3. The new files will appear in your folder automatically.
+
+  **No need to make copies.** You can work directly in the assignment files.
+  Since the instructor won't touch them again, your work remains safe.
 
   -----------------------------------------------------------------------
 
@@ -431,21 +424,14 @@ never share your code with other students.
 
 **Grading Breakdown**
 
-  -----------------------------------------------------------------------
-  **Assessment Component**                                 **Weight**
-  ----------------------------------------------------- -----------------
-  Weekly Quizzes (5 total)                                   **15%**
-
-  DataCamp Modules                                           **10%**
-
-  Assignments (Weekly)                                       **25%**
-
-  Midterm Exam                                               **20%**
-
-  Final Project                                              **20%**
-
-  Final Exam                                                 **10%**
-  -----------------------------------------------------------------------
+| **Assessment Component** | **Weight** |
+| :--- | :--- |
+| Weekly Quizzes (5 total) | **15%** |
+| DataCamp Modules | **10%** |
+| Assignments (Weekly) | **25%** |
+| Midterm Exam | **20%** |
+| Final Project | **20%** |
+| Final Exam | **10%** |
 
 Letter grades follow standard Crestview University scale: A (93-100), A-
 (90-92), B+ (87-89), B (83-86), B- (80-82), C+ (77-79), C (73-76), C-
