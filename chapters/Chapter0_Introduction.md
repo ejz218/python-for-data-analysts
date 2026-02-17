@@ -339,14 +339,20 @@ materials.
 
 **Getting Course Files (The Easy Way)**
 
-1.  Open **GitHub Desktop**.
-2.  Go to **File > Clone Repository**.
-3.  Select the **URL** tab.
-4.  Paste this URL: `https://github.com/ejz218/python-for-data-analysts.git`
-5.  Choose a folder on your computer where you want the files to go (e.g., `Documents/BUAN446`).
-6.  Click **Clone**.
+**1. Setup Your Folder**
+*   Go to your Desktop.
+*   Create a new folder named `pythoncourse`.
 
-You now have all the course materials on your computer!
+**2. Download Files**
+*   Open **GitHub Desktop**.
+*   Go to **File > Clone Repository**.
+*   Select the **URL** tab.
+*   Paste this URL: `https://github.com/ejz218/python-for-data-analysts.git`
+*   **Local Path:** Click "Choose..." and select your `Desktop/pythoncourse` folder.
+*   Click **Clone**.
+
+**3. Verify**
+You should now see a `python-for-data-analysts` folder inside your `pythoncourse` folder on the Desktop.
 
   -----------------------------------------------------------------------
   ⚠ **IMPORTANT: WORKING WITH FILES**
