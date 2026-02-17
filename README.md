@@ -31,6 +31,20 @@ This course implements a structured three-tier approach to AI integration in lea
 
 **Assessment Balance**: Projects encourage AI collaboration while midterm and final exams are administered without AI access, ensuring students can demonstrate core competencies independently.
 
+## Three-Dataset Progression
+
+This course uses a structured three-dataset approach to mirror the professional data analyst journey:
+
+1.  **Phase 1: Foundation (Weeks 1-2)**
+    *   **Dataset**: `lehigh_students_clean.csv` (7 variables, 600 records)
+    *   **Goal**: Master Python syntax and logic without data quality distractions.
+2.  **Phase 2: Reality Check (Week 3)**
+    *   **Dataset**: `lehigh_students_messy.csv` (8 variables, 605 records)
+    *   **Goal**: Face the messy reality of corporate data. Learn systematic cleaning, standardization, and validation.
+3.  **Phase 3: Analysis & Scale (Weeks 4-6)**
+    *   **Dataset**: `lehigh_students_extended.csv` (15 variables, 600 records)
+    *   **Goal**: The "Reward Dataset." Use clean, rich data with double the variables to perform sophisticated multi-dimensional analysis with NumPy and Pandas.
+
 ## Repository Structure
 
 ```
@@ -78,22 +92,26 @@ buan446-python-for-data-analysts/
 - Chapter 8: Data visualization with Matplotlib/Seaborn
 - Chapter 9: Complete data analysis workflows
 
-## Case Study: Lehigh University Student Data
+## Case Study: Lehigh University Student Data Progression
 
-The course centers on a comprehensive synthetic dataset representing Lehigh University students:
+The course centers on a comprehensive synthetic dataset representing Lehigh University students, evolving in complexity as your skills grow:
 
-**Clean Dataset** (`lehigh_students_clean.csv`)
-- 600 student records
-- 7 variables: Student_ID, College, Major, Class_Year, GPA, Credits_Attempted, Credits_Earned
-- Used for learning Python fundamentals and analysis techniques
+**1. Clean Dataset** (`lehigh_students_clean.csv`)
+- **Focus**: Weeks 1-2 (Python Fundamentals)
+- 600 student records | 7 variables
+- Purpose: Building confidence with core Python syntax.
 
-**Messy Dataset** (`lehigh_students_messy.csv`)
-- 605 records with 28+ intentional data quality issues
-- Realistic problems: inconsistent formatting, missing values, duplicates, invalid entries
-- Mirrors real-world corporate data environments where 60-80% of analyst time involves data cleaning
-- Used for Week 3 data cleaning assignment and real-world practice
+**2. Messy Dataset** (`lehigh_students_messy.csv`)
+- **Focus**: Week 3 (Data Cleaning)
+- 605 records | 8 variables | 28+ intentional issues
+- Purpose: Mastering the "80% of the job" — handles inconsistent formatting, missing values, duplicates, and typos.
 
-### Data Quality Issues Include:
+**3. Extended Dataset** (`lehigh_students_extended.csv`)
+- **Focus**: Weeks 4-6 (Advanced Analysis)
+- 600 records | 15 variables | Clean & Rich
+- Purpose: Unlocks sophisticated analysis (Study Hours, Financial Aid, Extracurriculars, etc.) using NumPy and Pandas.
+
+### Data Quality Issues (Week 3 Challenge) Include:
 - Inconsistent college name formatting (abbreviations, capitalization)
 - Mixed case in categorical variables
 - Missing values in various columns
