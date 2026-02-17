@@ -180,10 +180,32 @@ By the end of this course, students will be able to:
 
 ## Installation
 
+### Method 1: The "No-Code" Way (Recommended)
+
+**1. Get the Software (One-Time Setup)**
+*   **Install [Anaconda](https://www.anaconda.com/download):** This installs Python, Jupyter Notebook, and all the data libraries you need (Pandas, NumPy, etc.) in one click.
+*   **Install [GitHub Desktop](https://desktop.github.com/):** This lets you download and update course files without using the command line.
+
+**2. Get the Course Files**
+*   Open **GitHub Desktop**.
+*   Go to **File > Clone Repository**.
+*   Select the **URL** tab and paste: `https://github.com/ejz218/python-for-data-analysts.git`
+*   Choose a folder on your computer (e.g., `Documents/MyCourseWork`) and click **Clone**.
+
+**3. Start Coding**
+*   Open **Anaconda Navigator**.
+*   Click **Launch** under "Jupyter Notebook".
+*   In the browser tab that opens, navigate to the folder where you cloned the repository.
+*   Click on specific chapter notebooks (e.g., `chapters/Chapter1_Python_Fundamentals.ipynb`) to open them.
+
+### Method 2: The Command Line Way (Advanced)
+
+If you prefer using the terminal/command prompt:
+
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/buan446-python-for-data-analysts.git
-cd buan446-python-for-data-analysts
+git clone https://github.com/ejz218/python-for-data-analysts.git
+cd python-for-data-analysts
 
 # Create virtual environment (recommended)
 python -m venv venv

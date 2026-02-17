@@ -337,13 +337,16 @@ materials.
 
 **Getting Course Files**
 
-Once you have GitHub Desktop (or git) installed, you need to download the course materials:
+**Getting Course Files (The Easy Way)**
 
-1.  Open your terminal or command prompt.
-2.  Navigate to the folder where you want to keep your course work.
-3.  Run the following command:
-    `git clone https://github.com/ejz218/python-for-data-analysts.git`
-4.  This will create a folder named `python-for-data-analysts` containing all notebooks, datasets, and assignments.
+1.  Open **GitHub Desktop**.
+2.  Go to **File > Clone Repository**.
+3.  Select the **URL** tab.
+4.  Paste this URL: `https://github.com/ejz218/python-for-data-analysts.git`
+5.  Choose a folder on your computer where you want the files to go (e.g., `Documents/BUAN446`).
+6.  Click **Clone**.
+
+You now have all the course materials on your computer!
 
   -----------------------------------------------------------------------
   ⚠ **IMPORTANT: WORKING WITH FILES**
