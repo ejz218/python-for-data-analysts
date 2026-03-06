@@ -1,0 +1,4 @@
+Student_ID,GPA,Major
+CU100001,3.41,Finance
+CU100002,3.55,Computer Science
+CU100003,2.85,Biology

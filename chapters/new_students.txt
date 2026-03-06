@@ -1,0 +1,5 @@
+Student_ID,GPA,Major
+CU100004,3.92,Psychology
+CU100005,2.1,Marketing
+CU100006,3.78,Economics
+CU100007,3.45,History

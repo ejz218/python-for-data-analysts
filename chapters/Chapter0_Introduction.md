@@ -363,13 +363,13 @@ You should now see a `python-for-data-analysts` folder on your Desktop.
   -------------------------------------------------------------------------
 
 DataCamp is an online learning platform with interactive Python courses.
-Crestview provides free access to DataCamp for all students in this course.
+Lehigh provides free access to DataCamp for all students in this course.
 
 **Creating Your Account**
 
 You will receive an email invitation to join the BUAN 446 DataCamp
 group. Follow the link in the email to create your account using your
-Crestview email address.
+Lehigh email address.
 
 **How DataCamp Fits Into CRAWL Phase Learning**
 
@@ -518,7 +518,7 @@ You will get stuck. Everyone does. Here is how to get unstuck.
 
 **Office Hours**
 
-Office hours are listed on the syllabus and Moodle. Come prepared with
+Office hours are listed on the syllabus and Coursesite. Come prepared with
 specific questions. Bring your laptop and show me what is not working.
 Do not just say \"I don\'t get it.\" Tell me what you tried and where
 you got stuck.
